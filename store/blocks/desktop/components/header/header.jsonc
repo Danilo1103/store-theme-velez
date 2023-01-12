@@ -1,0 +1,59 @@
+{
+    "header": {
+        "title": "Header",
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header.full": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
+    "header-layout.desktop": {
+        "title": "Header Layout Desktop",
+        "children": [
+            "header-row#header__top"
+        ]
+    },
+    "header-row#header__top": {
+        "title": "Header Superior",
+        "children": [
+            "rich-text#header__top",
+            "header-spacer",
+            "logo#header__top--logo",
+            "header-spacer",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "header__top"
+        }
+    },
+    "rich-text#header__top": {
+        "title": "Rich text Header",
+        "props": {
+            "text": "MUJER  |  HOMBRE"
+        }
+    },
+    "logo#header__top--logo": {
+        "title": "Logo Header",
+        "props": {
+            "url": "assets/img/header__logo-velez.png",
+            "width": 90,
+            "href": "/"
+        }
+    },
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true
+        }
+    }
+}

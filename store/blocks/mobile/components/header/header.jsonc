@@ -1,0 +1,31 @@
+{
+    "header-layout.mobile": {
+        "title": "Header Layout Mobile",
+        "children": [
+            "header-row#header__top--mobile"
+        ]
+    },
+    "header-row#header__top--mobile": {
+        "title": "Header mobile",
+        "children": [
+            "header-row#header__mobile",
+            "header-spacer",
+            "logo#header__top--logo",
+            "header-spacer",
+            "login",
+            "minicart.v2"
+        ]
+    },
+    "header-row#header__mobile": {
+        "title": "Header Drawer Mobile",
+        "children": [
+            "drawer#header__mobile--menu"
+        ],
+        "props": {
+            "blockClass": "header__mobile"
+        }
+    },
+    "drawer#header__mobile--menu": {
+        "children": []
+    }
+}
