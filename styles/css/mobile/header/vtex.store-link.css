@@ -1,0 +1,11 @@
+.label--text__header--mobileTwo,
+.label--text__header--mobileOne{
+    text-decoration: none;
+    color: black;
+}
+
+.link--text__header--mobileTwo,
+.link--text__header--mobileOne{
+    text-decoration: none;
+    color: black;   
+}
