@@ -1,0 +1,10 @@
+{
+    "logo#global__header--middle": {
+        "title": "Logo Header Middle",
+        "props": {
+            "url": "assets/img/header__logo-velez.png",
+            "width": 90,
+            "href": "/"
+        }
+    }
+}

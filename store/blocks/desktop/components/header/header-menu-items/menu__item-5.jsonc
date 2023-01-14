@@ -1,0 +1,15 @@
+{
+    "menu-item#desktop__deparment--five": {
+        "props": {
+            "id": "department-five",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/flyup",
+                "noFollow": true,
+                "tagTitle": "Fly Up Title",
+                "text": "FLY UP"
+            }
+        }
+    }
+}

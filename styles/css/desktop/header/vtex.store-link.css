@@ -1,0 +1,10 @@
+.link--link__header--one,
+.link--link__header--two{
+    color: black;
+    text-decoration: none;
+}
+
+.link--link__header--line{
+    padding: 0 30px 0 30px;
+    color: #ffffff;
+}

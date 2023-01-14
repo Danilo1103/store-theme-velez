@@ -1,0 +1,9 @@
+.headerRowBackground--header__top--desktop{
+    background-color: #DCDCDC;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.headerRowBackground--desktop__header--middle{
+    background: transparent;
+}

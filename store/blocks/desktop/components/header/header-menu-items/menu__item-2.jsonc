@@ -1,0 +1,15 @@
+{
+    "menu-item#desktop__deparment--two": {
+        "props": {
+            "id": "department-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre",
+                "noFollow": true,
+                "tagTitle": "Hombre Title",
+                "text": "HOMBRE"
+            }
+        }
+    }
+}

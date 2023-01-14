@@ -1,0 +1,292 @@
+{
+    "menu-item#desktop__deparment--one": {
+        "props": {
+            "id": "department-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer",
+                "noFollow": true,
+                "tagTitle": "Mujer Title",
+                "text": "MUJER"
+            }
+        },
+        "blocks": [
+            "submenu#desktop__deparment--one"
+        ]
+    },
+    //////// Sub Menu ///////////
+    "submenu#desktop__deparment--one": {
+        "title": "Sub-menu Header Department One",
+        "children": [
+            "menu#desktop__department--one"
+        ],
+        "props": {
+            "onMountBehahior": "open",
+            "blockClass": "desktop__deparment--one"
+        }
+    },
+    "menu#desktop__department--one": {
+        "title": "Menu Header Categories One",
+        "children": [
+            "flex-layout.row#desktop__categories--one"
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__department--one"
+        }
+    },
+    "flex-layout.row#desktop__categories--one": {
+        "title": "Layout Row Header Categories One",
+        "children": [
+            "flex-layout.col#desktop__categories--one",
+            "flex-layout.col#desktop__image--categories-one",
+            "flex-layout.col#desktop__quiensomos--categories"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "layoutrow__categories--one"
+        }
+    },
+    "flex-layout.col#desktop__categories--one": {
+        "title": "Layout Col Categories One",
+        "children": [
+            "menu-item#desktop__categories--one-one",
+            "menu-item#desktop__categories--one-two",
+            "menu-item#desktop__categories--one-three",
+            "menu-item#desktop__categories--one-four",
+            "menu-item#desktop__categories--one-five",
+            "menu-item#desktop__categories--one-six",
+            "menu-item#desktop__categories--one-seven",
+            "menu-item#desktop__categories--one-eight",
+            "menu-item#desktop__categories--one-nine",
+            "menu-item#desktop__categories--one-ten",
+            "menu-item#desktop__categories--one-eleven",
+            "menu-item#desktop__categories--one-twelve",
+            "menu-item#desktop__categories--one-thirteen"
+
+        ],
+        "props": {
+            "blockClass": "desktop__categories--one"
+        }
+    },
+    "flex-layout.col#desktop__image--categories-one": {
+        "title": "Layout Col Image Categories One",
+        "children": [
+            "image#desktop__image--categories-one",
+            "link#desktop__linkImage--categories-one"
+        ]
+    },
+    "image#desktop__image--categories-one": {
+        "title": "Image Category Mujer",
+        "props": {
+            "src": "assets/img/img-mujer-menu.png",
+            "blockClass": "desktop__image--categories-one"
+        }
+    },
+    "flex-layout.col#desktop__quiensomos--categories": {
+        "title": "Layout Col Text Quienes somos",
+        "children": [
+            "link#desktop__quienessomos--header",
+            "link#desktop__modaresponsable--header",
+            "link#desktop__creditoleather--header",
+            "link#desktop__fidelizacion--header"
+        ]
+    },
+    /////// MENU ITEMS //////////
+    "menu-item#desktop__categories--one-one": {
+        "props": {
+            "id": "category--one-one",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/nuevo",
+              "noFollow": false,
+              "tagTitle": "Zapatos",
+              "text": "ZAPATOS"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-two": {
+        "props": {
+            "id": "category--one-two",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-two",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/bolsos",
+              "noFollow": false,
+              "tagTitle": "Bolsos",
+              "text": "BOLSOS"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-three": {
+        "props": {
+            "id": "category--one-three",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-three",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/accesorios",
+              "noFollow": false,
+              "tagTitle": "Accesorios",
+              "text": "ACCESORIOS"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-four": {
+        "props": {
+            "id": "category--one-four",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-four",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/chaquetas-de-cuero",
+              "noFollow": false,
+              "tagTitle": "Chaquetas de cuero",
+              "text": "CHAQUETAS DE CUERO"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-five": {
+        "props": {
+            "id": "category--one-five",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-five",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/ropa",
+              "noFollow": false,
+              "tagTitle": "Ropa",
+              "text": "ROPA"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-six": {
+        "props": {
+            "id": "category--one-six",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-six",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/cinturones",
+              "noFollow": false,
+              "tagTitle": "Cinturones",
+              "text": "CINTURONES"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-seven": {
+        "props": {
+            "id": "category--one-seven",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-seven",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/travel",
+              "noFollow": false,
+              "tagTitle": "Travel",
+              "text": "TRAVEL"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-eight": {
+        "props": {
+            "id": "category--one-eight",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-eight",
+            "itemProps": {
+              "type": "internal",
+              "href": "/basicos-e-iconos",
+              "noFollow": false,
+              "tagTitle": "BÁSICOS E ÍCONOS",
+              "text": "BÁSICOS E ÍCONOS"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-nine": {
+        "props": {
+            "id": "category--one-nine",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-nine",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ver-todo",
+              "noFollow": false,
+              "tagTitle": "VER TODO",
+              "text": "VER TODO"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-ten": {
+        "props": {
+            "id": "category--one-ten",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-ten",
+            "itemProps": {
+              "type": "internal",
+              "href": "/complementos/cuidados-del-cuero",
+              "noFollow": false,
+              "tagTitle": "CUIDADOS DEL CUERO",
+              "text": "CUIDADOS DEL CUERO"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-eleven": {
+        "props": {
+            "id": "category--one-eleven",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-eleven",
+            "itemProps": {
+              "type": "internal",
+              "href": "/complementos/cuidados-del-cuero",
+              "noFollow": false,
+              "tagTitle": "CUIDADOS DEL CUERO",
+              "text": "CUIDADOS DEL CUERO"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-twelve": {
+        "props": {
+            "id": "category--one-twelve",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-twelve",
+            "itemProps": {
+              "type": "internal",
+              "href": "/complementos/cuidado-personal",
+              "noFollow": false,
+              "tagTitle": "Bienestar",
+              "text": "BIENESTAR"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-thirteen": {
+        "props": {
+            "id": "category--one-thirteen",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one-thirteen",
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "GUÍA DE REGALOS",
+              "text": "- GUÍA DE REGALOS"
+            }
+        }
+    }
+}

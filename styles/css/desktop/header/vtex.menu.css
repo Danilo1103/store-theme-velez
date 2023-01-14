@@ -1,4 +1,12 @@
-/* Example desktop:
-.styledLinkContainer {
-    margin: 0 12px;
-} */
+.submenuWrapper--desktop__deparment--one--isOpen{
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.submenu--desktop__deparment--one .menuContainerNav{
+    width: 95%;
+}
+
+.submenuContainer--desktop__deparment--one{
+    position: initial;
+}
