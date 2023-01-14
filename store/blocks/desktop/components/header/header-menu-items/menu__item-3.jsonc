@@ -1,0 +1,15 @@
+{
+    "menu-item#desktop__deparment--three": {
+        "props": {
+            "id": "department-three",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/outlet",
+                "noFollow": true,
+                "tagTitle": "Outlet Title",
+                "text": "OUTLET"
+            }
+        }
+    }
+}

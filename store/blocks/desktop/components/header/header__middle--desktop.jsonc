@@ -2,7 +2,7 @@
     "header-row#desktop__header--middle": {
         "title": "Header Middle Desktop",
         "children": [
-            "rich-text#desktop__header--departments",
+            "menu#desktop__menu--middle",
             "header-spacer",
             "logo#global__header--middle",
             "header-spacer",
@@ -11,12 +11,6 @@
         ],
         "props": {
             "blockClass": "desktop__header--middle"
-        }
-    },
-    "rich-text#desktop__header--departments": {
-        "title": "Rich text Header departments",
-        "props": {
-            "text": "MUJER  |  HOMBRE"
         }
     },
     "login": {
