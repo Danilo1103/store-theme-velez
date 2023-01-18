@@ -1,3 +1,27 @@
-.headerRowBackground--header__top{
+.headerRowBackground--header__top--desktop{
+    background-color: #DCDCDC;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.headerRowBackground--desktop__header--middle{
     background: transparent;
 }
+
+.headerRowBackground--desktop__header--bottom{
+    background-color: #c1c1c1;
+}
+
+.headerStickyRow--desktop__header--bottom{
+    margin-top: 50px;
+}
+
+.headerRowContainer--desktop__header--bottom{
+    padding: 12px;
+}
+
+/* 
+
+.headerRowContentContainer--desktop__header--middle{
+    position: fixed;
+} */

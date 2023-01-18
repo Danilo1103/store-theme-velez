@@ -1,0 +1,50 @@
+{
+    "header-row#header__top--mobile": {
+        "title": "Header Mobile",
+        "children": [
+            "slider-layout#header__top--mobile"
+        ],
+        "props": {
+            "blockClass": "header__top--mobile"
+        }
+    },
+    "slider-layout#header__top--mobile": {
+        "title": "Slider Layout Header mobile",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "height": 100,
+            "infinite": false,
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": "3000",
+                "stopOnHover": true
+            },
+            "showPaginationDots": false,
+            "blockClass": "slider__header--mobile"
+        },
+        "children": [
+            "link#text__header--mobileOne",
+            "link#text__header--mobileTwo"
+        ]
+    },
+    "link#text__header--mobileOne": {
+        "title": "Link One Mobile",
+        "props": {
+            "href": "/outlet",
+            "label": "Exclusivo online. Desde 40% DCTO en TODO Outlet | COMPRAR >>",
+            "blockClass": "text__header--mobileOne"
+        }
+    },
+    "link#text__header--mobileTwo": {
+        "title": "Link Two Mobile",
+        "props": {
+            "href": "/flyup/zapatos",
+            "label": "Envío gratis por compras superiores a $200.000",
+            "blockClass": "text__header--mobileTwo"
+        }
+    }
+}

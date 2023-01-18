@@ -1,0 +1,46 @@
+{
+    "link#desktop__linkImage--categories-one": {
+        "title": "Link Image Header One",
+        "props": {
+            "href": "/basicos-e-iconos/mujer",
+            "label": "Ver mujer",
+            "blockClass": "desktop__linkImage--categories-one"
+        }
+    },
+    "link#desktop__linkImage--categories-two": {
+        "title": "Link Image Header Two",
+        "props": {
+            "href": "/basicos-e-iconos/hombre",
+            "label": "Ver hombre",
+            "blockClass": "desktop__linkImage--categories-one"
+        }
+    },
+    "link#desktop__quienessomos--header": {
+        "props": {
+            "href": "/institucional/sostenibilidad-institucional/compromiso-humano",
+            "label": "- QUIÉNES SOMOS",
+            "blockClass": "desktop__linkImage--categories-one"
+        }
+    },
+    "link#desktop__modaresponsable--header": {
+        "props": {
+            "href": "/moda-responsable",
+            "label": "- MODA RESPONSABLE",
+            "blockClass": "desktop__linkImage--categories-one"
+        }
+    },
+    "link#desktop__creditoleather--header": {
+        "props": {
+            "href": "/nosotros/credito-leather-lovers",
+            "label": "- CRÉDITO LEATHER LOVERS",
+            "blockClass": "desktop__linkImage--categories-one"
+        }
+    },
+    "link#desktop__fidelizacion--header": {
+        "props": {
+            "href": "/nosotros/programa-fidelizacion",
+            "label": "- PROGRAMA DE FIDELIZACIÓN",
+            "blockClass": "desktop__linkImage--categories-one"
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "header-row#desktop__header--top": {
+        "title": "Header Top",
+        "children": [
+            "header-spacer",
+            "link#HeaderTop__text--one",
+            "link#HeaderTop__text--line",
+            "link#HeaderTop__text--two",
+            "header-spacer"
+        ],
+        "props": {
+            "fullWidth": true,
+            "sticky": true,
+            "blockClass": "header__top--desktop"
+        }
+    },
+    "link#HeaderTop__text--one": {
+        "title": "Link One Desktop",
+        "props": {
+            "href": "/outlet",
+            "label": "Exclusivo online. Desde 40% DCTO en TODO Outlet | COMPRAR >>",
+            "blockClass": "link__header--one"
+        }
+    },
+    "link#HeaderTop__text--line": {
+        "title": "Link Line Desktop",
+        "props": {
+            "label": " | ",
+            "blockClass": "link__header--line"
+        }
+    },
+    "link#HeaderTop__text--two": {
+        "title": "Link Two Desktop",
+        "props": {
+            "href": "/flyup/zapatos",
+            "label": "Envío gratis por compras superiores a $200.000",
+            "blockClass": "link__header--two"
+        }
+    }
+}

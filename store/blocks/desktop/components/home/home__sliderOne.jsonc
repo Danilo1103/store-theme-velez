@@ -1,0 +1,217 @@
+{
+    "slider-layout#home__slider-one": {
+        "title": "Slider de productos Home",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infite": false,
+            "blockClass": "home__slider-one",
+            "fullWidth": false,
+            "showPaginationDots": false
+            // "autoplay": {
+            //     "timeout": 3000,
+            //     "stopOnHover": true
+            // }
+        },
+        "children": [
+            "flex-layout.row#home__slider--one",
+            "flex-layout.row#home__slider--two",
+            "flex-layout.row#home__slider--three",
+            "flex-layout.row#home__slider--four",
+            "flex-layout.row#home__slider--five",
+            "flex-layout.row#home__slider--six",
+            "flex-layout.row#home__slider--seven",
+            "flex-layout.row#home__slider--eight"
+        ]
+    },
+    "image#home__slider--one": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/211597-450-675",
+            "blockClass": "home__slider--one"
+        }
+    },
+    "image#home__slider--two": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/236450-450-675",
+            "blockClass": "home__slider--one"
+        }
+    },
+    "image#home__slider--three": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/217964-450-675",
+            "blockClass": "home__slider--one"
+        }
+    },
+    "image#home__slider--four": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/219239-450-675",
+            "blockClass": "home__slider--one"
+        }
+    },
+    "image#home__slider--five": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/211491-450-675",
+            "blockClass": "home__slider--one"
+        }
+    },
+    "image#home__slider--six": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/243883-450-675",
+            "blockClass": "home__slider--one"
+        }
+    },
+    "image#home__slider--seven": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/177794-450-675",
+            "blockClass": "home__slider--one"
+        }
+    },
+    "image#home__slider--eight": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/242248-450-675",
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.row#home__slider--one": {
+        "children": [
+            "flex-layout.col#home__slider--one"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.row#home__slider--two": {
+        "children": [
+            "flex-layout.col#home__slider--two"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.row#home__slider--three": {
+        "children": [
+            "flex-layout.col#home__slider--three"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.row#home__slider--four": {
+        "children": [
+            "flex-layout.col#home__slider--four"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.row#home__slider--five": {
+        "children": [
+            "flex-layout.col#home__slider--five"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.row#home__slider--six": {
+        "children": [
+            "flex-layout.col#home__slider--six"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.row#home__slider--seven": {
+        "children": [
+            "flex-layout.col#home__slider--seven"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.row#home__slider--eight": {
+        "children": [
+            "flex-layout.col#home__slider--eight"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "flex-layout.col#home__slider--one": {
+        "children": [
+            "image#home__slider--one",
+            "rich-text#text__slider-home-one"
+        ],
+        "props": {
+            "blockClass": "home__slider--one"
+        }
+    },
+    "rich-text#text__slider-home-one": {
+        "props": {
+            "text": "ZAPATOS CORDÓN FORMAL ONTARIO DE CUERO \n $ 389.900",
+            "blockClass": "text__slider-home-one"
+        }
+    },
+    "flex-layout.col#home__slider--two": {
+        "children": [
+            "image#home__slider--two",
+            "rich-text#text__slider-home-two"
+        ]
+    },
+    "rich-text#text__slider-home-two": {
+        "props": {
+            "text": "TENIS CASUAL ODA DE CUERO COMBINADOS PARA \n $ 329.900",
+            "blockClass": "text__slider-home-one"
+        }
+    },
+    "flex-layout.col#home__slider--three": {
+        "children": [
+            "image#home__slider--three",
+            "rich-text#text__slider-home-three"
+        ]
+    },
+    "rich-text#text__slider-home-three": {
+        "props": {
+            "text": "TENIS PLANOS ATENAS DE CUERO PARA MUJER \n $ 289.000",
+            "blockClass": "text__slider-home-one"
+        }
+    },
+    "flex-layout.col#home__slider--four": {
+        "children": [
+            "image#home__slider--four",
+            "rich-text#text__slider-home-four"
+        ]
+    },
+    "rich-text#text__slider-home-four": {
+        "props": {
+            "text": "TENIS CASUAL COOPER DE CUERO VINTAGE NEGRO \n $ 389.900",
+            "blockClass": "text__slider-home-one"
+        }
+    },
+    "flex-layout.col#home__slider--five": {
+        "children": [
+            "image#home__slider--five",
+            "rich-text#text__slider-home-one"
+        ]
+    },
+    "flex-layout.col#home__slider--six": {
+        "children": [
+            "image#home__slider--six",
+            "rich-text#text__slider-home-two"
+        ]
+    },
+    "flex-layout.col#home__slider--seven": {
+        "children": [
+            "image#home__slider--seven",
+            "rich-text#text__slider-home-three"
+        ]
+    },
+    "flex-layout.col#home__slider--eight": {
+        "children": [
+            "image#home__slider--eight",
+            "rich-text#text__slider-home-four"
+        ]
+    }
+}

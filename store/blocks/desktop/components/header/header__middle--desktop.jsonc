@@ -1,0 +1,28 @@
+{
+    "header-row#desktop__header--middle": {
+        "title": "Header Middle Desktop",
+        "children": [
+            "menu#desktop__menu--middle",
+            "header-spacer",
+            "logo#global__header--middle",
+            "header-spacer",
+            "header-spacer",
+            "login",
+            "minicart.v2"
+        ],
+        "props": {
+            "blockClass": "desktop__header--middle",
+            "sticky": true
+        }
+    },
+    "login": {
+        "props": {
+            "emailAndPasswordTitle": "LOG-IN",
+            "accessCodeTitle": "Acess Code LOG-IN",
+            "emailPlaceholder": "e-mail",
+            "passwordPlaceholder": "password",
+            "showPasswordVerificationIntoTooltip": true,
+            "showIconProfile": true
+        }
+    }
+}

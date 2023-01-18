@@ -1,0 +1,15 @@
+/* HOME */
+
+.buttonLink--button__section--1-1{
+    background: transparent;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 2px;
+    padding: 15px 20px 15px 20px;
+}
+
+.buttonLink--button__section--1-1:hover{
+    background: transparent;
+    border-color: #DF1783;
+    transform: scale(1.1);
+}

@@ -1,0 +1,474 @@
+{
+    "menu-item#desktop__deparment--one": {
+        "props": {
+            "id": "department-one",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/mujer",
+                "noFollow": true,
+                "tagTitle": "Blusas y Ropa de moda para mujer",
+                "text": "MUJER"
+            }
+        },
+        "blocks": [
+            "submenu#desktop__deparment--one"
+        ]
+    },
+    //////// Sub Menu ///////////
+    "submenu#desktop__deparment--one": {
+        "title": "Sub-menu Header Department One",
+        "children": [
+            "menu#desktop__department--one"
+        ],
+        "props": {
+            "onMountBehahior": "open",
+            "blockClass": "desktop__deparment--one"
+        }
+    },
+    "menu#desktop__department--one": {
+        "title": "Menu Header Categories One",
+        "children": [
+            "flex-layout.row#desktop__categories--one",
+            "header-row#desktop__header--bottom" 
+        ],
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__department--one"
+        }
+    },
+    "flex-layout.row#desktop__categories--one": {
+        "title": "Layout Row Header Categories One",
+        "children": [
+            "flex-layout.col#desktop__categories--one",
+            "flex-layout.col#desktop__image--categories-one",
+            "flex-layout.col#desktop__quiensomos--categories"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "layoutrow__categories--one"
+        }
+    },
+    "flex-layout.col#desktop__categories--one": {
+        "title": "Layout Col Categories One",
+        "children": [
+            "menu-item#desktop__categories--one-one",
+            "menu-item#desktop__categories--one-two",
+            "menu-item#desktop__categories--one-three",
+            "menu-item#desktop__categories--one-four",
+            "menu-item#desktop__categories--one-five",
+            "menu-item#desktop__categories--one-six",
+            "menu-item#desktop__categories--one-seven",
+            "menu-item#desktop__categories--one-eight",
+            "menu-item#desktop__categories--one-nine",
+            "menu-item#desktop__categories--one-ten",
+            "menu-item#desktop__categories--one-eleven",
+            "menu-item#desktop__categories--one-twelve",
+            "menu-item#desktop__categories--one-thirteen"
+
+        ],
+        "props": {
+            "width": "34%",
+            "blockClass": "desktop__categories--one"
+        }
+    },
+    "flex-layout.col#desktop__image--categories-one": {
+        "title": "Layout Col Image Categories One",
+        "children": [
+            "image#desktop__image--categories-one",
+            "link#desktop__linkImage--categories-one"
+        ],
+        "props": {
+            "blockClass": "desktop__layoutimage--categories"
+        }
+    },
+    "image#desktop__image--categories-one": {
+        "title": "Image Category Mujer",
+        "props": {
+            "src": "assets/img/img-mujer-menu.png",
+            "blockClass": "desktop__image--categories"
+        }
+    },
+    "flex-layout.col#desktop__quiensomos--categories": {
+        "title": "Layout Col Text Quienes somos",
+        "children": [
+            "link#desktop__quienessomos--header",
+            "link#desktop__modaresponsable--header",
+            "link#desktop__creditoleather--header",
+            "link#desktop__fidelizacion--header"
+        ],
+        "props": {
+            "verticalAlign": "bottom",
+            "blockClass": "desktop__quiensomos--categories"
+        }
+    },
+    /////// MENU ITEMS //////////
+    "menu-item#desktop__categories--one-one": {
+        "props": {
+            "id": "category--one-one",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/nuevo",
+              "noFollow": false,
+              "tagTitle": "Zapatos",
+              "text": "ZAPATOS"
+            }
+        },
+        "blocks": [
+            "submenu#desktop__subcategories--one"
+        ]
+    },
+    "menu-item#desktop__categories--one-two": {
+        "props": {
+            "id": "category--one-two",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/bolsos",
+              "noFollow": false,
+              "tagTitle": "Bolsos",
+              "text": "BOLSOS"
+            }
+        },
+        "blocks": [
+            "submenu#desktop__subcategories--one"
+        ]
+    },
+    "menu-item#desktop__categories--one-three": {
+        "props": {
+            "id": "category--one-three",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/accesorios",
+              "noFollow": false,
+              "tagTitle": "Accesorios",
+              "text": "ACCESORIOS"
+            }
+        },
+        "blocks": [
+            "submenu#desktop__subcategories--one"
+        ]
+    },
+    "menu-item#desktop__categories--one-four": {
+        "props": {
+            "id": "category--one-four",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/chaquetas-de-cuero",
+              "noFollow": false,
+              "tagTitle": "Chaquetas de cuero",
+              "text": "CHAQUETAS DE CUERO"
+            }
+        },
+        "blocks": [
+            "submenu#desktop__subcategories--one"
+        ]
+    },
+    "menu-item#desktop__categories--one-five": {
+        "props": {
+            "id": "category--one-five",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/ropa",
+              "noFollow": false,
+              "tagTitle": "Ropa",
+              "text": "ROPA"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-six": {
+        "props": {
+            "id": "category--one-six",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/cinturones",
+              "noFollow": false,
+              "tagTitle": "Cinturones",
+              "text": "CINTURONES"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-seven": {
+        "props": {
+            "id": "category--one-seven",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/travel",
+              "noFollow": false,
+              "tagTitle": "Travel",
+              "text": "TRAVEL"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-eight": {
+        "props": {
+            "id": "category--one-eight",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/basicos-e-iconos",
+              "noFollow": false,
+              "tagTitle": "BÁSICOS E ÍCONOS",
+              "text": "BÁSICOS E ÍCONOS"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-nine": {
+        "props": {
+            "id": "category--one-nine",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/ver-todo",
+              "noFollow": false,
+              "tagTitle": "VER TODO",
+              "text": "VER TODO"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-ten": {
+        "props": {
+            "id": "category--one-ten",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/complementos/cuidados-del-cuero",
+              "noFollow": false,
+              "tagTitle": "CUIDADOS DEL CUERO",
+              "text": "CUIDADOS DEL CUERO"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-eleven": {
+        "props": {
+            "id": "category--one-eleven",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/complementos/cuidados-del-cuero",
+              "noFollow": false,
+              "tagTitle": "CUIDADOS DEL CUERO",
+              "text": "CUIDADOS DEL CUERO"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-twelve": {
+        "props": {
+            "id": "category--one-twelve",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/complementos/cuidado-personal",
+              "noFollow": false,
+              "tagTitle": "Bienestar",
+              "text": "BIENESTAR"
+            }
+        }
+    },
+    "menu-item#desktop__categories--one-thirteen": {
+        "props": {
+            "id": "category--one-thirteen",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__categories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/",
+              "noFollow": false,
+              "tagTitle": "GUÍA DE REGALOS",
+              "text": "- GUÍA DE REGALOS"
+            }
+        }
+    },
+    ////////// Sub Categorias ////////////
+    "submenu#desktop__subcategories--one": {
+        "title": "Sub-menu Header Sub-Categories One",
+        "children": [
+            "menu#desktop__categories--one-one"
+        ],
+        "props": {
+            "blockClass": "desktop__subcategories--one"
+        }
+    },
+    "menu#desktop__categories--one-one": {
+        "title": "Menu Header Categories One-One",
+        "children": [
+            "flex-layout.row#desktop__subcategories--one"
+        ]
+    },
+    "flex-layout.row#desktop__subcategories--one": {
+        "title": "Layout Header Sub-Categories One",
+        "children": [
+            "flex-layout.col#desktop__subcategories--one"
+        ],
+        "props": {
+            "blockClass": "desktop__subcategories--one"
+        }
+    },
+    "flex-layout.col#desktop__subcategories--one": {
+        "title": "Layout Col Categories One-One",
+        "children": [
+            "menu-item#desktop__subcategories--one-one",
+            "menu-item#desktop__subcategories--one-two",
+            "menu-item#desktop__subcategories--one-three",
+            "menu-item#desktop__subcategories--one-four",
+            "menu-item#desktop__subcategories--one-five",
+            "menu-item#desktop__subcategories--one-six",
+            "menu-item#desktop__subcategories--one-seven",
+            "menu-item#desktop__subcategories--one-eight"
+        ],
+        "props": {
+            "blockClass": "desktop__subcategories--one"
+        }
+    },
+    "menu-item#desktop__subcategories--one-one": {
+        "props": {
+            "id": "subcategory--one-one",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__subcategories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/tenis",
+              "noFollow": false,
+              "tagTitle": "Tenis",
+              "text": "TENIS"
+            }
+        }
+    },
+    "menu-item#desktop__subcategories--one-two": {
+        "props": {
+            "id": "subcategory--one-two",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__subcategories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/botas-y-botines",
+              "noFollow": false,
+              "tagTitle": "Botas y botines",
+              "text": "BOTAS Y BOTINES"
+            }
+        }
+    },
+    "menu-item#desktop__subcategories--one-three": {
+        "props": {
+            "id": "subcategory--one-three",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__subcategories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/mocasines",
+              "noFollow": false,
+              "tagTitle": "Mocasines",
+              "text": "MOCASINES"
+            }
+        }
+    },
+    "menu-item#desktop__subcategories--one-four": {
+        "props": {
+            "id": "subcategory--one-four",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__subcategories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/sandalias",
+              "noFollow": false,
+              "tagTitle": "Sandalias",
+              "text": "SANDALIAS"
+            }
+        }
+    },
+    "menu-item#desktop__subcategories--one-five": {
+        "props": {
+            "id": "subcategory--one-five",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__subcategories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/con-cordones",
+              "noFollow": false,
+              "tagTitle": "Con Cordones",
+              "text": "CON CORDONES"
+            }
+        }
+    },
+    "menu-item#desktop__subcategories--one-six": {
+        "props": {
+            "id": "subcategory--one-six",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__subcategories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/tacones",
+              "noFollow": false,
+              "tagTitle": "Tacones",
+              "text": "TACONES"
+            }
+        }
+    },
+    "menu-item#desktop__subcategories--one-seven": {
+        "props": {
+            "id": "subcategory--one-seven",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__subcategories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/baletas",
+              "noFollow": false,
+              "tagTitle": "Baletas",
+              "text": "BALETAS"
+            }
+        }
+    },
+    "menu-item#desktop__subcategories--one-eight": {
+        "props": {
+            "id": "subcategory--one-eight",
+            "type": "custom",
+            "highlight": false,
+            "blockClass": "desktop__subcategories--one",
+            "itemProps": {
+              "type": "internal",
+              "href": "/mujer/ver-todo",
+              "noFollow": false,
+              "tagTitle": "Ver todo",
+              "text": "VER TODO"
+            }
+        }
+    }
+}
