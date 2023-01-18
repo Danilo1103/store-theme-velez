@@ -6,11 +6,13 @@
             "header-spacer",
             "logo#global__header--middle",
             "header-spacer",
+            "header-spacer",
             "login",
             "minicart.v2"
         ],
         "props": {
-            "blockClass": "desktop__header--middle"
+            "blockClass": "desktop__header--middle",
+            "sticky": true
         }
     },
     "login": {

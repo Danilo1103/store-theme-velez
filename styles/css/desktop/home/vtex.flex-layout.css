@@ -1,5 +1,42 @@
-/* Example desktop:
-.flexRow--home__section-2 {
-    margin: 50px auto;
-    max-width: 1200px;
-} */
+/* ////// - HOME - ///////// */
+
+.flexRow--desktop__home--section-1{
+    background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/home-desktop-2023-2.png?v=638086094503030000");
+    background-position: center;
+}
+
+.flexRow--desktop__home--section-1,
+.flexRow--desktop__home--section-2{
+    height: 900px;
+}
+
+.flexRowContent--desktop__home--section-1,
+.flexRowContent--desktop__home--section-2{
+    position: relative;
+    top: 700px;
+    gap: 30px;
+}
+
+.flexRow--desktop__home--section-2{
+    background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/home-desktop-2023-3.png?v=638086094506630000");
+    background-position: center;
+}
+
+.flexCol--desktop__home--section-1{
+    height: 710px;
+}
+
+.flexCol--desktop__home--section-1{
+    background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/BANNER3-semana-tres-desk.png?v=638095613614300000");
+    background-position: center;
+}
+.flexCol--desktop__home--section-2{
+    background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/BANNER4-semana-tres-desk.png?v=638095613655530000");
+    background-position: center;
+}
+
+.flexColChild--desktop__home--section-1,
+.flexColChild--desktop__home--section-2{
+    position: relative;
+    top: 350px;
+}
