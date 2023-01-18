@@ -1,0 +1,16 @@
+.flexCol--desktop__categories--one{
+    height: 300px;
+}
+
+.flexCol--desktop__subcategories--one{
+    height: 200px;
+}
+
+.flexColChild--desktop__layoutimage--categories{
+    margin: auto;
+}
+
+.flexRowContent--layoutrow__categories--one{
+    width: 95%;
+    margin: auto;
+}

@@ -1,0 +1,22 @@
+{
+    "header-row#desktop__header--bottom": {
+        "title": "Header Bottom Menu",
+        "children": [
+            "header-spacer",
+            "link#desktop__header--bottom",
+            "header-spacer"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__header--bottom"
+        }
+    },
+    "link#desktop__header--bottom": {
+        "title": "Link Whatsapp Header Bottom",
+        "props": {
+            "href": "/",
+            "label": "COMPRA POR WHATSAPP 3228096512>>",
+            "blockClass": "link__header--bottom"
+        }
+    }
+}

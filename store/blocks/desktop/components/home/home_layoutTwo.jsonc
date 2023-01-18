@@ -1,0 +1,13 @@
+{
+    "flex-layout.row#desktop__home--section-2": {
+        "title": "Home Flex Layout One Desktop",
+        "children": [
+            "flex-layout.col#desktop__home--button-1-1",
+            "flex-layout.col#desktop__home--button-1-2"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__home--section-2"
+        }
+    }
+}

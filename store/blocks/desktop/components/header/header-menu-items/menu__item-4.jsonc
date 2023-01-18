@@ -1,0 +1,15 @@
+{
+    "menu-item#desktop__deparment--four": {
+        "props": {
+            "id": "department-four",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/nosotros/credito-leather-lovers",
+                "noFollow": true,
+                "tagTitle": "Crédito",
+                "text": "CRÉDITO"
+            }
+        }
+    }
+}

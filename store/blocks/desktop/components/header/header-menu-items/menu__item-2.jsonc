@@ -1,0 +1,68 @@
+{
+    "menu-item#desktop__deparment--two": {
+        "props": {
+            "id": "department-two",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "href": "/hombre",
+                "noFollow": true,
+                "tagTitle": "Blusas y Ropa de moda para hombre",
+                "text": "HOMBRE"
+            }
+        },
+        "blocks": [
+            "submenu#desktop__deparment--two"
+        ]
+    },
+    "submenu#desktop__deparment--two": {
+        "title": "Sub-menu Header Department Two",
+        "children": [
+            "menu#desktop__department--two"
+        ],
+        "props": {
+            "onMountBehahior": "open",
+            "blockClass": "desktop__deparment--one"
+        }
+    },
+    "menu#desktop__department--two": {
+        "title": "Menu Header Categories One",
+        "children": [
+            "flex-layout.row#desktop__categories--two",
+            "header-row#desktop__header--bottom"
+        ], 
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__department--one"
+        }
+    },
+    "flex-layout.row#desktop__categories--two": {
+        "title": "Layout Row Header Categories One",
+        "children": [
+            "flex-layout.col#desktop__categories--one",
+            "flex-layout.col#desktop__image--categories-two",
+            "flex-layout.col#desktop__quiensomos--categories"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "layoutrow__categories--one"
+        }
+    },
+    "flex-layout.col#desktop__image--categories-two": {
+        "title": "Layout Col Image Categories Two",
+        "children": [
+            "image#desktop__image--categories-two",
+            "link#desktop__linkImage--categories-two"
+        ],
+        "props": {
+            "blockClass": "desktop__layoutimage--categories"
+        }
+    },
+    "image#desktop__image--categories-two": {
+        "title": "Image Category Hombre",
+        "props": {
+            "src": "assets/img/img-hombre-menu.png",
+            "blockClass": "desktop__image--categories"
+        }
+    }
+}
