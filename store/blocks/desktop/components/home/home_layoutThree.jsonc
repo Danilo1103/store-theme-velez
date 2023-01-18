@@ -1,0 +1,40 @@
+{
+    "flex-layout.row#desktop__home--section-3": {
+        "title": "Home Flex Layout Three Desktop",
+        "children": [
+            "flex-layout.col#desktop__home--section-1",
+            "flex-layout.col#desktop__home--section-2"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "desktop__home--section-3"
+        }
+    },
+    "flex-layout.col#desktop__home--section-1": {
+        "children": [
+            "link#button__section--3-1"
+        ],
+        "props": {
+            "verticalAlign": "center",
+            "horizontalAlign": "center",
+            "blockClass": "desktop__home--section-1"
+        }
+    },
+    "link#button__section--3-1": {
+        "props": {
+            "label": "VER REFERENCIAS",
+            "displayMode": "button",
+            "blockClass": "button__section--1-1"
+        }
+    },
+    "flex-layout.col#desktop__home--section-2": {
+        "children": [
+            "link#button__section--3-1"
+        ],
+        "props": {
+            "verticalAlign": "center",
+            "horizontalAlign": "center",
+            "blockClass": "desktop__home--section-2"
+        }
+    }
+}

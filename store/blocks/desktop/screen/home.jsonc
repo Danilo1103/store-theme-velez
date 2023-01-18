@@ -4,6 +4,7 @@
     "children": [
       "flex-layout.row#desktop__home--section-1",
       "flex-layout.row#desktop__home--section-2",
+      "flex-layout.row#desktop__home--section-3",
       "rich-text#text__home-one",
       "slider-layout#home__slider-one"
     ]

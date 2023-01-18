@@ -22,8 +22,21 @@
     background-position: center;
 }
 
-/* Sliders */ 
+.flexCol--desktop__home--section-1{
+    height: 710px;
+}
 
-/* .flexRow--home__slider--one{
-    margin: -8px;
-} */
+.flexCol--desktop__home--section-1{
+    background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/BANNER3-semana-tres-desk.png?v=638095613614300000");
+    background-position: center;
+}
+.flexCol--desktop__home--section-2{
+    background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/BANNER4-semana-tres-desk.png?v=638095613655530000");
+    background-position: center;
+}
+
+.flexColChild--desktop__home--section-1,
+.flexColChild--desktop__home--section-2{
+    position: relative;
+    top: 350px;
+}
