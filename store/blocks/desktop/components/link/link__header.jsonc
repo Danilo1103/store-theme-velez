@@ -7,6 +7,14 @@
             "blockClass": "desktop__linkImage--categories-one"
         }
     },
+    "link#desktop__linkImage--categories-two": {
+        "title": "Link Image Header Two",
+        "props": {
+            "href": "/basicos-e-iconos/hombre",
+            "label": "Ver hombre",
+            "blockClass": "desktop__linkImage--categories-one"
+        }
+    },
     "link#desktop__quienessomos--header": {
         "props": {
             "href": "/institucional/sostenibilidad-institucional/compromiso-humano",
