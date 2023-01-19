@@ -1,3 +1,7 @@
 .imageElement--desktop__image--categories{
     height: 20vw;
 }
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+    border: none;
+}
