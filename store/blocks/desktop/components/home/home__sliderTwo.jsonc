@@ -1,0 +1,88 @@
+{
+    "slider-layout#home__slider-two": {
+        "title": "Slider de imagenes Instagram",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 1,
+                "mobile": 1
+            },
+            "infite": false,
+            "blockClass": "home__slider-one",
+            "fullWidth": true,
+            "showPaginationDots": false
+        },
+        "children": [
+            "image#slider__instagram--one",
+            "image#slider__instagram--two",
+            "image#slider__instagram--three",
+            "image#slider__instagram--four",
+            "image#slider__instagram--five",
+            "image#slider__instagram--six",
+            "image#slider__instagram--seven",
+            "image#slider__instagram--eight",
+            "image#slider__instagram--nine",
+            "image#slider__instagram--ten"
+        ]
+    },
+    "image#slider__instagram--one": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F325981076_212798074453944_6159030670020923240_n.jpg%3Fstp%3Dc0.135.1080.1080a_dst-jpg_e15_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D1%26_nc_ohc%3DvEhw_hRiKuIAX_iSl6E%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfDUT0kCrzRl9V38rv1TAvYvLElEZWnNo8v_Zq3eiMN42g%26oe%3D63CCD8B9%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--two": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F325640243_829907181405882_8888559187277290818_n.jpg%3Fstp%3Dc0.135.1080.1080a_dst-jpg_e15_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D106%26_nc_ohc%3DN6bs5WfPD3kAX8W5sqA%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfApwa8gNBKI0-KQYdGrmYiCATyuXXsHZeR_d9M9uZkt6Q%26oe%3D63CC7170%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--three": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F325280434_138187519095473_4608118172975739417_n.jpg%3Fstp%3Dc0.180.1440.1440a_dst-jpg_e35_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D105%26_nc_ohc%3DABTmUGCcBqcAX9zwHSs%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfD9uz8vIoB7OkJmaM8YnfhKf5vx8Orc80eT4g1rH4dcaQ%26oe%3D63CC0D83%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--four": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F325171487_902947177546449_4293384459926708646_n.jpg%3Fstp%3Dc0.169.1349.1349a_dst-jpg_e35_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D109%26_nc_ohc%3DIyfRaAjWlRoAX8sqEft%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfBARzhiqKDRs5RRkwQr-fgA7B7Amd0mA2_0-LX8tqsLFQ%26oe%3D63CD424F%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--five": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F324849321_156392967157252_3841002821957979308_n.jpg%3Fstp%3Dc0.180.1440.1440a_dst-jpg_e35_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D104%26_nc_ohc%3DM1QBMzkaITIAX-ea_N2%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfCOhjgK19kfGQOtyWrfpkJcEbDGjpmBnaCbDyKUKvuusg%26oe%3D63CBAC35%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--six": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F325214312_1218499159099575_7953669275653493746_n.jpg%3Fstp%3Dc0.180.1440.1440a_dst-jpg_e35_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D103%26_nc_ohc%3D8FIe5qi5em4AX91Imjb%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfArX6AIJMVQ_HXpL51i-Sg_Xs8MIl-_O3s8DkA7UOkKJw%26oe%3D63CD39E4%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--seven": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F324841422_164565562569797_3846575729791494155_n.jpg%3Fstp%3Dc0.169.1349.1349a_dst-jpg_e35_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D105%26_nc_ohc%3DTlnGHu4isdoAX_B72yJ%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfBcc0wSdOm_ZIYblBRxTjlrpdNlI5bzeD9uZnDZHYIbVw%26oe%3D63CCE1A2%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--eight": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F324546153_1154521538380604_5486812799297269130_n.jpg%3Fstp%3Dc0.169.1349.1349a_dst-jpg_e35_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D108%26_nc_ohc%3DKM9HkOeZ1bYAX_EesAT%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfBggImF1FIe2vEtZU8NvMfimdfbAAcN6CZHUM1tLz3kLQ%26oe%3D63CC5158%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--nine": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F324073322_464353312575415_5824229158054522060_n.jpg%3Fstp%3Dc0.420.1080.1080a_dst-jpg_e15_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D107%26_nc_ohc%3DgFKw0plwIAoAX8YE-4a%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfBGo99e6JEjD_bSB6vuS3CRCwqlUymA1ThGUDKeWqQhMw%26oe%3D63C95D72%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    },
+    "image#slider__instagram--ten": {
+        "props": {
+            "src": "https://scp2.elfsightcdn.com/?url=https%3A%2F%2Finstagram.fbcn9-1.fna.fbcdn.net%2Fv%2Ft51.2885-15%2F323931532_143657034883844_8143462041971367883_n.jpg%3Fstp%3Dc0.180.1440.1440a_dst-jpg_e35_s320x320%26_nc_ht%3Dinstagram.fbcn9-1.fna.fbcdn.net%26_nc_cat%3D108%26_nc_ohc%3Dkq9tZg2bV6wAX9eznb4%26edm%3DAPU89FABAAAA%26ccb%3D7-5%26oh%3D00_AfBw7VvksHcsP9v-vAoWqopE36lh5g-SYkw9S1ccqJN5uQ%26oe%3D63CC7A36%26_nc_sid%3D86f79a",
+            "blockClass": "slider__instagram"
+        }
+    }
+}

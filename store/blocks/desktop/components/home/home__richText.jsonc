@@ -1,0 +1,16 @@
+{
+    "rich-text#text__home-one": {
+        "title": "Text Slider One",
+        "props": {
+            "text": "PRODUCTOS PARA TI",
+            "blockClass": "text__home-one"
+        }
+    },
+    "rich-text#text__home--instagram": {
+        "title": "Text Instagram Velez",
+        "props": {
+            "text": "@VELEZARTISAN",
+            "blockClass": "text__home--instagram"
+        }
+    }
+}

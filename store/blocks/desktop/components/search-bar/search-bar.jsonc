@@ -1,0 +1,17 @@
+{
+    "search-bar#header__search": {
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "openAutocompleteOnFocus": true,
+            "maxWidth": 210,
+            "placeholder": "¿QUE BUSCAS?"
+        }
+    },
+    "autocomplete-result-list.v2": {
+        "blocks": [
+            "product-summary"
+        ]
+    }
+}

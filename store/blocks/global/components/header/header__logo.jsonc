@@ -4,7 +4,8 @@
         "props": {
             "url": "assets/img/header__logo-velez.png",
             "width": 90,
-            "href": "/"
+            "href": "/",
+            "blockClass": "logo__header"
         }
     }
 }
