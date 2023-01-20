@@ -1,0 +1,32 @@
+{
+    "flex-layout.row#mobile__home--section-4": {
+        "title": "Home Flex Layout Four Mobile",
+        "children": [
+            "flex-layout.col#mobile__home--button-four"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile__home--section-4"
+        }
+    },
+    "flex-layout.col#mobile__home--button-four": {
+        "title": "Home Flex Col Four Mobile",
+        "children": [
+            "link#mobile__button--section--3"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "blockClass": "desktop__home--button-1"
+          }
+    },
+    "link#mobile__button--section--4": {
+        "props": {
+            "label": "VER REFERENCIAS",
+            "displayMode": "button",
+            "blockClass": [
+              "mobile__button--section--1",
+              "button__section--1-1"
+            ]
+          }
+    }
+}

@@ -65,7 +65,6 @@
             "menu-item#desktop__categories--one-eleven",
             "menu-item#desktop__categories--one-twelve",
             "menu-item#desktop__categories--one-thirteen"
-
         ],
         "props": {
             "width": "34%",

@@ -1,0 +1,12 @@
+{
+    "flex-layout.row#mobile__home--section-2": {
+        "title": "Home Flex Layout One Mobile",
+        "children": [
+            "flex-layout.col#mobile__home--buttons-one"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "mobile__home--section-2"
+        }
+    }
+}
