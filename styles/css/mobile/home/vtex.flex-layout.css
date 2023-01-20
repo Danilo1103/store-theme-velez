@@ -1,0 +1,40 @@
+.flexRow--mobile__home--section-1{
+    background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/gif1-sem3-desk.gif?v=638095628460800000");
+    background-position: bottom;
+    height: 850px;
+}
+.flexRow--mobile__home--section-2{
+    background-image: url(assets/img/img__banner-2.png);
+    background-position: center;
+    height: 620px;
+}
+.flexRow--mobile__home--section-3{
+    background-image: url(assets/img/img__banner-3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+}
+.flexRow--mobile__home--section-4{
+    background-image: url(assets/img/img__banner-4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.flexRowContent--mobile__home--section-1{
+    position: relative;
+    top: 580px;
+}
+.flexRowContent--mobile__home--section-2{
+    position: relative;
+    top: 440px;
+}
+.flexRowContent--mobile__home--section-3,
+.flexRowContent--mobile__home--section-4{
+    position: relative;
+    top: 340px;
+}
+
+.flexColChild--desktop__home--button-1{
+    margin: 7px;
+}

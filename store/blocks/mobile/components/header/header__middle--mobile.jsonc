@@ -8,7 +8,10 @@
             "header-spacer",
             "login",
             "minicart.v2"
-        ]
+        ],
+        "props": {
+            "sticky": true
+        }
     },
     "header-row#mobile__drawer": {
         "title": "Header Drawer Mobile",

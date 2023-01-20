@@ -1,0 +1,64 @@
+{
+    "slider-layout#mobile__home--silder-1": {
+        "title": "Slider Layout One Home mobile",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 3,
+                "phone": 3
+            },
+            "height": 100,
+            "infinite": true,
+            "showNavigationArrows": "never",
+            "autoplay": {
+                "timeout": "3000",
+                "stopOnHover": true
+            },
+            "showPaginationDots": false,
+            "blockClass": "slider__home--mobile"
+        },
+        "children": [
+            "rich-text#mobile__text--slider-one",
+            "rich-text#mobile__text--slider-line",
+            "rich-text#mobile__text--slider-two",
+            "rich-text#mobile__text--slider-three",
+            "rich-text#mobile__text--slider-line",
+            "rich-text#mobile__text--slider-four"
+        ]
+    },
+    "rich-text#mobile__text--slider-one": {
+        "title": "Mobile Text Slider One-One",
+        "props": {
+            "text": "20%",
+            "blockClass": "mobile__text--slider-one"
+        }
+    },
+    "rich-text#mobile__text--slider-two": {
+        "title": "Mobile Text Slider One-Two",
+        "props": {
+            "text": "30%",
+            "blockClass": "mobile__text--slider-one"
+        }
+    },
+    "rich-text#mobile__text--slider-three": {
+        "title": "Mobile Text Slider One-Three",
+        "props": {
+            "text": "40%",
+            "blockClass": "mobile__text--slider-one"
+        }
+    },
+    "rich-text#mobile__text--slider-four": {
+        "title": "Mobile Text Slider One-Four",
+        "props": {
+            "text": "50%",
+            "blockClass": "mobile__text--slider-one"
+        }
+    },
+    "rich-text#mobile__text--slider-line": {
+        "title": "Mobile Text Slider One-Line",
+        "props": {
+            "text": "|",
+            "blockClass": "mobile__text--slider-one"
+        }
+    }
+}

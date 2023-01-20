@@ -5,7 +5,8 @@
             "slider-layout#header__top--mobile"
         ],
         "props": {
-            "blockClass": "header__top--mobile"
+            "blockClass": "header__top--mobile",
+            "sticky": true
         }
     },
     "slider-layout#header__top--mobile": {
@@ -17,7 +18,7 @@
                 "phone": 1
             },
             "height": 100,
-            "infinite": false,
+            "infinite": true,
             "showNavigationArrows": "never",
             "autoplay": {
                 "timeout": "3000",

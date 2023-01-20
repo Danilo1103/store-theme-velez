@@ -1,0 +1,43 @@
+{
+  "flex-layout.row#mobile__home--section-1": {
+    "title": "Home Flex Layout One Mobile",
+    "children": [
+      "flex-layout.col#mobile__home--buttons-one"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "mobile__home--section-1"
+    }
+  },
+  "flex-layout.col#mobile__home--buttons-one": {
+    "title": "Home Flex Col One Mobile",
+    "children": [
+      "link#mobile__button--section--1",
+      "link#mobile__button--section--2"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "desktop__home--button-1"
+    }
+  },
+  "link#mobile__button--section--1": {
+    "props": {
+      "label": "COMPRAR MUJER",
+      "displayMode": "button",
+      "blockClass": [
+        "mobile__button--section--1",
+        "button__section--1-1"
+      ]
+    }
+  },
+  "link#mobile__button--section--2": {
+    "props": {
+      "label": "COMPRAR HOMBRE",
+      "displayMode": "button",
+      "blockClass": [
+        "mobile__button--section--1",
+        "button__section--1-1"
+      ]
+    }
+  }
+}

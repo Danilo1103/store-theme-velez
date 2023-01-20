@@ -2,7 +2,7 @@
     "logo#global__header--middle": {
         "title": "Logo Header Middle",
         "props": {
-            "url": "assets/img/header__logo-velez.png",
+            "url": "assets/img/logo__velez-header.svg",
             "width": 90,
             "href": "/",
             "blockClass": "logo__header"
