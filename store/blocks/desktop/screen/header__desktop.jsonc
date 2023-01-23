@@ -1,9 +1,24 @@
 {
-    "header-layout.desktop": {
-        "title": "Header desktop",
-        "children": [
-            "header-row#desktop__header--top",
-            "header-row#desktop__header--middle"
-        ]
-    }
+  "header-layout.desktop": {
+    "title": "Header desktop",
+    "children": [
+      "header-row#desktop__header--top",
+      "sticky-layout.stack-container#header"
+    ]
+  },
+  "sticky-layout.stack-container#header": {
+    "title": "Sticky Layout Header Desktop",
+    "props": {
+      "position": "top"
+    },
+    "children": [
+      "sticky-layout#main-menu"
+    ]
+  },
+  "sticky-layout#main-menu": {
+    "title": "Sticky Layout Main Menu Header Desktop",
+    "children": [
+      "header-row#desktop__header--middle"
+    ]
+  }
 }

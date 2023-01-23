@@ -3,6 +3,7 @@
         "props": {
             "id": "department-two",
             "type": "custom",
+            "blockClass": "desktop__deparment-header",
             "itemProps": {
                 "type": "internal",
                 "href": "/hombre",

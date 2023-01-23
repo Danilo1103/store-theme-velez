@@ -1,0 +1,106 @@
+{
+    "menu#desktop__footer--policies": {
+        "children": [
+            "menu-item#desktop__footer-two-one",
+            "menu-item#desktop__footer-two-two",
+            "menu-item#desktop__footer-two-three",
+            "menu-item#desktop__footer-two-four",
+            "menu-item#desktop__footer-two-five",
+            "menu-item#desktop__footer-two-six",
+            "menu-item#desktop__footer-two-seven"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#desktop__footer-two-one": {
+        "props": {
+            "id": "menu-policies-teayudamos",
+            "blockClass": "desktop__footer-principal",
+            "type": "custom",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "Te Ayudamos",
+                "text": "Te Ayudamos"
+            }
+        }
+    },
+    "menu-item#desktop__footer-two-two": {
+        "props": {
+            "id": "menu-policies-contacto",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Contacto / PQRs",
+                "text": "Contacto / PQRs"
+            }
+        }
+    },
+    "menu-item#desktop__footer-two-three": {
+        "props": {
+            "id": "menu-policies-devoluciones",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Política de devoluciones",
+                "text": "Política de devoluciones"
+            }
+        }
+    },
+    "menu-item#desktop__footer-two-four": {
+        "props": {
+            "id": "menu-policies-comocomprar",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "¿Cómo comprar?",
+                "text": "¿Cómo comprar?"
+            }
+        }
+    },
+    "menu-item#desktop__footer-two-five": {
+        "props": {
+            "id": "menu-policies-preguntas",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Preguntas frecuentes",
+                "text": "Preguntas frecuentes"
+            }
+        }
+    },
+    "menu-item#desktop__footer-two-six": {
+        "props": {
+            "id": "menu-policies-terminosycondiciones",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Términos y condiciones",
+                "text": "Términos y condiciones"
+            }
+        }
+    },
+    "menu-item#desktop__footer-two-seven": {
+        "props": {
+            "id": "menu-policies-politicas",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Nuestras políticas",
+                "text": "Nuestras políticas"
+            }
+        }
+    }
+}

@@ -1,20 +1,12 @@
-.wrapper--text__home-one{
-    margin: auto;
-    padding: 40px 0 10px 0;
-}
-.wrapper--text__home--instagram{
-    margin: auto;
-    padding: 60px 0 0 0;
-}
-
-.paragraph--text__home-one,
-.paragraph--text__home--instagram{
+.paragraph--desktop__text--descounts,
+.link--desktop__text--descounts{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
     font-family: "Lato-Bold";
-    font-size: 19px;
 }
 
-.paragraph--text__slider-home-one{
-    font-family: "Lato-Light";
-    font-weight: bold;
-    color: #000;
+.paragraph--desktop__text--descounts{
+    cursor: default;
 }

@@ -1,9 +1,0 @@
-{
-    "minicart.v2#header__cart": {
-        "props": {
-            "variation": "popup",
-            "itemCountMode": "total",
-            "quantityDisplay": "always"
-        }
-    }
-}

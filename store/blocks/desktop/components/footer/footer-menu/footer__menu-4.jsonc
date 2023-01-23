@@ -1,0 +1,93 @@
+{
+    "menu#desktop__footer--programas": {
+        "children": [
+            "menu-item#desktop__footer-four-one",
+            "menu-item#desktop__footer-four-two",
+            "menu-item#desktop__footer-four-three",
+            "menu-item#desktop__footer-four-four",
+            "menu-item#desktop__footer-four-five",
+            "menu-item#desktop__footer-four-six"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#desktop__footer-four-one": {
+        "props": {
+            "id": "menu-programa-fidelizacion",
+            "type": "custom",
+            "blockClass": "desktop__footer--four",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "PROGRAMA DE FIDELIZACIÓN",
+                "text": "PROGRAMA DE FIDELIZACIÓN"
+            }
+        }
+    },
+    "menu-item#desktop__footer-four-two": {
+        "props": {
+            "id": "menu-programa-creditoleather",
+            "type": "custom",
+            "blockClass": "desktop__footer--four",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "CRÉDITO LEATHER LOVERS",
+                "text": "CRÉDITO LEATHER LOVERS"
+            }
+        }
+    },
+    "menu-item#desktop__footer-four-three": {
+        "props": {
+            "id": "menu-programa-crece",
+            "type": "custom",
+            "blockClass": "desktop__footer--four",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "CRECE CON NOSOTROS",
+                "text": "CRECE CON NOSOTROS"
+            }
+        }
+    },
+    "menu-item#desktop__footer-four-four": {
+        "props": {
+            "id": "menu-programa-ventas",
+            "type": "custom",
+            "blockClass": "desktop__footer--four",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "VENTAS CORPORATIVAS",
+                "text": "VENTAS CORPORATIVAS"
+            }
+        }
+    },
+    "menu-item#desktop__footer-four-five": {
+        "props": {
+            "id": "menu-programa-distribuidores",
+            "type": "custom",
+            "blockClass": "desktop__footer--four",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "DISTRIBUIDORES",
+                "text": "DISTRIBUIDORES"
+            }
+        }
+    },
+    "menu-item#desktop__footer-four-six": {
+        "props": {
+            "id": "menu-programa-tienda",
+            "type": "custom",
+            "blockClass": "desktop__footer--four",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "TIENDA VIRTUAL",
+                "text": "TIENDA VIRTUAL"
+            }
+        }
+    }
+}

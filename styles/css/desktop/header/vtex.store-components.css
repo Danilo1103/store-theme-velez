@@ -5,3 +5,6 @@
 .autoCompleteOuterContainer :global(.vtex-input-prefix__group){
     border: none;
 }
+.autoCompleteOuterContainer :global(.vtex-input__suffix){
+    background: transparent;
+}

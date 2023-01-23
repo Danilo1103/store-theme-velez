@@ -2,18 +2,21 @@
 
 .flexRow--desktop__home--section-1{
     background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/gif1-sem3-desk.gif?v=638095628460800000");
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
+    margin-top: -55px;
 }
 
 .flexRow--desktop__home--section-1,
 .flexRow--desktop__home--section-2{
-    height: 900px;
+    height: 800px;
 }
 
 .flexRowContent--desktop__home--section-1,
 .flexRowContent--desktop__home--section-2{
     position: relative;
-    top: 700px;
+    top: 590px;
     gap: 30px;
 }
 
@@ -39,4 +42,8 @@
 .flexColChild--desktop__home--section-2{
     position: relative;
     top: 350px;
+}
+
+.flexRow--desktop__layout--descounts{
+    background: #cd3281;
 }

@@ -36,7 +36,7 @@
         "title": "Link One Mobile",
         "props": {
             "href": "/outlet",
-            "label": "Exclusivo online. Desde 40% DCTO en TODO Outlet | COMPRAR >>",
+            "label": "Exclusivo online. Desde 40% DCTO en TODO Outlet",
             "blockClass": "text__header--mobileOne"
         }
     },

@@ -1,0 +1,87 @@
+{
+    "menu#mobile__footer--tiendas": {
+        "children": [
+            "menu-item#mobile__footer-three-one",
+            "menu-item#mobile__footer-three-two",
+            "menu-item#mobile__footer-three-three",
+            "menu-item#mobile__footer-three-four",
+            "menu-item#mobile__footer-three-five",
+            "menu-item#mobile__footer-three-six"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#mobile__footer-three-one": {
+        "props": {
+            "id": "mobile-menu-tiendas-colombia",
+            "type": "custom",
+            "blockClass": "mobile__footer-principal",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "Colombia",
+                "text": "Colombia"
+            }
+        }
+    },
+    "menu-item#mobile__footer-three-two": {
+        "props": {
+            "id": "mobile-menu-tiendas-costarica",
+            "type": "custom",
+            "blockClass": "mobile__footer-principal",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "Costa Rica",
+                "text": "Costa Rica"
+            }
+        }
+    },
+    "menu-item#mobile__footer-three-three": {
+        "props": {
+            "id": "mobile-menu-tiendas-elsalvador",
+            "type": "custom",
+            "blockClass": "mobile__footer-principal",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "El Salvador",
+                "text": "El Salvador"
+            }
+        }
+    },
+    "menu-item#mobile__footer-three-four": {
+        "props": {
+            "id": "mobile-menu-tiendas-guatemala",
+            "type": "custom",
+            "blockClass": "mobile__footer-principal",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "Guatemala",
+                "text": "Guatemala"
+            }
+        }
+    },
+    "menu-item#mobile__footer-three-five": {
+        "props": {
+            "id": "mobile-menu-tiendas-panama",
+            "type": "custom",
+            "blockClass": "mobile__footer-principal",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "Panamá",
+                "text": "Panamá"
+            }
+        }
+    },
+    "menu-item#mobile__footer-three-six": {
+        "props": {
+            "id": "mobile-menu-tiendas-peru",
+            "type": "custom",
+            "blockClass": "mobile__footer-principal",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "Perú",
+                "text": "Perú"
+            }
+        }
+    }
+}

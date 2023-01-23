@@ -1,0 +1,47 @@
+{
+    "flex-layout.row#desktop__footer": {
+        "children": [
+            "flex-layout.col#desktop__footer--col-one",
+            "flex-layout.col#desktop__footer--col-two",
+            "flex-layout.col#desktop__footer--col-three",
+            "flex-layout.col#desktop__footer--col-four"
+        ],
+        "props": {
+            "blockClass": "desktop__footer"
+        }
+    },
+    "flex-layout.col#desktop__footer--col-one": {
+        "children": ["menu#desktop__footer--about-us"],
+        "props": {
+            "width": "25%",
+            "blockClass": "desktop__footer--col-one"
+        }
+    },
+    "flex-layout.col#desktop__footer--col-two": {
+        "children": ["menu#desktop__footer--policies"],
+        "props": {
+            "blockClass": "desktop__footer--col-two"
+        }
+    },
+    "flex-layout.col#desktop__footer--col-three": {
+        "children": ["menu#desktop__footer--tiendas"],
+        "props": {
+            "blockClass": "desktop__footer--col-three"
+        }
+    },
+    "flex-layout.col#desktop__footer--col-four": {
+        "children": ["menu#desktop__footer--programas"],
+        "props": {
+            "blockClass": "desktop__footer--col-four"
+        }
+    },
+    "rich-text#desktop__text--footer": {
+        "title": "Text Lineas de servicio Footer Desktop",
+        "props": {
+            "text": "Línea de servicio al cliente \n 01 8000 114 000",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__text--footer"
+        }
+    }
+}

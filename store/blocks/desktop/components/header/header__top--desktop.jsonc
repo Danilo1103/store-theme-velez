@@ -18,7 +18,7 @@
         "title": "Link One Desktop",
         "props": {
             "href": "/outlet",
-            "label": "Exclusivo online. Desde 40% DCTO en TODO Outlet | COMPRAR >>",
+            "label": "Exclusivo online. Desde 40% DCTO en TODO Outlet",
             "blockClass": "link__header--one"
         }
     },
