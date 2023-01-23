@@ -1,0 +1,37 @@
+{
+    "flex-layout.row#desktop__footer--superintendencia": {
+        "title": "Footer Superintendencia",
+        "children": [
+            "flex-layout.col#desktop__footer--superintendencia"
+        ],
+        "props": {
+            "fullWidth": true,
+            "marginTop": 10
+        }
+    },
+    "flex-layout.col#desktop__footer--superintendencia": {
+        "title": "Flex col Footer Superintendencia",
+        "children": [
+            "image#footer__image--superintendencia",
+            "rich-text#footer__text--superintendencia"
+        ],
+        "props": {
+            "horizontalAlign": "center",
+            "verticalAlign": "middle"
+        }
+    },
+    "image#footer__image--superintendencia": {
+        "title": "Imagen Superintendencia",
+        "props": {
+            "src": "assets/img/logo__superintenddencia.svg"
+        }
+    },
+    "rich-text#footer__text--superintendencia": {
+        "props": {
+            "text": "TODOS LOS DERECHOS RESERVADOS CUEROS VELÉZ S.A.S \n NOTIFICACIONES JUDICIALES: CL 29 # 52 - 115 MEDELLÍN COLOMBIA| cvelezmcuerosvelez.com +604 355 5100 | NIT 800191700-",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "footer__text--superintendencia"
+        }
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "flex-layout.row#desktop__layout--descounts": {
+        "title": "Layout Row Descounts Desktop",
+        "children": [
+            "rich-text#desktop__text--descounts-1",
+            "rich-text#desktop__line--descounts",
+            "rich-text#desktop__text--descounts-2",
+            "rich-text#desktop__line--descounts",
+            "rich-text#desktop__text--descounts-3",
+            "rich-text#desktop__line--descounts",
+            "rich-text#desktop__text--descounts-4"
+        ],
+        "props": {
+            "blockClass": "desktop__layout--descounts"
+        }
+    },
+    "rich-text#desktop__text--descounts-1": {
+        "title": "Text Descount One Desktop",
+        "props": {
+            "text": "[20% DCTO](/)",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__text--descounts"
+        }
+    },
+    "rich-text#desktop__text--descounts-2": {
+        "title": "Text Descount Two Desktop",
+        "props": {
+            "text": "[30% DCTO](/)",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__text--descounts"
+        }
+    },
+    "rich-text#desktop__text--descounts-3": {
+        "title": "Text Descount Three Desktop",
+        "props": {
+            "text": "[40% DCTO](/)",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__text--descounts"
+        }
+    },
+    "rich-text#desktop__text--descounts-4": {
+        "title": "Text Descount Four Desktop",
+        "props": {
+            "text": "[50% DCTO](/)",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__text--descounts"
+        }
+    },
+    "rich-text#desktop__line--descounts": {
+        "props": {
+            "text": "|",
+            "textPosition": "CENTER",
+            "blockClass": "desktop__text--descounts"
+        }
+    }
+}

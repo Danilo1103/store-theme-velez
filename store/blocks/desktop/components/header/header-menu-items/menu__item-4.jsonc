@@ -3,6 +3,7 @@
         "props": {
             "id": "department-four",
             "type": "custom",
+            "blockClass": "desktop__deparment-header",
             "itemProps": {
                 "type": "internal",
                 "href": "/nosotros/credito-leather-lovers",

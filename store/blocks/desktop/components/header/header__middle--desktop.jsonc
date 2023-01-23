@@ -6,7 +6,7 @@
             "header-spacer",
             "logo#global__header--middle",
             "header-spacer",
-            "header-spacer",
+            "search-bar#header__search",
             "login",
             "minicart.v2"
         ],
@@ -22,7 +22,8 @@
             "emailPlaceholder": "e-mail",
             "passwordPlaceholder": "password",
             "showPasswordVerificationIntoTooltip": true,
-            "showIconProfile": true
+            "showIconProfile": true,
+            "hideIconLabel": true
         }
     }
 }

@@ -1,0 +1,20 @@
+{
+    "flex-layout.row#mobile__footer--menu": {
+        "title": "Flex Row Footer Mobile",
+        "children": [
+            "flex-layout.col#mobile__footer--menu"
+        ]
+    },
+    "flex-layout.col#mobile__footer--menu": {
+        "title": "Flex Col Footer Mobile",
+        "children": [
+            "disclosure-layout#mobile__footer--about",
+            "disclosure-layout#mobile__footer--policies",
+            "disclosure-layout#mobile__footer--tiendas",
+            "menu#mobile__footer--programas"
+        ],
+        "props": {
+            "blockClass": "mobile__footer--menu"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "disclosure-layout#mobile__footer--about": {
+        "title": "Disclosure About",
+        "children": [
+            "disclosure-trigger#footer__about",
+            "disclosure-content#footer__about"
+        ]
+    },
+    "disclosure-trigger#footer__about": {
+        "title": "Disclosure Trigger About",
+        "children": [
+            "rich-text#text__footer--about",
+            "disclosure-state-indicator#mobile__general"
+        ], 
+        "props": {
+            "blockClass": "mobile__footer"
+        }
+    },
+    "rich-text#text__footer--about": {
+        "title": "Text About",
+        "props": {
+            "text": "NUESTRA FILOSOFÍA",
+            "blockClass": "mobile__text--footer"
+        }
+    },
+    "disclosure-content#footer__about": {
+        "title": "Disclosure Content About",
+        "children": [
+            "menu#mobile__footer--about"
+        ]
+    },
+    "disclosure-state-indicator#mobile__general": {
+        "title": "Disclosure State General",
+        "props": {
+            "Hide": "icon#mobile__icon--arriba",
+            "Show": "icon#mobile__icon--abajo"
+        }
+    } 
+}

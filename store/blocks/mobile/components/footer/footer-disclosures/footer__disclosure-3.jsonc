@@ -1,0 +1,32 @@
+{
+    "disclosure-layout#mobile__footer--tiendas": {
+        "title": "Disclosure tiendas",
+        "children": [
+            "disclosure-trigger#footer__tiendas",
+            "disclosure-content#footer__tiendas"
+        ]
+    },
+    "disclosure-trigger#footer__tiendas": {
+        "title": "Disclosure Trigger Tiendas",
+        "children": [
+            "rich-text#text__footer--tiendas",
+            "disclosure-state-indicator#mobile__general"
+        ], 
+        "props": {
+            "blockClass": "mobile__footer"
+        }
+    },
+    "rich-text#text__footer--tiendas": {
+        "title": "Text Tiendas",
+        "props": {
+            "text": "NUESTRAS TIENDAS",
+            "blockClass": "mobile__text--footer"
+        }
+    },
+    "disclosure-content#footer__tiendas": {
+        "title": "Disclosure Content tiendas",
+        "children": [
+            "menu#mobile__footer--tiendas"
+        ]
+    }
+}

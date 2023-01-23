@@ -1,8 +1,0 @@
-{
-    "rich-text#text__home-one": {
-        "props": {
-            "text": "PRODUCTOS PARA TI",
-            "blockClass": "text__home-one"
-        }
-    }
-}

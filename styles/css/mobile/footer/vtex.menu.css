@@ -1,0 +1,14 @@
+.styledLinkContent--mobile__footer-principal{
+    color: #4d4d4d;
+    font-family: "Lato-Light";
+    font-size: 16px;
+    font-weight: bold;
+    margin: auto;
+    width: 95%;
+    padding: 7px 0;
+}
+
+.styledLinkContent--mobile__footer-principal:hover{
+    text-decoration: underline #4d4d4d;
+    margin-bottom: 1px;
+}

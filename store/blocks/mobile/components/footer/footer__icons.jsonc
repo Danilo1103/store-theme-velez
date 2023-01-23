@@ -1,0 +1,14 @@
+{
+    "icon#mobile__icon--arriba": {
+        "title": "Icono Arriba",
+        "props": {
+            "id": "hpa-cart"
+        }
+    },
+    "icon#mobile__icon--abajo": {
+        "title": "Icono Abajo",
+        "props": {
+            "id": "hpa-profile"
+        }
+    }
+}

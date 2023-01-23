@@ -4,17 +4,17 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 4,
-                "tablet": 1,
-                "mobile": 1
+                "tablet": 2,
+                "mobile": 2
             },
-            "infite": false,
+            "infite": true,
             "blockClass": "home__slider-one",
             "fullWidth": false,
-            "showPaginationDots": false
-            // "autoplay": {
-            //     "timeout": 3000,
-            //     "stopOnHover": true
-            // }
+            "showPaginationDots": false,
+            "autoplay": {
+                "timeout": 3000,
+                "stopOnHover": true
+            }
         },
         "children": [
             "flex-layout.row#home__slider--one",

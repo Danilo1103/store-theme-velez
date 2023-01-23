@@ -1,0 +1,64 @@
+{
+    "menu#desktop__footer--about-us": {
+        "children": [
+            "menu-item#desktop__footer-one-one",
+            "menu-item#desktop__footer-one-two",
+            "menu-item#desktop__footer-one-three",
+            "menu-item#desktop__footer-one-four"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#desktop__footer-one-one": {
+        "props": {
+            "id": "menu-about-filosofia",
+            "type": "custom",
+            "blockClass": "desktop__footer-principal",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "Nuestra Filosofia",
+                "text": "Nuestra Filosofia"
+            }
+        }
+    },
+    "menu-item#desktop__footer-one-two": {
+        "props": {
+            "id": "menu-about-legado",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Nuestro legado",
+                "text": "Nuestro Legado"
+            }
+        }
+    },
+    "menu-item#desktop__footer-one-three": {
+        "props": {
+            "id": "menu-about-compromisohumano",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Nuestro compromiso humano y social",
+                "text": "Nuestro compromiso humano y social"
+            }
+        }
+    },
+    "menu-item#desktop__footer-one-four": {
+        "props": {
+            "id": "menu-about-modaresponsable",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Moda responsable",
+                "text": "Moda responsable"
+            }
+        }
+    }
+}

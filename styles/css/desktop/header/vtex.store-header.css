@@ -4,9 +4,21 @@
     padding: 10px;
 }
 
-.headerRowBackground--desktop__header--middle{
-    background: transparent;
+.headerRowBackground--desktop__header--middle:hover{
+    background: #fff;
 }
+
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-menu-2-x-styledLinkContent--desktop__deparment-header){
+    color: #4d4d4d;
+}
+
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-styleguide-9-x-input){
+    border-bottom: ridge #000 1px;
+}
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-styleguide-9-x-input)::placeholder{
+    color: #4d4d4d;
+}
+
 
 .headerRowBackground--desktop__header--bottom{
     background-color: #c1c1c1;
@@ -19,9 +31,3 @@
 .headerRowContainer--desktop__header--bottom{
     padding: 12px;
 }
-
-/* 
-
-.headerRowContentContainer--desktop__header--middle{
-    position: fixed;
-} */

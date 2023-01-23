@@ -7,8 +7,11 @@
             "logo#global__header--middle",
             "header-spacer",
             "login",
-            "minicart.v2"
-        ]
+            "minicart.v2#header__cart"
+        ],
+        "props": {
+            "sticky": true
+        }
     },
     "header-row#mobile__drawer": {
         "title": "Header Drawer Mobile",
@@ -20,6 +23,7 @@
         }
     },
     "drawer#mobile__header--menu": {
+        "title": "Drawer Mobile",
         "children": [
             "mega-menu#mobile"
         ],
@@ -28,19 +32,26 @@
         ]
     },
     "mega-menu#mobile": {
+        "title": "Mega Menu Mobile",
         "props": {
             "defaultDepartmentActive": "...",
             "orientation": "vertical",
             "openOnly": "vertical",
-            "title": ""
+            "title": "",
+            "blockClass": "mobile__megamenu--header"
         }
     },
     "drawer-header#my-drawer": {
+        "title": "Drawer Header Mobile",
         "children": [
             "flex-layout.row#drawer-header"
-        ]
+        ],
+        "props": {
+            "blockClass": "mobile__drawer--header"
+        }
     },
     "flex-layout.row#drawer-header": {
+        "title": "Layout Row Drawer Header",
         "children": [
             "flex-layout.col#mega-menu-go-back-btn",
             "flex-layout.col#drawer-close-button"
@@ -54,22 +65,26 @@
         }
     },
     "flex-layout.col#drawer-close-button": {
+        "title": "Layout Col Drawer Close Button",
         "children": [
             "drawer-close-button"
         ],
         "props": {
             "verticalAlign": "middle",
-            "horizontalAlign": "right"
+            "horizontalAlign": "right",
+            "blockClass": "mobile__drawer--header"
         }
     },
     "flex-layout.col#mega-menu-go-back-btn": {
+        "title": "Layout Col Mega menu button go back",
         "children": [
             "mega-menu-go-back-btn"
         ],
         "props": {
             "verticalAlign": "middle",
             "horizontalAlign": "left",
-            "paddingLeft": 4
+            "paddingLeft": 4,
+            "blockClass": "mobile__drawer--header"
         }
     }
 }
