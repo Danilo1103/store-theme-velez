@@ -1,0 +1,8 @@
+.productPrice :global(.vtex-product-list-0-x-price)::before{
+    content: "$";
+}
+
+.price{
+    font-family: "Lato-Bold";
+    font-size: 15px;
+}

@@ -50,7 +50,8 @@
     "vtex.store-header": "2.x",
     "vtex.checkout-summary": "0.x",
     "vtex.store-footer": "2.x",
-    "vtex.disclosure-layout": "1.x"
+    "vtex.disclosure-layout": "1.x",
+    "vtex.product-list": "0.x"
   },
   "peerDependencies": {
     "vtex.mega-menu": "2.x"

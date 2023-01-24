@@ -18,6 +18,15 @@
 .headerRowBackground--desktop__header--middle:hover :global(.vtex-styleguide-9-x-input)::placeholder{
     color: #4d4d4d;
 }
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-minicart-2-x-cartIcon){
+    fill: #000;
+}
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-login-2-x-profileIcon){
+    fill: #000;
+}
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-store-components-3-x-searchIcon){
+    fill: #000;
+}
 
 
 .headerRowBackground--desktop__header--bottom{

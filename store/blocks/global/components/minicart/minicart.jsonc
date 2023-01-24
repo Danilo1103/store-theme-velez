@@ -1,0 +1,128 @@
+{
+    "minicart.v2#global__header--cart": {
+        "props": {
+            "itemCountMode": "total",
+            "maxDrawerWidth": 420
+        },
+        "children": [
+            "minicart-base-content"
+        ]
+    },
+    "minicart-base-content": {
+        "title": "Minicart Base Content",
+        "blocks": [
+            "minicart-empty-state"
+        ],
+        "children": [
+            "rich-text#global__text--minicartContent-one",
+            "minicart-product-list",
+            "flex-layout.row#minicart__footer"
+        ]
+    },
+    "minicart-empty-state": {
+        "title": "Minicart EmptyState",
+        "children": [
+            "flex-layout.row#global__minicart--empty"
+        ],
+        "props": {
+            "blockClass": "minicart__empty--state"
+        }
+    },
+    "flex-layout.row#global__minicart--empty": {
+        "title": "Flex Row Minicart Empty",
+        "children": [
+            "flex-layout.col#global__minicart__empty"
+        ],
+        "props": {
+            "blockClass": "global__minicart--empty",
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#global__minicart__empty": {
+        "title": "Flex Col Minicart Empty",
+        "children": [
+            "rich-text#global__text--minicartEmpty-one",
+            "rich-text#global__text--minicartEmpty-two"
+        ],
+        "props": {
+            "blockClass": "global__minicart--empty"
+        }
+    },
+    "rich-text#global__text--minicartEmpty-one": {
+        "props": {
+            "text": "Envíos gratis por compras desde 250.000 pesos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "global__text--minicartEmpty-one"
+        }
+    },
+    "rich-text#global__text--minicartEmpty-two": {
+        "props": {
+            "text": "Todavía no tienes productos en la bolsa.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "global__text--minicartEmpty-two"
+        }
+    },
+    "rich-text#global__text--minicartContent-one": {
+        "props": {
+            "text": "Envíos gratis por compras desde 250.000 pesos",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "global__text--minicartContent"
+        }
+    },
+    "flex-layout.row#minicart__footer": {
+        "children": [
+            "flex-layout.col#minicart__footer"
+        ]
+    },
+    "flex-layout.col#minicart__footer": {
+        "children": [
+            "minicart-summary",
+            "link#minicart__button--moreproducts",
+            "link#minicart__button--checkout"
+        ], 
+        "props": {
+            "blockClass": "minicart__footer"
+        }
+    },
+    "minicart-summary": {
+        "blocks": [
+            "checkout-summary.compact#minicart"
+        ]
+    },
+    "checkout-summary.compact#minicart": {
+        "children": [
+            "summary-totalizers#minicart"
+        ],
+        "props": {
+            "totalizersToShow": [
+                "Items"
+            ]
+        }
+    },
+    "summary-totalizers#minicart": {
+        "props": {
+            "showTotal": false,
+            "showDeliveryTotal": false,
+            "showOriginalTotal": true
+        }
+    },
+    "link#minicart__button--moreproducts": {
+        "props": {
+            "displayMode": "button",
+            "label": "VER MÁS PRODUCTOS",
+            "blockClass": "minicart__button--moreproducts",
+            "href": "#"
+        }
+    },
+    "link#minicart__button--checkout": {
+        "props": {
+            "displayMode": "button",
+            "label": "FINALIZAR COMPRA",
+            "blockClass": "minicart__button--checkout",
+            "href": "/checkout"
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.summaryItemLabel,
+.summarySmallDisclaimer{
+    display: none;
+}
+
+.price{
+    font-family: "Lato-Bold";
+    font-size: 15px;
+}
+.price::before{
+    content: "TOTAL:$";
+}

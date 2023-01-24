@@ -7,7 +7,7 @@
             "logo#global__header--middle",
             "header-spacer",
             "login",
-            "minicart.v2#header__cart"
+            "minicart.v2#global__header--cart"
         ],
         "props": {
             "sticky": true

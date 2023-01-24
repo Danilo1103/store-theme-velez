@@ -1,0 +1,20 @@
+.closeIconContainer,
+.minicartTitle{
+    display: none;
+}
+
+.minicartEmptyStateContainer {
+    justify-content: flex-start;
+    margin: auto;
+    width: 100%;
+}
+.opened{
+    height: fit-content;
+}
+.minicartSideBarContentWrapper{
+    display: contents;
+}
+
+.drawerStyles{
+    margin: auto;
+}

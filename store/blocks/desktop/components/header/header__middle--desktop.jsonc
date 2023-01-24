@@ -8,7 +8,7 @@
             "header-spacer",
             "search-bar#header__search",
             "login",
-            "minicart.v2"
+            "minicart.v2#global__header--cart"
         ],
         "props": {
             "blockClass": "desktop__header--middle",
