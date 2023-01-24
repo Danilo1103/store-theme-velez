@@ -7,6 +7,8 @@
       "flex-layout.row#mobile__home--section-2",
       "flex-layout.row#mobile__home--section-3",
       "flex-layout.row#mobile__home--section-4",
+      "rich-text#text__products",
+      "rich-text#text__products-two",
       "rich-text#text__home-one",
       "slider-layout#home__slider-one",
       "rich-text#text__home--instagram",

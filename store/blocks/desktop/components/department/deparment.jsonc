@@ -1,0 +1,76 @@
+{
+    "store.search#department": {
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        },
+        "blocks": ["search-result-layout#department"]
+    },
+    "search-result-layout#department": {
+        "blocks": [
+            "search-result-layout.desktop#department",
+            "search-result-layout.mobile#department",
+            "search-not-found-layout"
+        ]
+    },
+    "search-result-layout.desktop#department": {
+        "children": [
+           "flex-layout.row#category__results"
+        ]
+    },
+    "flex-layout.row#category__results": {
+        "children": [
+            "flex-layout.col#category__results--filter",
+            "flex-layout.col#category__results--content"
+        ]
+    },
+    "flex-layout.col#category__results--filter": {
+        "children": [
+            "filter-navigator.v3"
+        ]
+    },
+    "flex-layout.col#category__results--content":{
+        "children": [
+            "search-content#results__content--products"
+        ]
+    },
+    "search-content#results__content--products": {
+        "blocks": [
+            "gallery#department",
+            "not-found"
+        ]
+    },
+    "gallery#department": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "general-grid",
+                    "component": "GeneralGrid",
+                    "itemsPerRow": {
+                        "desktop": 4,
+                        "tablet": 1,
+                        "phone": 1
+                    }
+                }
+            ],
+            "GeneralGrid": "product-summary.shelf"
+        }
+    },
+    "flex-layout.row#department__breadcrumb": {
+        "children": [
+            "flex-layout.col#department__breadcrumb"
+        ]
+    },
+    "flex-layout.col#department__breadcrumb": {
+        "children": [
+            "breadcrumb.search"
+        ]
+    },
+    "search-result-layout.mobile#department": {
+        "children": [
+            "flex-layout.row#category__results"
+        ]
+    }
+}

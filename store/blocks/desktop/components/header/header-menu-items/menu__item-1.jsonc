@@ -3,6 +3,7 @@
         "props": {
             "id": "department-one",
             "type": "custom",
+            "blockClass": "desktop__deparment-header",
             "itemProps": {
                 "type": "internal",
                 "href": "/mujer",

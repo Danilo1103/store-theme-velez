@@ -1,0 +1,106 @@
+{
+    "menu#desktop__footer--tiendas": {
+        "children": [
+            "menu-item#desktop__footer-three-one",
+            "menu-item#desktop__footer-three-two",
+            "menu-item#desktop__footer-three-three",
+            "menu-item#desktop__footer-three-four",
+            "menu-item#desktop__footer-three-five",
+            "menu-item#desktop__footer-three-six",
+            "menu-item#desktop__footer-three-seven"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "menu-item#desktop__footer-three-one": {
+        "props": {
+            "id": "menu-nuestras-tiendas",
+            "type": "custom",
+            "blockClass": "desktop__footer-principal",
+            "itemProps": {
+                "type": "internal",
+                "tagTitle": "Nuestras Tiendas",
+                "text": "Nuestras Tiendas"
+            }
+        }
+    },
+    "menu-item#desktop__footer-three-two": {
+        "props": {
+            "id": "menu-tiendas-colombia",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Colombia",
+                "text": "Colombia"
+            }
+        }
+    },
+    "menu-item#desktop__footer-three-three": {
+        "props": {
+            "id": "menu-tiendas-costarica",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Costa Rica",
+                "text": "Costa Rica"
+            }
+        }
+    },
+    "menu-item#desktop__footer-three-four": {
+        "props": {
+            "id": "menu-tiendas-elsalvador",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "El Salvador",
+                "text": "El Salvador"
+            }
+        }
+    },
+    "menu-item#desktop__footer-three-five": {
+        "props": {
+            "id": "menu-tiendas-guatemala",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Guatemala",
+                "text": "Guatemala"
+            }
+        }
+    },
+    "menu-item#desktop__footer-three-six": {
+        "props": {
+            "id": "menu-tienda-panama",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Panamá",
+                "text": "Panamá"
+            }
+        }
+    },
+    "menu-item#desktop__footer-three-seven": {
+        "props": {
+            "id": "menu-tienda-peru",
+            "type": "custom",
+            "blockClass": "desktop__footer",
+            "itemProps": {
+                "type": "internal",
+                "href": "/",
+                "tagTitle": "Perú",
+                "text": "Perú"
+            }
+        }
+    }
+}

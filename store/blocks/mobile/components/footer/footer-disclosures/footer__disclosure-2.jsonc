@@ -1,0 +1,32 @@
+{
+    "disclosure-layout#mobile__footer--policies": {
+        "title": "Disclosure policies",
+        "children": [
+            "disclosure-trigger#footer__policies",
+            "disclosure-content#footer__policies"
+        ]
+    },
+    "disclosure-trigger#footer__policies": {
+        "title": "Disclosure Trigger policies",
+        "children": [
+            "rich-text#text__footer--policies",
+            "disclosure-state-indicator#mobile__general"
+        ], 
+        "props": {
+            "blockClass": "mobile__footer"
+        }
+    },
+    "rich-text#text__footer--policies": {
+        "title": "Text Policies",
+        "props": {
+            "text": "TE AYUDAMOS",
+            "blockClass": "mobile__text--footer"
+        }
+    },
+    "disclosure-content#footer__policies": {
+        "title": "Disclosure Content policies",
+        "children": [
+            "menu#mobile__footer--policies"
+        ]
+    }
+}

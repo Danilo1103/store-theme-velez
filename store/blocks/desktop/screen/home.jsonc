@@ -3,8 +3,11 @@
     "title": "Home Section 1 Desktop",
     "children": [
       "flex-layout.row#desktop__home--section-1",
+      "flex-layout.row#desktop__layout--descounts",
       "flex-layout.row#desktop__home--section-2",
       "flex-layout.row#desktop__home--section-3",
+      "rich-text#text__products",
+      "rich-text#text__products-two",
       "rich-text#text__home-one",
       "slider-layout#home__slider-one",
       "rich-text#text__home--instagram",

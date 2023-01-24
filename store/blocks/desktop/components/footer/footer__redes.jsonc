@@ -1,0 +1,28 @@
+{
+    "flex-layout.row#desktop__footer--redes": {
+        "title": "Flex row Redes Sociales",
+        "children": [
+            "flex-layout.col#desktop__footer--redes"
+        ],
+        "props": {
+            "fullWidth": true
+        }
+    },
+    "flex-layout.col#desktop__footer--redes": {
+        "children": [
+            "rich-text#desktop__text--redes",
+            "icon#facebook__icon"
+        ]
+    },
+    "rich-text#desktop__text--redes": {
+        "props": {
+            "text": "SÍGUENOS EN REDES"
+        }
+    },
+    "icon#facebook__icon": {
+        "props": {
+          "id": "icon-facebook",
+          "size": 60
+        }
+      }
+}

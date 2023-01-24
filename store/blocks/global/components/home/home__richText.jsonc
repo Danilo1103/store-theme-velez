@@ -1,4 +1,22 @@
 {
+    "rich-text#text__products": {
+        "title": "Text Velez Home",
+        "props": {
+            "text": "Vélez | Piezas memorables hechas por manos expertas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text__products"
+        }
+    },
+    "rich-text#text__products-two": {
+        "title": "Text Velez Products Home",
+        "props": {
+            "text": "Piezas memorables, resultado de la transformación del cuero \n a través de las manos y el saber artesanal",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "text__products-two"
+        }
+    },
     "rich-text#text__home-one": {
         "title": "Text Slider One",
         "props": {
