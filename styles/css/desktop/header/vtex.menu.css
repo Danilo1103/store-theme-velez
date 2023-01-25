@@ -27,13 +27,17 @@
     color: #4d4d4d;
 }
 
-.styledLinkContent--desktop__categories--one{
-    font-size: 15px;
-}
+.styledLinkContent--desktop__categories--one,
 .styledLinkContent--desktop__subcategories--one{
+    font-family: "Lato-Bold";
     font-size: 14px;
+    color: #4d4d4d;
 }
 
 .submenuWrapper--desktop__subcategories--one{
     border-color: #fff;
+}
+
+.submenuWrapper--desktop__deparment--one--isOpen:hover :global(.vtex-store-header-2-x-headerRowBackground--desktop__header--middle){
+    background: #fff;
 }

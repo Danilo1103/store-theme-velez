@@ -18,15 +18,5 @@
             "horizontalAlign": "center",
             "blockClass": "desktop__home--button-1"
           }
-    },
-    "link#mobile__button--section--4": {
-        "props": {
-            "label": "VER REFERENCIAS",
-            "displayMode": "button",
-            "blockClass": [
-              "mobile__button--section--1",
-              "button__section--1-1"
-            ]
-          }
     }
 }

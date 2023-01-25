@@ -3,6 +3,21 @@
         "title": "Header mobile",
         "children": [
             "header-row#header__top--mobile",
+            "sticky-layout.stack-container#mobile__header"
+        ]
+    },
+    "sticky-layout.stack-container#mobile__header": {
+        "title": "Sticky Layout Header Desktop",
+        "props": {
+            "position": "top"
+        },
+        "children": [
+            "sticky-layout#main-menu-mobile"
+        ]
+    },
+    "sticky-layout#main-menu-mobile": {
+        "title": "Sticky Layout Main Menu Header Desktop",
+        "children": [
             "header-row#mobile__header--middle"
         ]
     }

@@ -2,13 +2,7 @@
     width: 100%;
     max-width: 610px;
     min-width: 280px;
-    margin-top: 89px;
-}
-
-.drawerHeader--mobile__drawer--header{
-    position: absolute;
-    top: -55px;
-    background: white;
+    margin-top: 30px;
 }
 
 .overlay--visible{

@@ -2,7 +2,9 @@
     content: "$";
 }
 
-.price{
+.price,
+.productName,
+.productBrandName{
     font-family: "Lato-Bold";
     font-size: 15px;
 }
