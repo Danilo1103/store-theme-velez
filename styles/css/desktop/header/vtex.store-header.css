@@ -28,6 +28,10 @@
     fill: #000;
 }
 
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-store-header-2-x-headerRowBackground--mobile__drawer){
+    color: #000;
+}
+
 
 .headerRowBackground--desktop__header--bottom{
     background-color: #c1c1c1;

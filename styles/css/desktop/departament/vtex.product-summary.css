@@ -1,0 +1,15 @@
+.image--global__imageproduct--search{
+    height: 200px;
+}
+
+.productNameContainer--global__nameproduct--search{
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nameContainer--global__nameproduct--search{
+    padding: 5px 0 8px 0;
+    justify-content: flex-start;
+}

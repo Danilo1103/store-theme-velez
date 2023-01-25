@@ -1,0 +1,27 @@
+{
+    "flex-layout.row#department__banner-one": {
+        "title": "Flex Col Banner Department One",
+        "children": [
+            "image#deparment__image--one"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "department__banner-one"
+        }
+    },
+    "image#deparment__image--one": {
+        "title": "Department Image Banner One",
+        "props": {
+            "src": "https://scontent.fvup1-1.fna.fbcdn.net/v/t39.30808-6/322732655_1193167038266204_6577371072988994308_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=zn-ikKBEV7IAX_w77NE&_nc_ht=scontent.fvup1-1.fna&oh=00_AfDIts_g8ZmSYw0rIeq2y0uR2BZi75HbMs0e2BchQ3weFQ&oe=63D56119",
+            "blockClass": "deparment__image--one"
+        }
+    },
+    "rich-text#department__text-one": {
+        "props": {
+            "text": "Productos en cuero \n Zapatos, bolsos, ropa, accesorios y más productos en cuero para él",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "department__text-one"
+        }
+    }
+}

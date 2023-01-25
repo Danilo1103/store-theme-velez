@@ -10,7 +10,8 @@
             "minicart.v2#global__header--cart"
         ],
         "props": {
-            "sticky": true
+            "sticky": true,
+            "blockClass": "desktop__header--middle"
         }
     },
     "header-row#mobile__drawer": {
@@ -29,7 +30,10 @@
         ],
         "blocks": [
             "drawer-header#my-drawer"
-        ]
+        ],
+        "props": {
+            "blockClass": "mobile__header--menu"
+        }
     },
     "mega-menu#mobile": {
         "title": "Mega Menu Mobile",

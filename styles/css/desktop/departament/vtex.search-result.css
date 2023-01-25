@@ -1,0 +1,15 @@
+.filter__container--priceRange{
+    display: none;
+}
+.filter__container--selectedFilters{
+    display: none;
+}
+
+.gallery--general-grid{
+    width: 100%;
+}
+
+.filterTitleSpan--global__filter--search{
+    font-weight: 800;
+    font-family: "Lato-Light";
+}

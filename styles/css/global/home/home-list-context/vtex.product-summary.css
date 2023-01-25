@@ -1,0 +1,21 @@
+.brandName{
+    font-weight: 800;
+    font-size: 17px;
+    font-family: "Lato-Light";
+}
+
+.element--global__productSummary--shelf :global(.vtex-button){
+    background: transparent;
+    color: #000;
+    border: 2px solid #000;
+    border-radius: 1px;
+    font-weight: bold;
+    width: 160px;
+    margin: auto;
+}
+
+.element--global__productSummary--shelf :global(.vtex-button):hover{
+    background: #000;
+    color: #fff;
+    border: 2px solid #fff;
+}
