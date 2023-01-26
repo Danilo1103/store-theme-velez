@@ -13,3 +13,7 @@
     padding: 5px 0 8px 0;
     justify-content: flex-start;
 }
+
+.brandName--global__nameproduct--search{
+    text-transform: uppercase;
+}

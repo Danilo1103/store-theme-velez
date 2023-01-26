@@ -1,39 +1,15 @@
 {
-    "store.search#department": {
-        "props": {
-            "context": {
-                "skusFilter": "ALL",
-                "simulationBehavior": "default"
-            }
-        },
-        "blocks": [
-            "search-result-layout#department"
-        ]
-    },
-    "search-result-layout#department": {
-        "title": "Search Result Layout Department",
-        "blocks": [
-            "search-result-layout.desktop#desktop__department",
-            "search-result-layout.mobile#department",
-            "search-not-found-layout"
-        ]
-    },
     "search-result-layout.desktop#desktop__department": {
         "title": "Search Result Layout Desktop Department",
         "children": [
             "flex-layout.row#department__banner-one",
             "rich-text#department__text-one",
+            "flex-layout.row#global__galleryswitcher--search",
             "flex-layout.row#global__categoryresults"
         ],
         "props": {
             "blockClass": "desktop__department"
         }
-    },
-    "search-result-layout.mobile#department": {
-        "title": "Search Result Layout Mobile Department",
-        "children": [
-            "flex-layout.row#global__categoryresults"
-        ]
     },
     "flex-layout.row#global__categoryresults": {
         "title": "Flex Row Category Results",
@@ -42,7 +18,8 @@
             "flex-layout.col#categoryresults--content"
         ],
         "props": {
-            "blockClass": "global__categoryresults"
+            "blockClass": "global__categoryresults",
+            "width": "70%"
         }
     },
     "flex-layout.col#categoryresults--filter": {
@@ -88,26 +65,31 @@
         "props": {
             "layouts": [
                 {
-                    "name": "general-grid",
-                    "component": "GeneralGrid",
+                    "name": "grid",
+                    "component": "GridSummary",
                     "itemsPerRow": {
                         "desktop": 4,
-                        "tablet": 1,
-                        "phone": 1
+                        "tablet": 2,
+                        "phone": 2
                     }
+                },
+                {
+                    "name": "list",
+                    "component": "ListSummary",
+                    "itemsPerRow": 1
                 }
             ],
-            "GeneralGrid": "product-summary.shelf"
+            "GridSummary": "product-summary.shelf#grid--search",
+            "ListSummary": "product-summary.shelf#grid--search"
         }
     },
-    "product-summary.shelf": {
-        "title": "Product Summary Shelf",
+    "product-summary.shelf#grid--search": {
+        "title": "Product Summary Shelf Grid Search",
         "children": [
             "product-summary-image#global__imageproduct--search",
             "product-summary-name#global__nameproduct--search",
             "product-list-price",
             "product-selling-price#global__priceproduct--search"
-            // "product-summary-sku-selector"
         ]
     },
     "product-summary-name#global__nameproduct--search": {

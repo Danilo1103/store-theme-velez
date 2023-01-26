@@ -10,3 +10,26 @@
 .flexRow--global__categoryresults{
     margin-bottom: 15%;
 }
+
+.flexCol--categoryresults--content :global(.vtex-search-result-3-x-gallery){
+    width: 100%;
+}
+
+/* //////  PAGE NOT FOUND  /////////////// */ 
+.flexRow--global__department__not-found-search{
+    margin: 40px 0;
+}
+
+.flexColChild--department__image--notfound-search,
+.flexColChild--department__buttons--notfound-search{
+    margin: auto;
+}
+
+.flexColChild--department__image--notfound-search{
+    margin-right: 60px;
+}
+
+.flexCol--department__buttons--notfound-search{
+    height: 400px;
+    margin-top: 30px;
+}

@@ -1,0 +1,46 @@
+{
+    "flex-layout.row#desktop__product--info": {
+        "title": "Product information pdp",
+        "children": [
+            "flex-layout.col#desktop__product--image",
+            "flex-layout.col#desktop__product--info"
+        ],
+        "props": {
+            "blockClass": "desktop__product--info"
+        }
+    },
+    "flex-layout.col#desktop__product--image": {
+        "title": "Flex Col Product Image PDP",
+        "children": [
+            "product-images"
+        ],
+        "props": {
+            "width": "70%",
+            "blockClass": "product__info--image"
+        }   
+    },
+    "flex-layout.col#desktop__product--info": {
+        "title": "",
+        "children": [   
+            "vtex.store-components:product-name",
+            "product-price",
+            "product-quantity",
+            "product-rating-inline",
+            "product-identifier.product",
+            "sku-selector",
+            "product-description",
+            "share"
+        ],
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "product-images": {
+        "props": {
+            "aspectRatio": "3:5",
+            "showNavigationArrows": false,
+            "showPaginationDots": false,
+            "blockClass": "desktop__product--images"
+        }
+    }
+}
