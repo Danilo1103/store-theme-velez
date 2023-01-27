@@ -15,24 +15,31 @@
             "product-images"
         ],
         "props": {
-            "width": "70%",
+            "width": "65%",
             "blockClass": "product__info--image"
         }   
     },
     "flex-layout.col#desktop__product--info": {
-        "title": "",
+        "title": "Flex Col Product Info",
         "children": [   
-            "vtex.store-components:product-name",
-            "product-price",
-            "product-quantity",
-            "product-rating-inline",
-            "product-identifier.product",
-            "sku-selector",
-            "product-description",
-            "share"
+            "vtex.store-components:product-name#productname__pdp",
+            "product-price#productprice__pdp",
+            "product-identifier.product#productidentifier__pdp",
+            "product-installments#priceinstallments__pdp",
+            "product-separator",
+            "sku-selector#sku__pdp",
+            "modal-trigger#global--guiatallas",
+            "product-quantity#productquantity__pdp",
+            "product-separator",
+            "add-to-cart-button#addcart__pdp--button",
+            "link#button__pdp--credito",
+            "product-separator",
+            "disclosure-layout#global__disclosure--productinfo",
+            "product-separator",
+            "disclosure-layout#global__disclosure--productinfo-two"
         ],
         "props": {
-            "blockClass": ""
+            "blockClass": "desktop__product--info"
         }
     },
     "product-images": {
@@ -41,6 +48,93 @@
             "showNavigationArrows": false,
             "showPaginationDots": false,
             "blockClass": "desktop__product--images"
+        }
+    },
+    "vtex.store-components:product-name#productname__pdp": {
+        "props": {
+            "blockClass": "productname__pdp"
+        }
+    },
+    "product-price#productprice__pdp": {
+        "props": {
+            "blockClass": "productprice__pdp"
+        }
+    },
+    "product-identifier.product#productidentifier__pdp": {
+        "props": {
+            "blockClass": "productidentifier__pdp"
+        }
+    },
+    "product-installments#priceinstallments__pdp": {
+        "props": {
+            "blockClass": "priceinstallments__pdp"
+        }
+    },
+    "sku-selector#sku__pdp": {
+        "props": {
+            "displayMode": "default",
+            "initialSelection":"empty",
+            "blockClass": "sku__pdp"
+        }
+    },
+    "modal-trigger#global--guiatallas": {
+        "title": "Modal Trigger Guia de Tallas",
+        "children": [
+            "rich-text#global__text--guiatallas",
+            "modal-layout#global__modal--guiatallas"
+        ],
+        "props": {
+            "blockClass": "global--guiatallas"
+        }
+    },
+    "rich-text#global__text--guiatallas": {
+        "title": "Text Guia de Tallas",
+        "props": {
+            "text": "GUÍA DE TALLAS",
+            "blockClass": "global__text--guiatallas"
+        }
+    },
+    "modal-layout#global__modal--guiatallas": {
+        "title": "Modal Layout Guia de Tallas",
+        "children": [
+            "image#global__image--guiatallas"
+        ],
+        "props": {
+            "blockClass": "global__modal--guiatallas"
+        }
+    },
+    "image#global__image--guiatallas": {
+        "title": "Image Guia de Tallas",
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/zapatoss_masculino_desktop.jpg"
+        }
+    },
+    "product-quantity#productquantity__pdp": {
+        "props": {
+            "selectorType": "dropdown",
+            "blockClass": "productquantity__pdp"
+        }
+    },
+    "add-to-cart-button#addcart__pdp--button": {
+        "title": "Button Add To Cart PDP",
+        "props": {
+            "blockClass": "addcart__pdp--button",
+            "text": "COMPRAR"
+        }
+    },
+    "link#button__pdp--credito": {
+        "title": "Button Credito PDP",
+        "props": {
+            "displayMode": "button",
+            "label": "CALCULAR CREDITO",
+            "href": "#",
+            "blockClass": "button__pdp--credito"
+        }
+    },
+    "product-description#productdescription__pdp": {
+        "props": {
+            "showTitle": false,
+            "blockClass": "productdescription__pdp"
         }
     }
 }

@@ -2,7 +2,8 @@
     "search-result-layout.mobile#department": {
         "title": "Search Result Layout Mobile Department",
         "children": [
-            "flex-layout.row#mobile__department--banner-one",
+            "responsive-layout.tablet#tablet__department--banner-one",
+            "responsive-layout.phone#phone__department--banner-one",
             "rich-text#department__text-one",
             "flex-layout.row#mobile__galleryswitcher--search",
             "flex-layout.row#mobile__categoryresults"

@@ -1,0 +1,14 @@
+.paragraph--global__text--guiatallas{
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    color: #000;
+}
+.container--global__text--guiatallas{
+    margin-top: -20px;
+}
+
+.paragraph--text__disclosure-trigger-products{
+    font-family: "Lato-Light";
+    color: #000;
+}

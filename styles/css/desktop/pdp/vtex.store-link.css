@@ -1,0 +1,14 @@
+.link--button__pdp--credito{
+    width: 100%;
+    background: #fff;
+    color: #000;
+    border-radius: 1px;
+    border: 1px solid #000;
+}
+
+.link--button__pdp--credito:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
