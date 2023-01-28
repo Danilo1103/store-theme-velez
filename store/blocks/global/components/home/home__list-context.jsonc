@@ -37,7 +37,7 @@
         }
     },
     "slider-layout#global__slider--products-home": {
-        "title": "Slider Productos",
+        "title": "Slider Productos Home",
         "props": {
             "itemsPerPage": {
                 "desktop": 4,

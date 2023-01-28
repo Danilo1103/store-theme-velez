@@ -15,6 +15,7 @@
     background: #000;
     border-radius: 1px;
     border: none;
+    width: 300px;
 }
 .flexColChild--desktop__product--info :global(.vtex-button):hover{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -22,4 +23,10 @@
 
 .flexColChild--desktop__product--info{
     margin-top: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .flexColChild--desktop__product--info :global(.vtex-button){
+        width: 220px;
+    }
 }
