@@ -32,8 +32,8 @@
     "disclosure-state-indicator#mobile__general": {
         "title": "Disclosure State General",
         "props": {
-            "Hide": "icon#mobile__icon--arriba",
-            "Show": "icon#mobile__icon--abajo"
+            "Hide": "image#mobile__icon--abajo",
+            "Show": "image#mobile__icon--arriba"
         }
     } 
 }

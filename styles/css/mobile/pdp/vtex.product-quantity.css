@@ -1,0 +1,5 @@
+@media only screen and (max-width: 640px) {
+    .quantitySelectorContainer--productquantity__pdp{
+        align-items: center;
+    }
+}

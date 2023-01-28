@@ -1,0 +1,10 @@
+.opened{
+    width: 100%;
+    max-width: 610px;
+    min-width: 280px;
+    margin-top: 30px;
+}
+
+.overlay--visible{
+    background: transparent;
+}

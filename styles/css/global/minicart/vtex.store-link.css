@@ -1,0 +1,29 @@
+.label--minicart__button--moreproducts{
+    padding: 0 30px;
+}
+
+.link--minicart__button--moreproducts,
+.link--minicart__button--checkout{
+    width: 350px;
+    border-radius: 0;
+    border-color: #000;
+    font-size: 14px;
+}
+
+.link--minicart__button--moreproducts{
+    background: transparent;
+    color: #000;    
+}
+.link--minicart__button--moreproducts:hover{
+    background: transparent;
+    color: #000;
+    border-color: #000;
+}
+.link--minicart__button--checkout{
+    background: #000;
+    color: #fff;
+}
+.link--minicart__button--checkout:hover{
+    background: #000;
+    border-color: #000;
+}

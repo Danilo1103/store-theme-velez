@@ -1,0 +1,8 @@
+{
+    "icon#global__logo--svg": {
+        "props": {
+            "id": "logo-velez",
+            "size": 60
+        }
+    }
+}

@@ -12,7 +12,8 @@
       "rich-text#text__home-one",
       "slider-layout#home__slider-one",
       "rich-text#text__home--instagram",
-      "slider-layout#home__slider-two"
+      "slider-layout#home__slider-two",
+      "list-context.product-list#global__listContext--products"
     ]
   }
 }

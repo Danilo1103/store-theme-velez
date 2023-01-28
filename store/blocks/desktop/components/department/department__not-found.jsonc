@@ -1,0 +1,104 @@
+{
+    "store.not-found#search": {
+        "blocks": [
+            "flex-layout.row#department__banner-one",
+            "rich-text#global__text--notfound-one",
+            "rich-text#global__text--notfound-two",
+            "flex-layout.row#global__department__not-found-search",
+            "rich-text#text__home-one",
+            "list-context.product-list#global__listContext--products"
+        ]
+    },
+    "flex-layout.row#global__department__not-found-search": {
+        "title": "Flex Row Content Page not found",
+        "children": [
+            "flex-layout.col#department__image--notfound-search",
+            "flex-layout.col#department__buttons--notfound-search"
+        ],
+        "props": {
+            "blockClass": "global__department__not-found-search"
+        }
+    },
+    "rich-text#global__text--notfound-one": {
+        "title": "Text Page Not found 1",
+        "props": {
+            "text": "Lo sentimos, tu búsqueda no arrojó ningún resultado.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "global__text--notfound-one"
+        }
+    },
+    "rich-text#global__text--notfound-two": {
+        "title": "Text Page Not found 2",
+        "props": {
+            "text": "Te invitamos a seguir navegando por nuestra tienda online, tenemos mucho más para ofrecerte:",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "global__text--notfound-two"
+        }
+    },
+    "flex-layout.col#department__image--notfound-search": {
+        "title": "Flex Col Image not found",
+        "children": [
+            "image#global__page-not-found"
+        ], 
+        "props": {
+            "blockClass": "department__image--notfound-search"
+        }
+    },
+    "image#global__page-not-found": {
+        "title": "Image Page Not Found",
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/Banner-de-busqueda-10-09-21.jpg?v=637668967799900000",
+            "blockClass": "global__page-not-found"
+        }
+    },
+    "flex-layout.col#department__buttons--notfound-search": {
+        "title": "Flex Col Buttons not found",
+        "children": [
+            "link#global__button--not-found-one",
+            "link#global__button--not-found-two",
+            "link#global__button--not-found-three",
+            "link#global__button--not-found-four"
+        ],
+        "props": {
+            "blockClass": "department__buttons--notfound-search"
+        }
+    },
+    "link#global__button--not-found-one": {
+        "title": "Button not found One",
+        "props": {
+            "label": "IR AL INICIO",
+            "href": "#",
+            "displayMode": "button",
+            "blockClass": "global__button--not-found"
+        }
+    },
+    "link#global__button--not-found-two": {
+        "title": "Button not found Two",
+        "props": {
+            "label": "COMPRAR BASICOS E ICONOS MUJER",
+            "href": "#",
+            "displayMode": "button",
+            "blockClass": "global__button--not-found"
+        } 
+    },
+    "link#global__button--not-found-three": {
+        "title": "Button not found Three",
+        "props": {
+            "label": "COMPRAR BASICOS E ICONOS HOMBRE",
+            "href": "#",
+            "displayMode": "button",
+            "blockClass": "global__button--not-found"
+        } 
+    },
+    "link#global__button--not-found-four": {
+        "title": "Button not found Three",
+        "props": {
+            "label": "COMPRAR LINEA ACTIVE FLY UP",
+            "href": "#",
+            "displayMode": "button",
+            "blockClass": "global__button--not-found"
+        } 
+    }
+}

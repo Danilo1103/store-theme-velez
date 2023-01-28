@@ -1,0 +1,53 @@
+{
+    "flex-layout.row#department__banner-one": {
+        "title": "Flex Col Banner Department One",
+        "children": [
+            "image#deparment__image--one"
+        ],
+        "props": {
+            "fullWidth": true,
+            "blockClass": "department__banner-one"
+        }
+    },
+    "image#deparment__image--one": {
+        "title": "Department Image Banner One",
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/bannerinterno_liveshop_desktop_co.png?v=637868626173970000",
+            "blockClass": "deparment__image--one"
+        }
+    },
+    "rich-text#department__text-one": {
+        "props": {
+            "text": "Productos en cuero \n Zapatos, bolsos, ropa, accesorios y más productos en cuero para él",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "department__text-one"
+        }
+    },
+    "flex-layout.row#mobile__department--banner-one": {
+        "title": "Flex Row Banner Mobile Department Search",
+        "children": [
+            "image#mobile__department--banner-one"
+        ],
+        "props": {
+            "blockClass": "mobile__department--banner-one"
+        }
+    },
+    "image#mobile__department--banner-one": {
+        "title": "Image Banner Department Search",
+        "props": {
+            "src": "https://www.laceja-antioquia.gov.co/DirectorioComercial/PublishingImages/361-168032084_4164495440269074_1675190612521959942_n.jpg",
+            "blockClass": "mobile__department--banner-one"
+        }
+    },
+    "responsive-layout.tablet#tablet__department--banner-one": {
+        "children": [
+            "flex-layout.row#department__banner-one"
+        ]
+    },
+    "responsive-layout.phone#phone__department--banner-one": {
+        "children": [
+            "flex-layout.row#mobile__department--banner-one"
+        ]
+    }
+}

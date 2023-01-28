@@ -1,14 +1,18 @@
 {
-    "icon#mobile__icon--arriba": {
-        "title": "Icono Arriba",
+    "image#mobile__icon--arriba": {
         "props": {
-            "id": "hpa-cart"
+            "src": "https://cdn-icons-png.flaticon.com/512/43/43869.png",
+            "blockClass": "mobile__icon--arriba",
+            "maxWidth": "10",
+            "maxHeight": "10"
         }
     },
-    "icon#mobile__icon--abajo": {
-        "title": "Icono Abajo",
+    "image#mobile__icon--abajo":{
         "props": {
-            "id": "hpa-profile"
+            "src": "https://cdn-icons-png.flaticon.com/512/25/25232.png",
+            "blockClass": "mobile__icon--abajo",
+            "maxWidth": "10",
+            "maxHeight": "10"
         }
     }
 }

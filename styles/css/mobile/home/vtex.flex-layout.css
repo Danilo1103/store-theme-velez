@@ -1,9 +1,11 @@
 .flexRow--mobile__home--section-1{
     background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/gif2-semana-tres-mob.gif?v=638095613648100000");
+    margin-top: -60px;
 }
 .flexRow--mobile__home--section-2{
     background-image: url("https://cuerosvelezco.vteximg.com.br/arquivos/BANNER2-17-01-22_MOB.png?v=638095845107400000");
 }
+
 .flexRow--mobile__home--section-1,
 .flexRow--mobile__home--section-2{
     height: 730px;
