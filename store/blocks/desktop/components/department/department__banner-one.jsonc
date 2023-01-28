@@ -12,7 +12,7 @@
     "image#deparment__image--one": {
         "title": "Department Image Banner One",
         "props": {
-            "src": "https://scontent.fvup1-1.fna.fbcdn.net/v/t39.30808-6/322732655_1193167038266204_6577371072988994308_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=e3f864&_nc_ohc=zn-ikKBEV7IAX_w77NE&_nc_ht=scontent.fvup1-1.fna&oh=00_AfDIts_g8ZmSYw0rIeq2y0uR2BZi75HbMs0e2BchQ3weFQ&oe=63D56119",
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/bannerinterno_liveshop_desktop_co.png?v=637868626173970000",
             "blockClass": "deparment__image--one"
         }
     },
@@ -23,5 +23,31 @@
             "textPosition": "CENTER",
             "blockClass": "department__text-one"
         }
+    },
+    "flex-layout.row#mobile__department--banner-one": {
+        "title": "Flex Row Banner Mobile Department Search",
+        "children": [
+            "image#mobile__department--banner-one"
+        ],
+        "props": {
+            "blockClass": "mobile__department--banner-one"
+        }
+    },
+    "image#mobile__department--banner-one": {
+        "title": "Image Banner Department Search",
+        "props": {
+            "src": "https://www.laceja-antioquia.gov.co/DirectorioComercial/PublishingImages/361-168032084_4164495440269074_1675190612521959942_n.jpg",
+            "blockClass": "mobile__department--banner-one"
+        }
+    },
+    "responsive-layout.tablet#tablet__department--banner-one": {
+        "children": [
+            "flex-layout.row#department__banner-one"
+        ]
+    },
+    "responsive-layout.phone#phone__department--banner-one": {
+        "children": [
+            "flex-layout.row#mobile__department--banner-one"
+        ]
     }
 }

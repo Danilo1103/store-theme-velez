@@ -1,0 +1,57 @@
+{
+    "flex-layout.row#global__galleryswitcher--search": {
+        "title": "Flex row Gallery Layout Switcher",
+        "children": [
+            "gallery-layout-switcher#global__galleryswitcher--search",
+            "order-by.v2"
+        ],
+        "props": {
+            "horizontalAlign": "right",
+            "fullWidth": true,
+            "blockClass": "global__galleryswitcher--search"
+        }
+    },
+    "gallery-layout-switcher#global__galleryswitcher--search": {
+        "children": [
+            "gallery-layout-option#grid",
+            "gallery-layout-option#list"
+        ],
+        "props": {
+            "blockClass": "global__galleryswitcher--search"
+        }
+    },
+    "gallery-layout-option#grid": {
+        "props": {
+            "name": "grid"
+        },
+        "children": [
+            "image#icon__grid-switcher"
+        ]
+    },
+    "gallery-layout-option#list": {
+        "props": {
+            "name": "list"
+        },
+        "children": [
+            "image#icon__list-switcher"
+        ]
+    },
+    "image#icon__grid-switcher": {
+        "title": "Image Icon Grid",
+        "props": {
+            "maxWidth": "5",
+            "maxHeight": "5",
+            "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAY1BMVEX///8AAAAzMzPt7e0VFRXh4eEbGxvy8vL19fXb29vn5+f4+Pg3NzcPDw/6+vooKCgvLy+NjY0ICAhubm6ampoaGhpERERJSUmVlZV8fHx1dXUrKythYWFaWlqDg4OGhoZoaGgvxN5oAAACfElEQVR4nO3d7XaaQBRGYT6sUNERNE1jam3u/ypbf1RIUw49vDOuytrPbzzOjiuK0QlZBgAAAAAAAAAAAAAAAABYmqd9Pt/6JQxnhe6LMGz/lCTwWVjSVTtIbJQf1tXXBIEv4pry/NQPe5WHJXgUC3lReT9Mn7WNHliu9FVtfg/7pM9a14svrCikcLxw52UVzh6WsrD0ascLi8o5a3OPQvdNi/FC93N+WHxhQ+F8FBoo9KBQQKGBQg8KBRQaKPSgUEChgUIPCgUUGij0oFBAoYFCDwoFFBoo9KBQQKGBQg8KBRQaKPSgUEChgUIPCgUUGij0oFAgFG4jFmb3KFx75eOF84fxPW8KKVxiYfZNX9VtVjN97JQ2emB2khd17od9l4dd4hfWB3VRZT9sM320bRXGVzo/8W03fc+jDudyOGwjPYq7Y5Mg8Jfq83zln8NKYVj8ZxkAANBr6rn+cg4yf1iKM7arWjv3fn13VlMepWGXFGdtQX37tBqca5XqaXyb4HH8Ia4pz4/9sLM8rItfGPMdcJg+dkr8d8DL/ysGhRQ+UmHhdXtl+Fh42HqH3aOwCY1HaMzPnlyzmlDdo9B90+V/ukahB4UCCg0UelAooNBAoQeFAgoNFHpQKKDQQKEHhQIKDRR6UCig0EChB4UCCg0UelAooNBAoQeFAgoNFHpQKKDQQKEHhQIKDRR6/J+FD/efP+Z7lG9BU0ghhf9YGP1quVk7fa9TbrMi7Hsqogdmnbyowd61N3lYgr1r/cvaTPvBrsh6PX286TlBYBY65dLc7eXdL051Unb7FV2ijbLBfaHc3odtrY0wLNVGYAAAAAAAAAAAAAAAgBh+AhfwVCDInBMMAAAAAElFTkSuQmCC",
+            "blockClass": "icon__grid-switcher"
+        }
+    },
+    "image#icon__list-switcher": {
+        "title": "Image Icon List",
+        "props": {
+            "maxWidth": "5",
+            "maxHeight": "5",
+            "src": "https://www.creativefabrica.com/wp-content/uploads/2019/04/List-icon-by-ahlangraphic-2.jpg",
+            "blockClass": "icon__list-switcher"
+        }
+    }
+}

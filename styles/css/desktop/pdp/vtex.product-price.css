@@ -1,4 +1,5 @@
-/* Example desktop:
-.currencyGroup--info__data--price{
-    font-size: large;
-} */
+.installments--priceinstallments__pdp{
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+}

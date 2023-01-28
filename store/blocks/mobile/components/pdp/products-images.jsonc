@@ -1,0 +1,17 @@
+{
+    "responsive-layout.phone#image__pdp--phone": {
+        "children": [
+            "product-images#phone__images--pdp"
+        ],
+        "props":{
+            "blockClass": "image__pdp--phone"
+        }
+    },
+    "product-images#phone__images--pdp": {
+        "props": {
+            "showPaginationDots": true,
+            "showNavigationArrows": false,
+            "blockClass": "phone__images--pdp"
+        }
+    }
+}

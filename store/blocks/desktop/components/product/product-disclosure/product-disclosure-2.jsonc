@@ -1,0 +1,39 @@
+{
+    "disclosure-layout#global__disclosure--productinfo-two": {
+        "title": "Disclosure Product Two",
+        "children": [
+            "disclosure-trigger#global__disclosure--productinfo-two",
+            "disclosure-content#global__disclosure--productinfo-two"
+        ]
+    },
+    "disclosure-trigger#global__disclosure--productinfo-two": {
+        "title": "Disclosure Trigger Products Two",
+        "children": [
+            "rich-text#text__disclosure-trigger-products-two",
+            "disclosure-state-indicator#global__disclosurestate-products"
+        ], 
+        "props": {
+            "blockClass": "global__disclosure--product"
+        }
+    },
+    "rich-text#text__disclosure-trigger-products-two": {
+        "title": "Text Disclosure Two",
+        "props": {
+            "text": "POLÍTICAS DE ENVÍO",
+            "blockClass": "text__disclosure-trigger-products"
+        }
+    },
+    "disclosure-content#global__disclosure--productinfo-two": {
+        "title": "Disclosure Content Product Two",
+        "children": [
+            "rich-text#global__text--politica-envios"
+        ]
+    },
+    "rich-text#global__text--politica-envios": {
+        "title": "Text Politica de Envios Products",
+        "props": {
+            "text": "El tiempo de entrega empezará a contar a partir de la confirmación exitosa del pago, que recibirás en el correo electrónico con el cual realizaste tu compra.",
+            "blockClass": "text__disclosure-trigger-products"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "flex-layout.row#desktop__product--breadcrumb": {
+        "title": "Breadcrumb Product",
+        "children": [
+            "flex-layout.col#desktop__product--breadcrumb"
+        ]
+    },
+    "flex-layout.col#desktop__product--breadcrumb": {
+        "children": [
+            "breadcrumb#global__breadcrumb--pdp"
+        ]
+    },
+    "flex-layout.row#desktop__product__tabs": {
+        "title": "Tab Layout PDP"
+    },
+    "breadcrumb#global__breadcrumb--pdp": {
+        "props": {
+            "showOnMobile": true
+        }
+    }
+}

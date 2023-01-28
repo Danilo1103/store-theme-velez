@@ -1,0 +1,78 @@
+{
+    "rich-text#global__text--productossimilar": {
+        "title": "Text Productos Similares",
+        "props": {
+            "text": "PRODUCTOS SIMILARES",
+            "font": "body",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "global__text--productossimilar"
+        }
+    },
+    "flex-layout.row#global__list--productossimilar": {
+        "title": "Flex Row Productos similares PDP",
+        "children": [
+            "flex-layout.col#global__col--productossimilar"
+        ],
+        "props": {
+            "blockClass": "global__list--productossimilar"
+        }
+    },
+    "flex-layout.col#global__col--productossimilar": {
+        "title": "Flex Col Rpoductos similares PDP",
+        "children": [
+            "list-context.product-list#global__listContext--pdp"
+        ],
+        "props": {
+            "blockClass": "global__col--productossimilar"
+        }
+    },
+    "list-context.product-list#global__listContext--pdp": {
+        "title": "List Context PDP Global",
+        "blocks": [
+            "product-summary.shelf#global__productSummary--pdp"
+        ],
+        "children": [
+            "slider-layout#global__slider--products--pdp"
+        ]
+    },
+    "product-summary.shelf#global__productSummary--pdp": {
+        "title": "Product Summary PDP Global ",
+        "children": [
+            "product-summary-image#global__productSummary--pdp",
+            "product-summary-name#global__name--productSummary-pdp",
+            "product-summary-price#global__price--productSummary-pdp"
+        ]
+    },
+    "product-summary-image#global__productSummary--pdp": {
+        "props": {
+            "showBadge": true,
+            "height": 220
+        }
+    },
+    "slider-layout#global__slider--products--pdp": {
+        "title": "Slider Productos PDP",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 4,
+                "tablet": 3,
+                "phone": 2
+            },
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": "global__slider--products--pdp"
+        }
+    },
+    "product-summary-name#global__name--productSummary-pdp": {
+        "title": "Name Productos Similares",
+        "props": {
+            "blockClass": "global__nameproduct--search"
+        }
+    },
+    "product-summary-price#global__price--productSummary-pdp": {
+        "title": "Price Productos Similares",
+        "props": {
+            "blockClass": "global__price--productSummary-pdp"
+        }
+    }
+}

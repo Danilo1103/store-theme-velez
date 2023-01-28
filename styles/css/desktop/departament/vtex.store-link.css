@@ -1,0 +1,16 @@
+.link--global__button--not-found{
+    width: 350px;
+    height: 50px;
+    border-radius: 1px;
+    font-size: 15px;
+    font-family: "Lato-Bold";
+    font-weight: bold;
+    background: gray;
+    border: none;
+    color: #fff;
+    transition: background-color .3s linear;
+    line-height: 2px;
+}
+.link--global__button--not-found:hover{
+    background: #3F3630;
+}
