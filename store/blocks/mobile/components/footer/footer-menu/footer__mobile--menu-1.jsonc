@@ -16,6 +16,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-legado",
                 "tagTitle": "Nuestro legado",
                 "text": "Nuestro legado"
             }

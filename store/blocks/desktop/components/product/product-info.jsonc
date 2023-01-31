@@ -13,6 +13,7 @@
         "title": "Flex Col Product Image PDP",
         "children": [
             "responsive-layout.desktop#image__pdp--desktop",
+            "responsive-layout.tablet#image__pdp--tablet",
             "responsive-layout.phone#image__pdp--phone"
         ],
         "props": {
@@ -32,6 +33,7 @@
             "product-price#productprice__pdp",
             "product-identifier.product#productidentifier__pdp",
             "product-installments#priceinstallments__pdp",
+            "product-rating-summary",
             "product-separator",
             "sku-selector#sku__pdp",
             "modal-trigger#global--guiatallas",

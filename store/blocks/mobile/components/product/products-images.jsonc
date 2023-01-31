@@ -13,5 +13,19 @@
             "showNavigationArrows": false,
             "blockClass": "phone__images--pdp"
         }
+    },
+    "responsive-layout.tablet#image__pdp--tablet": {
+        "children": [
+            "product-images"
+        ]
+    },
+    "product-images#tablet__images--pdp": {
+        "props": {
+            "aspectRatio": "3:5",
+            "showNavigationArrows": false,
+            "showPaginationDots": false,
+            "blockClass": "desktop__product--images",
+            "zoomMode": "in-place-hover"
+        }
     }
 }

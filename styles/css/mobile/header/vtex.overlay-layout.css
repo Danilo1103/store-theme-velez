@@ -1,0 +1,11 @@
+.outsideClickHandler--mobile__header--searchbar{
+    margin-top: 18px;
+}
+.popper--mobile__header--searchbar{
+    display: initial;
+    width: 100%;
+}
+
+.popper--mobile__header--searchbar :global(.vtex-store-components-3-x-searchIcon){
+    fill: #000;
+}

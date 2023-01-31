@@ -4,5 +4,37 @@
 
 .headerRowBackground--mobile__drawer{
     background: transparent;
-    color: #fff;
+    color: #000;
+}
+
+.headerRowContentContainer--mobile__header--middle :global(.vtex-login-2-x-profileIcon),
+.headerRowContentContainer--mobile__header--middle :global(.vtex-store-drawer-0-x-menuIcon--mobile__header--menu){
+    fill: #000;
+}
+
+.headerRowContentContainer--mobile__header--middle :global(.vtex-login-2-x-buttonLink){
+    margin: 0 -12px 0 -5px;
+}
+.headerRowContentContainer--mobile__header--middle :global(.vtex-minicart-2-x-minicartWrapperContainer){
+    margin: 0 0px 0 -12px;
+}
+
+.headerRowContentContainer--mobile__header--middle :global(.vtex-styleguide-9-x-input)::placeholder{
+    color: #000;
+}
+.headerRowContentContainer--mobile__header--middle :global(.vtex-styleguide-9-x-input){
+    border-bottom: ridge #000 1px;
+    color: #000;
+    font-size: 15px;
+    font-family: "Lato-Bold";
+}
+.headerRowContentContainer--mobile__header--middle :global(.vtex-store-components-3-x-searchBarContainer){
+    margin: auto;
+}
+
+.headerRowContentContainer--mobile__header--middle :global(.vtex-search-2-x-biggy-autocomplete-wrapper){
+    width: 95vw;
+}
+.headerRowContentContainer--mobile__header--middle :global(.vtex-search-2-x-biggy-autocomplete){
+    margin-top: -50px;
 }
