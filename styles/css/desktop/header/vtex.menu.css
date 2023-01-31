@@ -38,6 +38,6 @@
     border-color: #fff;
 }
 
-.submenuWrapper--desktop__deparment--one--isOpen:hover :global(.vtex-store-header-2-x-headerRowBackground--desktop__header--middle){
+.submenuWrapper--desktop__deparment--one--isOpen :global(.vtex-store-header-2-x-headerRowBackground--desktop__header--middle){
     background: #fff;
 }

@@ -7,7 +7,10 @@
             "rich-text#department__text-one",
             "flex-layout.row#mobile__galleryswitcher--search",
             "flex-layout.row#mobile__categoryresults"
-        ]
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
     },
     "flex-layout.row#mobile__categoryresults": {
         "title": "Flex Row Mobile Result Search",
@@ -18,7 +21,7 @@
     "flex-layout.row#mobile__galleryswitcher--search": {
         "title": "Flex Row Mobile Gallery Switcher",
         "children": [
-            "filter-navigator.v3",
+            "filter-navigator.v3#mobile__filters--result",
             "gallery-layout-switcher#global__galleryswitcher--search"
         ],
         "props": {
@@ -27,6 +30,14 @@
             "preventHorizontalStretch": false,
             "preserveLayoutOnMobile": true,
             "blockClass": "mobile__galleryswitcher--search"
+        }
+    },
+    "filter-navigator.v3#mobile__filters--result": {
+        "props": {
+            "fullWidthOnMobile": false,
+            "updateOnFilterSelectionOnMobile": true,
+            "showClearByFilter": true,
+            "blockClass": "mobile__filters--result"
         }
     }
 }

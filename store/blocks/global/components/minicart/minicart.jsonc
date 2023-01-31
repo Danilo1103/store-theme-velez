@@ -81,7 +81,7 @@
         "children": [
             "minicart-summary",
             "link#minicart__button--moreproducts",
-            "link#minicart__button--checkout"
+            "minicart-checkout-button"
         ], 
         "props": {
             "blockClass": "minicart__footer"
@@ -114,15 +114,7 @@
             "displayMode": "button",
             "label": "VER MÁS PRODUCTOS",
             "blockClass": "minicart__button--moreproducts",
-            "href": "#"
-        }
-    },
-    "link#minicart__button--checkout": {
-        "props": {
-            "displayMode": "button",
-            "label": "FINALIZAR COMPRA",
-            "blockClass": "minicart__button--checkout",
-            "href": "/checkout"
+            "href": "/electrodomesticos"
         }
     }
 }

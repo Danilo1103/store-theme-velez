@@ -10,9 +10,6 @@
             "breadcrumb#global__breadcrumb--pdp"
         ]
     },
-    "flex-layout.row#desktop__product__tabs": {
-        "title": "Tab Layout PDP"
-    },
     "breadcrumb#global__breadcrumb--pdp": {
         "props": {
             "showOnMobile": true

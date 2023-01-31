@@ -6,12 +6,13 @@
             "header-spacer",
             "logo#global__header--middle",
             "header-spacer",
+            "overlay-trigger#mobile__header--searchbar",
             "login",
             "minicart.v2#global__header--cart"
         ],
         "props": {
             "sticky": true,
-            "blockClass": "desktop__header--middle"
+            "blockClass": "mobile__header--middle"
         }
     },
     "header-row#mobile__drawer": {
@@ -89,6 +90,42 @@
             "horizontalAlign": "left",
             "paddingLeft": 4,
             "blockClass": "mobile__drawer--header"
+        }
+    },
+    "overlay-trigger#mobile__header--searchbar": {
+        "title": "Overlay Trigger SearchBar Header",
+        "children": [
+            "icon#searchbar",
+            "overlay-layout#mobile__header--searchbar"
+        ],
+        "props": {
+            "blockClass": "mobile__header--searchbar"
+        }
+    },
+    "icon#searchbar": {
+        "title": "Icon Search Bar",
+        "props": {
+            "id": "hpa-search-black",
+            "blockClass": "mobile__icon--searchbar"
+        }
+    },
+    "overlay-layout#mobile__header--searchbar": {
+        "title": "Overlay Layout SearchBar Header",
+        "children": [
+            "search-bar#mobile__header--searchbar"
+        ],
+        "props": {
+            "blockClass": "mobile__header--searchbar"
+        }
+    },
+    "search-bar#mobile__header--searchbar": {
+        "blocks": [
+            "autocomplete-result-list.v2"
+        ],
+        "props": {
+            "autocompleteAlignment": "center",
+            "placeholder": "¿QUE BUSCAS?",
+            "openAutocompleteOnFocus": true
         }
     }
 }

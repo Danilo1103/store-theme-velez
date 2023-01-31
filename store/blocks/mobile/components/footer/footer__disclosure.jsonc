@@ -1,4 +1,14 @@
-{
+{   
+    "responsive-layout.tablet#tablet__footer--menu": {
+        "children": [
+            "flex-layout.row#desktop__footer"
+        ]
+    },
+    "responsive-layout.phone#phone__footer--menu": {
+        "children": [
+            "flex-layout.row#mobile__footer--menu"
+        ]
+    },
     "flex-layout.row#mobile__footer--menu": {
         "title": "Flex Row Footer Mobile",
         "children": [

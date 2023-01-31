@@ -1,0 +1,10 @@
+.star--filled,
+.star--empty{
+    color: #000;
+}
+
+.summaryTotalReviews{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Lato-Light";
+}
