@@ -8,9 +8,9 @@
                 "mobile": 3
             },
             "infite": false,
-            "blockClass": "home__slider-one",
+            "blockClass": ["home__slider-one", "home__slider-one-instagram"],
             "fullWidth": true,
-            "showPaginationDots": false
+            "showPaginationDots": "never"
         },
         "children": [
             "image#slider__instagram--one",

@@ -11,7 +11,15 @@
     },
     "autocomplete-result-list.v2": {
         "blocks": [
-            "product-summary"
-        ]
+            "product-summary#searchbar__result"
+        ],
+        "props": {
+            "blockClass": "global__autocomplete--result"
+        }
+    },
+    "product-summary#searchbar__result": {
+        "props": {
+            "blockClass": "searchbar__result"
+        }
     }
 }

@@ -14,3 +14,9 @@
     display: flex;
     justify-content: center;
 }
+
+.filterItem--global__filter--search--unacem{
+    font-weight: bold;
+    font-size: 15px;
+    color: #000;
+}

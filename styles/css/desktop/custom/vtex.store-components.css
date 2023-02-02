@@ -2,3 +2,8 @@
     display: flex;
     margin: auto;
 }
+.imageElement--legado__image--one-background{
+    display: flex;
+    margin: auto;
+    margin-top: -70px;
+}

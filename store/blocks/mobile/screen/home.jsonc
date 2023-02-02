@@ -13,7 +13,7 @@
       "slider-layout#home__slider-one",
       "rich-text#text__home--instagram",
       "slider-layout#home__slider-two",
-      "list-context.product-list#global__listContext--products"
+      "flex-layout.row#global__list--productossimilar"
     ]
   }
 }

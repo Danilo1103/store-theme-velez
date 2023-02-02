@@ -1,11 +1,8 @@
 .label--text__header--mobileTwo,
-.label--text__header--mobileOne{
-    text-decoration: none;
-    color: black;
-}
-
+.label--text__header--mobileOne,
 .link--text__header--mobileTwo,
 .link--text__header--mobileOne{
     text-decoration: none;
-    color: black;   
+    color: black;
+    font-weight: bold;
 }

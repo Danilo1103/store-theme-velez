@@ -6,7 +6,7 @@
             "blockClass": "desktop__deparment-header",
             "itemProps": {
                 "type": "internal",
-                "href": "/flyup",
+                "href": "/techo",
                 "noFollow": true,
                 "tagTitle": "Fly Up",
                 "text": "FLY UP"

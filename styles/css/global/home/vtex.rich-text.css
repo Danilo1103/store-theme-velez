@@ -45,3 +45,9 @@
     font-size: 12x;
     font-family: "Lato-Light";
 }
+
+@media only screen and (max-width: 500px) {
+    .paragraph--text__slider-home-one{
+        font-size: 12px;
+    }
+}

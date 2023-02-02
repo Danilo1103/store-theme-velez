@@ -5,3 +5,14 @@
 .container{
     padding: 2px;
 }
+
+@media only screen and (max-width: 500px) {
+    .imageElement--home__slider--one{
+        height: 300px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .imageElement--home__slider--one{
+        height: 200px;
+    }
+}
