@@ -51,7 +51,3 @@
 .wrapper--stuck :global(.vtex-store-components-3-x-searchIcon){
     fill: #000;
 }
-
-.wrapper--stuck :global(.vtex-store-header-2-x-headerRowBackground--mobile__drawer){
-    color: #000;
-}

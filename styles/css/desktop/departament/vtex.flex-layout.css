@@ -33,3 +33,9 @@
     height: 400px;
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 640px) {
+    .flexColChild--department__image--notfound-search{
+        margin: auto;
+    }
+}

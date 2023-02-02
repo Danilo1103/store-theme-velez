@@ -1,0 +1,16 @@
+.portalContainer :global(.vtex-product-summary-2-x-clearLink){
+    width: 90%;
+    margin: auto;
+}
+
+.portalContainer :global(.vtex-product-summary-2-x-imageNormal){
+    height: 100px;
+}
+
+.portalContainer :global(.vtex-search-2-x-tileListSeeMore),
+.portalContainer :global(.vtex-search-2-x-productBrand),
+.portalContainer :global(.vtex-search-2-x-sellingPrice--global__autocomplete--result){
+    font-weight: 700;
+    font-family: "Lato-Light";
+    color: #000;
+}

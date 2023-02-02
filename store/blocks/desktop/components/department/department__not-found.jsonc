@@ -1,12 +1,12 @@
 {
     "store.not-found#search": {
         "blocks": [
-            "flex-layout.row#department__banner-one",
+            "responsive-layout.desktop#desktop__banner--notfound",
             "rich-text#global__text--notfound-one",
             "rich-text#global__text--notfound-two",
             "flex-layout.row#global__department__not-found-search",
             "rich-text#text__home-one",
-            "list-context.product-list#global__listContext--products"
+            "flex-layout.row#global__list--productossimilar"
         ]
     },
     "flex-layout.row#global__department__not-found-search": {
@@ -69,7 +69,7 @@
         "title": "Button not found One",
         "props": {
             "label": "IR AL INICIO",
-            "href": "#",
+            "href": "https://daniloibanez--itgloberspartnercl.myvtex.com/",
             "displayMode": "button",
             "blockClass": "global__button--not-found"
         }
@@ -78,7 +78,7 @@
         "title": "Button not found Two",
         "props": {
             "label": "COMPRAR BASICOS E ICONOS MUJER",
-            "href": "#",
+            "href": "/electrodomesticos",
             "displayMode": "button",
             "blockClass": "global__button--not-found"
         } 
@@ -87,7 +87,7 @@
         "title": "Button not found Three",
         "props": {
             "label": "COMPRAR BASICOS E ICONOS HOMBRE",
-            "href": "#",
+            "href": "/celulares",
             "displayMode": "button",
             "blockClass": "global__button--not-found"
         } 
@@ -96,7 +96,7 @@
         "title": "Button not found Three",
         "props": {
             "label": "COMPRAR LINEA ACTIVE FLY UP",
-            "href": "#",
+            "href": "/queso",
             "displayMode": "button",
             "blockClass": "global__button--not-found"
         } 

@@ -10,7 +10,7 @@
             "infite": true,
             "blockClass": "home__slider-one",
             "fullWidth": false,
-            "showPaginationDots": false,
+            "showPaginationDots": "never",
             "autoplay": {
                 "timeout": 3000,
                 "stopOnHover": true

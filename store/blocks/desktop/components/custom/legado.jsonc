@@ -1,0 +1,79 @@
+{
+    "responsive-layout.desktop#legado--desktop": {
+        "title": "Nuestro-Legado Responsive-Layout.Desktop", 
+        "children": [
+            "image#legado__image--one",
+            "rich-text#legado__text--one",
+            "rich-text#legado__text--two",
+            "flex-layout.row#legado__flexrow--images-one",
+            "slider-layout#legado__slider--artesanos",
+            "image#legado__image--two",
+            "rich-text#legado__text--three",
+            "slider-layout#legado__slider--desarrollo"
+        ]
+    },
+    "image#legado__image--one": {
+        "title": "Image One Nuestro-Legado",
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/banner-nuestro-legado-2021.jpg?v=637473539276100000",
+            "blockClass": "legado__image--one-background"
+        }
+    },
+    "rich-text#legado__text--one": {
+        "title": "Text One Nuestro-Legado",
+        "props": {
+            "text": "NUESTROS",
+            "textPosition": "CENTER",
+            "textAlignment": "CENTER",
+            "blockClass": "legado__text--one"
+        }
+    },
+    "rich-text#legado__text--two": {
+        "title": "Text Two Nuestro-Legado",
+        "props": {
+            "text": "Son nuestra esencia, cada uno de ellos transforma con sus manos el cuero en historias con alma. Hoy, más de 2000 artesanos hacen parte de nuestra empresa, a ellos infinita gratitud y admiración por hacer de su oficio, un arte para nosotros.",
+            "font": "body",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "legado__text--two"
+        }
+    },
+    "flex-layout.row#legado__flexrow--images-one": {
+        "title": "Flex Row Images One",
+        "children": [
+            "image#legado__fleximages--one",
+            "image#legado__fleximages--two"
+        ],
+        "props": {
+            "blockClass": "legado__flexrow--images-one"
+        }
+    },
+    "image#legado__fleximages--one": {
+        "title": "Flex-Images Image One",
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/artesano1.jpg?v=637472107048330000"
+        }
+    },
+    "image#legado__fleximages--two": {
+        "title": "Flex-Images Image Two",
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/artesano2.jpg?v=637472107048800000"
+        }
+    },
+    "image#legado__image--two": {
+        "title": "Image One Nuestro-Legado",
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/legado-alma-26012021.jpg?v=637479688578970000",
+            "blockClass": "legado__image--one"
+        }
+    },
+    "rich-text#legado__text--three": {
+        "title": "Text Three Nuestro-Legado",
+        "props": {
+            "text": "OBJETIVOS DE \n ### DESARROLLO SOSTENIBLE",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "legado__text--three"
+        }
+    }
+}

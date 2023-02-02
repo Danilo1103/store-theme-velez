@@ -10,12 +10,20 @@
             "breadcrumb#global__breadcrumb--pdp"
         ]
     },
-    "flex-layout.row#desktop__product__tabs": {
-        "title": "Tab Layout PDP"
-    },
     "breadcrumb#global__breadcrumb--pdp": {
         "props": {
             "showOnMobile": true
+        }
+    },
+    "responsive-layout.desktop#desktop__banner--one-product": {
+        "children": [
+            "image#desktop__banner--one-product"
+        ]
+    },
+    "image#desktop__banner--one-product": {
+        "props": {
+            "src": "assets/img/img__banner-product.jpg",
+            "blockClass": "legado__image--one-background"
         }
     }
 }

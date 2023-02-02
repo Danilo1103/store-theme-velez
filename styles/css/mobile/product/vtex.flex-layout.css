@@ -1,0 +1,10 @@
+@media only screen and (max-width: 640px) {
+    .flexColChild--desktop__product--info :global(.vtex-button),
+    .flexColChild--desktop__product--info :global(.vtex-store-link-0-x-buttonLink--button__pdp--credito) {
+        width: -webkit-fill-available;
+    }
+
+    .stretchChildrenWidth {
+        display: contents;
+    }
+}

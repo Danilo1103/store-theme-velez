@@ -1,11 +1,11 @@
 {
     "store.product": {
         "children": [
+            "responsive-layout.desktop#desktop__banner--one-product",
             "flex-layout.row#desktop__product--breadcrumb",
             "flex-layout.row#desktop__product--info",
             "rich-text#global__text--productossimilar",
-            "flex-layout.row#global__list--productossimilar",
-            "flex-layout.row#desktop__product__tabs"
+            "flex-layout.row#global__list--productossimilar"
         ]
     }
 }

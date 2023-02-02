@@ -3,7 +3,8 @@
         "title": "Mobile Footer",
         "children": [
             "rich-text#desktop__text--footer",
-            "flex-layout.row#mobile__footer--menu",
+            "responsive-layout.tablet#tablet__footer--menu",
+            "responsive-layout.phone#phone__footer--menu",
             "flex-layout.row#desktop__footer--superintendencia"
         ]
     }

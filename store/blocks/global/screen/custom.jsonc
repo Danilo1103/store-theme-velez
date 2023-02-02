@@ -1,0 +1,12 @@
+{
+    "store.custom#legado": {
+        "title": "Custom Nuestro-Legado",
+        "blocks": [
+            "responsive-layout.desktop#legado--desktop",
+            "responsive-layout.mobile#legado--mobile"
+        ],
+        "props": {
+            "blockClass": "legado"
+        }
+    }
+}

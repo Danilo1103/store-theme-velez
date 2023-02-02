@@ -14,3 +14,10 @@
 .link--global__button--not-found:hover{
     background: #3F3630;
 }
+
+@media only screen and (max-width: 780px) {
+    .link--global__button--not-found{
+        width: 190px;
+        line-height: inherit;
+    }
+}

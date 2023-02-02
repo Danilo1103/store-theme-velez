@@ -2,7 +2,7 @@
     "link#desktop__linkImage--categories-one": {
         "title": "Link Image Header One",
         "props": {
-            "href": "/basicos-e-iconos/mujer",
+            "href": "/nuestro-legado",
             "label": "Ver mujer",
             "blockClass": "desktop__linkImage--categories-one"
         }
@@ -10,35 +10,35 @@
     "link#desktop__linkImage--categories-two": {
         "title": "Link Image Header Two",
         "props": {
-            "href": "/basicos-e-iconos/hombre",
+            "href": "/nuestro-legado",
             "label": "Ver hombre",
             "blockClass": "desktop__linkImage--categories-one"
         }
     },
     "link#desktop__quienessomos--header": {
         "props": {
-            "href": "/institucional/sostenibilidad-institucional/compromiso-humano",
+            "href": "/nuestro-legado",
             "label": "- QUIÉNES SOMOS",
             "blockClass": "desktop__linkImage--categories-one"
         }
     },
     "link#desktop__modaresponsable--header": {
         "props": {
-            "href": "/moda-responsable",
+            "href": "/nuestro-legado",
             "label": "- MODA RESPONSABLE",
             "blockClass": "desktop__linkImage--categories-one"
         }
     },
     "link#desktop__creditoleather--header": {
         "props": {
-            "href": "/nosotros/credito-leather-lovers",
+            "href": "/nuestro-legado",
             "label": "- CRÉDITO LEATHER LOVERS",
             "blockClass": "desktop__linkImage--categories-one"
         }
     },
     "link#desktop__fidelizacion--header": {
         "props": {
-            "href": "/nosotros/programa-fidelizacion",
+            "href": "/nuestro-legado",
             "label": "- PROGRAMA DE FIDELIZACIÓN",
             "blockClass": "desktop__linkImage--categories-one"
         }

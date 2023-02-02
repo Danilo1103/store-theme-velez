@@ -16,4 +16,6 @@
 
 .brandName--global__nameproduct--search{
     text-transform: uppercase;
+    font-weight: bold;
+    font-family: "Lato-Light";
 }

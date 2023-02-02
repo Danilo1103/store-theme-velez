@@ -9,7 +9,7 @@
     width: 100%;
 }
 .opened{
-    height: 700px;
+    height: fit-content;    
 }
 .minicartSideBarContentWrapper{
     display: contents;
@@ -17,4 +17,21 @@
 
 .drawerStyles{
     margin: auto;
+    height: 500px;
+}
+
+.minicartCheckoutButton :global(.vtex-button){
+    width: 350px;
+    border-radius: 0;
+    border-color: #000;
+    font-size: 14px;
+    background: #000;
+    color: #fff;
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 450px) {
+    .minicartCheckoutButton :global(.vtex-button){
+        width: 200px;
+    }
 }

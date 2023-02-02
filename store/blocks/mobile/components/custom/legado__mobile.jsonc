@@ -1,0 +1,66 @@
+{
+    "responsive-layout.mobile#legado--mobile": {
+        "title": "Nuestro-Legado Responsive-Layout.Mobile", 
+        "children": [
+            "image#legadomobile__image--one",
+            "rich-text#legado__text--one",
+            "rich-text#legado__text--two",
+            "slider-layout#legadomobile__slider--artesanos-one",
+            "slider-layout#legadomobile__slider--artesanos-two",
+            "image#legado__image--two",
+            "rich-text#legado__text--three",
+            "slider-layout#legado__slider--desarrollo"
+        ]
+    },
+    "image#legadomobile__image--one": {
+        "title": "Image-Mobile-One Nuestro-Legado",
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/banner-nuestro-legado-mobile-2021.jpg?v=637472099202430000",
+            "blockClass": "legado__image--one"
+        }
+    },
+    "slider-layout#legadomobile__slider--artesanos-one": {
+        "title": "Nuestro-Legado-Mobile Slider Artesanos-One",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "showNavigationArrows": "always",
+            "showPaginationDots": "never",
+            "blockClass": "legadomobile__slider--artesanos-one"
+        },
+        "children": [
+            "image#legado__fleximages--one",
+            "image#legado__fleximages--two"
+        ]
+    },
+    "slider-layout#legadomobile__slider--artesanos-two": {
+        "title": "Nuestro-Legado-Mobile Slider Artesanos-Two",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 3,
+                "phone": 3
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "autoplay": {
+                "timeout": 2000,
+                "stopOnHover": true
+            },
+            "blockClass": "legadomobile__slider--artesanos-two"
+        },
+        "children": [
+            "image#legado__slider--image-one",
+            "image#legado__slider--image-two",
+            "image#legado__slider--image-three",
+            "image#legado__slider--image-four",
+            "image#legado__slider--image-five",
+            "image#legado__slider--image-six",
+            "image#legado__slider--image-seven",
+            "image#legado__slider--image-eight"
+        ]
+    }
+}

@@ -63,7 +63,6 @@
             "menu-item#desktop__categories--one-eight",
             "menu-item#desktop__categories--one-nine",
             "menu-item#desktop__categories--one-ten",
-            "menu-item#desktop__categories--one-eleven",
             "menu-item#desktop__categories--one-twelve",
             "menu-item#desktop__categories--one-thirteen"
         ],
@@ -111,7 +110,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/nuevo",
+              "href": "/mujer/zapatos",
               "noFollow": false,
               "tagTitle": "Zapatos",
               "text": "ZAPATOS"
@@ -129,7 +128,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/bolsos",
+              "href": "/electrodomesticos/hierro",
               "noFollow": false,
               "tagTitle": "Bolsos",
               "text": "BOLSOS"
@@ -147,7 +146,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/accesorios",
+              "href": "electrodomesticos/hierro",
               "noFollow": false,
               "tagTitle": "Accesorios",
               "text": "ACCESORIOS"
@@ -165,7 +164,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/chaquetas-de-cuero",
+              "href": "/electrodomesticos/ladrillos",
               "noFollow": false,
               "tagTitle": "Chaquetas de cuero",
               "text": "CHAQUETAS DE CUERO"
@@ -183,7 +182,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/ropa",
+              "href": "/electrodomesticos/hierro",
               "noFollow": false,
               "tagTitle": "Ropa",
               "text": "ROPA"
@@ -198,7 +197,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/cinturones",
+              "href": "/queso/cemento",
               "noFollow": false,
               "tagTitle": "Cinturones",
               "text": "CINTURONES"
@@ -213,7 +212,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/travel",
+              "href": "/queso/cemento",
               "noFollow": false,
               "tagTitle": "Travel",
               "text": "TRAVEL"
@@ -228,7 +227,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/basicos-e-iconos",
+              "href": "/electrodomesticos/ladrillos",
               "noFollow": false,
               "tagTitle": "BÁSICOS E ÍCONOS",
               "text": "BÁSICOS E ÍCONOS"
@@ -243,7 +242,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/ver-todo",
+              "href": "/queso/cemento",
               "noFollow": false,
               "tagTitle": "VER TODO",
               "text": "VER TODO"
@@ -258,22 +257,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/complementos/cuidados-del-cuero",
-              "noFollow": false,
-              "tagTitle": "CUIDADOS DEL CUERO",
-              "text": "CUIDADOS DEL CUERO"
-            }
-        }
-    },
-    "menu-item#desktop__categories--one-eleven": {
-        "props": {
-            "id": "category--one-eleven",
-            "type": "custom",
-            "highlight": false,
-            "blockClass": "desktop__categories--one",
-            "itemProps": {
-              "type": "internal",
-              "href": "/complementos/cuidados-del-cuero",
+              "href": "/queso/cemento",
               "noFollow": false,
               "tagTitle": "CUIDADOS DEL CUERO",
               "text": "CUIDADOS DEL CUERO"
@@ -288,7 +272,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/complementos/cuidado-personal",
+              "href": "/electrodomesticos/ladrillos",
               "noFollow": false,
               "tagTitle": "Bienestar",
               "text": "BIENESTAR"
@@ -303,7 +287,7 @@
             "blockClass": "desktop__categories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/",
+              "href": "/electrodomesticos/ladrillos",
               "noFollow": false,
               "tagTitle": "GUÍA DE REGALOS",
               "text": "- GUÍA DE REGALOS"
@@ -359,7 +343,7 @@
             "blockClass": "desktop__subcategories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/tenis",
+              "href": "/electrodomesticos/ladrillos",
               "noFollow": false,
               "tagTitle": "Tenis",
               "text": "TENIS"
@@ -374,7 +358,7 @@
             "blockClass": "desktop__subcategories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/botas-y-botines",
+              "href": "/electrodomesticos/ladrillos",
               "noFollow": false,
               "tagTitle": "Botas y botines",
               "text": "BOTAS Y BOTINES"
@@ -389,7 +373,7 @@
             "blockClass": "desktop__subcategories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/mocasines",
+              "href": "/queso/cemento",
               "noFollow": false,
               "tagTitle": "Mocasines",
               "text": "MOCASINES"
@@ -404,7 +388,7 @@
             "blockClass": "desktop__subcategories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/sandalias",
+              "href": "/queso/cemento",
               "noFollow": false,
               "tagTitle": "Sandalias",
               "text": "SANDALIAS"
@@ -419,7 +403,7 @@
             "blockClass": "desktop__subcategories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/con-cordones",
+              "href": "/electrodomesticos/hierro",
               "noFollow": false,
               "tagTitle": "Con Cordones",
               "text": "CON CORDONES"
@@ -434,7 +418,7 @@
             "blockClass": "desktop__subcategories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/tacones",
+              "href": "/electrodomesticos/hierro",
               "noFollow": false,
               "tagTitle": "Tacones",
               "text": "TACONES"
@@ -449,7 +433,7 @@
             "blockClass": "desktop__subcategories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/baletas",
+              "href": "/mujer/zapatos",
               "noFollow": false,
               "tagTitle": "Baletas",
               "text": "BALETAS"
@@ -464,7 +448,7 @@
             "blockClass": "desktop__subcategories--one",
             "itemProps": {
               "type": "internal",
-              "href": "/mujer/ver-todo",
+              "href": "/mujer/zapatos",
               "noFollow": false,
               "tagTitle": "Ver todo",
               "text": "VER TODO"
