@@ -16,7 +16,7 @@
         "title": "Image One Nuestro-Legado",
         "props": {
             "src": "https://cuerosvelezco.vteximg.com.br/arquivos/banner-nuestro-legado-2021.jpg?v=637473539276100000",
-            "blockClass": "legado__image--one"
+            "blockClass": "legado__image--one-background"
         }
     },
     "rich-text#legado__text--one": {

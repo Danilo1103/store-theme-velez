@@ -1,4 +1,9 @@
 {
+    "responsive-layout.desktop#desktop__banner--notfound": {
+        "children": [
+            "flex-layout.row#department__banner-one"
+        ]
+    },
     "flex-layout.row#department__banner-one": {
         "title": "Flex Col Banner Department One",
         "children": [
