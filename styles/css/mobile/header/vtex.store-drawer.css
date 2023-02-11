@@ -8,3 +8,10 @@
 .overlay--visible{
     background: transparent;
 }
+
+@media only screen and (max-width: 270px) {
+    .menuIcon--mobile__header--menu{
+        width: 15px;
+        height: 30px;
+    }
+}

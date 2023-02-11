@@ -1,0 +1,91 @@
+{
+    "flex-layout.row#layoutRow__bullet--group": {
+        "props": {
+            "blockClass": "layoutRow__bullet--group"
+        },
+        "children": [
+            "list-context.bullet-group"
+        ]
+    },
+    "list-context.bullet-group": {
+        "title": "Mi contexto de lista de Bullets",
+        "children": [
+            "slider-layout#bullet-group"
+        ],
+        "props": {
+            "bullets": [
+                {
+                    "image": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/238245-450-675/1033667-28-01-Billetera-de-cuero.jpg?v=637945349963770000",
+                    "titleBullet": "BILLETERA DE CUERO GRABADO PARA HOMBRE",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/219239-450-675",
+                    "titleBullet": "TENIS CASUAL COOPER PARA HOMBRE",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/246364-450-675",
+                    "titleBullet": "TENIS FLY UP RETRO DEPORTIVOS PARA HOMBRE",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/246314-450-675",
+                    "titleBullet": "TENIS FLY UP RETRO DEPORTIVOS PARA HOMBRE",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/216618-450-675/1025399-00-01-morral.jpg?v=637599770726670000",
+                    "titleBullet": "MORRAL DEPORTIVO LONA HOMBRE",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/212834-450-675/1031350-00-01-cinturon-unifaz-de-cuero.jpg?v=637545533886070000",
+                    "titleBullet": "CINTURON UNIFAZ DUNA DE CUERO",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/219119-450-675/1011203-01-01-Cinturon-De-Cuero.jpg?v=637654323605470000",
+                    "titleBullet": "CINTURON UNIFAZ DE CUERO PARA CUERO",
+                    "link": {
+                        "url": "/"
+                    }
+                },
+                {
+                    "image": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/243479-450-675/1033700-00-01-Bolso-manos-libres-de-cuero.jpg?v=638058557644130000",
+                    "titleBullet": "MANOS LIBRES AMATISTA DE CUERO",
+                    "link": {
+                        "url": "/"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#bullet-group": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "phone": 3
+            },
+            "showNavigationArrows": "never",
+            "showPaginationDots": "never",
+            "autoplay": {
+                "timeout": 2000,
+                "stopOnHover": true
+            }
+        }
+    }
+}

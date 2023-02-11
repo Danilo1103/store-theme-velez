@@ -1,0 +1,30 @@
+{
+    "modal-trigger#global__custom--search": {
+        "title": "Modal Trigger Custom Search",
+        "children": [
+            "rich-text#global__text--customSearch",
+            "modal-layout#global__custom--search"
+        ],
+        "props": {
+            "blockClass": "global__custom--search"
+        }
+    },
+    "rich-text#global__text--customSearch": {
+        "title": "Text Trigger Custom Search",
+        "props": {
+            "text": "-o-  Hacer una busqueda personalizada",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "blockClass": "global__text--customSearch"
+        }
+    },
+    "modal-layout#global__custom--search": {
+        "title": "Modal Layout Custom Search",
+        "children": [
+            "department-search"
+        ],
+        "props": {
+            "blockClass": "global__custom--search"
+        }
+    } 
+}

@@ -1,5 +1,5 @@
 {
-  "responsive-layout.mobile#phone__and__tablet": {
+  "responsive-layout.phone#phone__and__tablet": {
     "title": "Responsive Mobile",
     "children": [
       "flex-layout.row#mobile__home--section-1",
@@ -11,6 +11,7 @@
       "rich-text#text__products-two",
       "rich-text#text__home-one",
       "slider-layout#home__slider-one",
+      "modal-trigger#global__custom--search",
       "rich-text#text__home--instagram",
       "slider-layout#home__slider-two",
       "flex-layout.row#global__list--productossimilar"

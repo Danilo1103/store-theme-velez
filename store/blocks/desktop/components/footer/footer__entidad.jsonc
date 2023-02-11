@@ -23,7 +23,8 @@
     "image#footer__image--superintendencia": {
         "title": "Imagen Superintendencia",
         "props": {
-            "src": "assets/img/logo__superintenddencia.svg"
+            "src": "assets/img/logo__superintenddencia.svg",
+            "blockClass": "footer__image--superintendencia"
         }
     },
     "rich-text#footer__text--superintendencia": {

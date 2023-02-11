@@ -4,7 +4,11 @@
 
 .price,
 .productName,
-.productBrandName{
+.productBrandName,
+.unitPrice{
     font-family: "Lato-Bold";
     font-size: 15px;
+}
+.unitPrice {
+    font-size: 12px;
 }

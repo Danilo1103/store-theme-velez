@@ -1,0 +1,29 @@
+{   
+    "modal-trigger#global__pdfReader": {
+        "title": "Trigger Pdf Reader",
+        "children": [
+            "rich-text#global__text--pdfReader",
+            "modal-layout#global__pdfReader"
+        ],
+        "props": {
+            "blockClass": "global__pdfReader"
+        }
+    },
+    "rich-text#global__text--pdfReader": {
+        "props": {
+            "text": "VER PDF"
+        }
+    },
+    "modal-layout#global__pdfReader": {
+        "children": [
+            "pdf-reader"
+        ]
+    },
+    "pdf-reader": {
+        "props": {
+           "pdfUrl": "assets/docs/sample__pdf.pdf", 
+           "width": 500, 
+           "height": 500
+        }
+    } 
+}
