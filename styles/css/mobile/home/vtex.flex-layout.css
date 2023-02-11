@@ -10,7 +10,7 @@
 .flexRow--mobile__home--section-2{
     height: 730px;
     background-repeat: round;
-    background-size: 100%;
+    background-size: cover;
 }
 
 .flexRow--mobile__home--section-3{

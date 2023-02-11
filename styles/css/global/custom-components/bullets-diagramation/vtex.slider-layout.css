@@ -1,0 +1,9 @@
+.bullet__item--link {
+    text-decoration: none;
+}
+
+.bullet__item--title{
+    font-family: "Lato-Light";
+    color: var(--main-text-color);
+    font-weight: var(--main-weight-text);
+}

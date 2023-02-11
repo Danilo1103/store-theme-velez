@@ -100,5 +100,15 @@
             "displayMode": "button",
             "blockClass": "global__button--not-found"
         } 
+    },
+    "search-not-found-layout": {
+        "children": [
+            "responsive-layout.desktop#desktop__banner--notfound",
+            "rich-text#global__text--notfound-one",
+            "rich-text#global__text--notfound-two",
+            "flex-layout.row#global__department__not-found-search",
+            "rich-text#text__home-one",
+            "flex-layout.row#global__list--productossimilar"
+        ]
     }
 }

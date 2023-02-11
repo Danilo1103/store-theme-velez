@@ -1,0 +1,23 @@
+{
+    "modal-trigger#global__addToCartInfo": {
+        "title": "Trigger Add To Cart",
+        "children": [
+            "modal-layout#global__addToCartInfo"
+        ],
+        "props": {
+            "customPixelEventName": "addToCart"
+        }
+    },
+    "modal-layout#global__addToCartInfo": {
+        "children": [
+            "modal-header#global__addToCartInfo",
+            "add-to-cart-info"
+        ]
+    },
+    "modal-header#global__addToCartInfo": {
+        "props": {
+            "showCloseButton": true,
+            "iconCloseSize": 24
+        }
+    }
+}

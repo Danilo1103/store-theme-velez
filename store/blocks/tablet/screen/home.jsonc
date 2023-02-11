@@ -1,6 +1,20 @@
 {
   "responsive-layout.tablet#home__section-1": {
     "title": "Section 1 Tablet Home",
-    "children": []
+    "children": [
+      "flex-layout.row#desktop__home--section-1",
+      "slider-layout#mobile__home--silder-1",
+      "flex-layout.row#desktop__home--section-2",
+      "flex-layout.row#mobile__home--section-3",
+      "flex-layout.row#mobile__home--section-4",
+      "rich-text#text__products",
+      "rich-text#text__products-two",
+      "rich-text#text__home-one",
+      "slider-layout#home__slider-one",
+      "modal-trigger#global__custom--search",
+      "rich-text#text__home--instagram",
+      "slider-layout#home__slider-two",
+      "flex-layout.row#global__list--productossimilar"
+    ]
   }
 }

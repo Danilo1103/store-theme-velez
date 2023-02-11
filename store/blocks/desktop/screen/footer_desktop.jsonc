@@ -2,6 +2,7 @@
     "footer-layout.desktop": {
         "title": "Desktop Footer",
         "children": [
+            "whatsapp-button",
             "rich-text#desktop__text--footer",
             "flex-layout.row#desktop__footer",
             "flex-layout.row#desktop__footer--superintendencia"

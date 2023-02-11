@@ -2,6 +2,7 @@
     "footer-layout.mobile": {
         "title": "Mobile Footer",
         "children": [
+            "whatsapp-button",
             "rich-text#desktop__text--footer",
             "responsive-layout.tablet#tablet__footer--menu",
             "responsive-layout.phone#phone__footer--menu",
