@@ -1,0 +1,11 @@
+.container--global__text--customSearch {
+    margin: auto;
+}
+
+.paragraph--global__text--customSearch {
+    font-family: "Lato-Light";
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: underline;
+    cursor: pointer;
+}

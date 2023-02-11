@@ -2,3 +2,9 @@
 .imageElement--mobile__icon--arriba{
     width: 10px;
 }
+
+@media only screen and (max-width: 740px) {
+    .imageElement--footer__image--superintendencia{
+        height: 30px;
+    }
+}
