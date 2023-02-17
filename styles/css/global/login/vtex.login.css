@@ -1,20 +1,21 @@
-.formTitle{
+.formTitle {
     font-weight: bold;
     font-family: "Lato-Light";
 }
 
-.accessCodeOptionBtn :global(.vtex-button){
-    background: transparent;
+.accessCodeOptionBtn :global(.vtex-button) {
+    background   : transparent;
     border-radius: 1px;
-    color: #000;
-    border: 1px solid #000;
+    color        : #000;
+    border       : 1px solid #000;
 }
-.emailPasswordOptionBtn :global(.vtex-button){
-    background: #000;
-    color: #fff;
+
+.emailPasswordOptionBtn :global(.vtex-button) {
+    background   : #000;
+    color        : #fff;
     border-radius: 1px;
 }
 
-.accessCodeOptionBtn :global(.vtex-button):hover{
+.accessCodeOptionBtn :global(.vtex-button):hover {
     box-shadow: 0px 10px 30px 2px rgb(0 0 0 / 10%);
 }

@@ -1,0 +1,86 @@
+{
+    "flex-layout.row#mobile__iconsRedes--drawer": {
+        "title": "Flex Row Redes Sociales Header",
+        "children": [
+            "link#link__facebook--icon",
+            "link#link__instagram--icon",
+            "link#link__linkedin--icon",
+            "link#link__youtube--icon"
+        ],
+        "props": {
+            "blockClass": "mobile__iconsRedes--drawer"
+        }
+    },
+    "link#link__facebook--icon": {
+        "props": {
+            "href": "https://www.facebook.com/velezartisan/",
+            "blockClass": "link__facebook--icon"
+        },
+        "children": [
+            "icon#facebook--icon"
+        ]
+    },
+    "link#link__instagram--icon": {
+        "props": {
+            "href": "https://www.instagram.com/velezartisan/",
+            "blockClass": "link__facebook--icon"
+        },
+        "children": [
+            "icon#instagram--icon"
+        ]
+    },
+    "link#link__linkedin--icon": {
+        "props": {
+            "href": "https://www.linkedin.com/company/cuerosvelez/",
+            "blockClass": "link__facebook--icon"
+        },
+        "children": [
+            "icon#linkedin--icon"
+        ]
+    },
+    "link#link__youtube--icon": {
+        "props": {
+            "href": "https://www.youtube.com/user/velezoficial",
+            "blockClass": "link__facebook--icon"
+        },
+        "children": [
+            "icon#youtube--icon"
+        ]
+    },
+    "icon#facebook--icon": {
+        "title": "Icon Facebook",
+        "props": {
+          "id": "logo-facebook",
+          "size": 15,
+          "activeClassName": "icon__facebook",
+          "viewBox": "0 0 25 25"
+        }
+    },
+    "icon#instagram--icon": {
+        "title": "Icon Instagram",
+        "props": {
+          "id": "logo-instagram",
+          "size": 15,
+          "activeClassName": "icon__facebook",
+          "viewBox": "0 0 25 25"
+        }
+    },
+    "icon#linkedin--icon": {
+        "title": "Icon Linkedin",
+        "props": {
+          "id": "logo-linkedin",
+          "size": 15,
+          "activeClassName": "icon__facebook",
+          "viewBox": "0 0 30 30"
+        }
+    },
+    "icon#youtube--icon": {
+        "title": "Icon Youtube",
+        "props": {
+          "id": "logo-youtube",
+          "size": 20,
+          "activeClassName": "icon__facebook",
+          "viewBox": "0 0 30 35"
+        }
+    }
+}

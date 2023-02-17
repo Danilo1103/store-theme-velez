@@ -1,22 +1,23 @@
-.buyButton :global(.vtex-button){
+.buyButton :global(.vtex-button) {
     background-color: #fff;
-    color: #000;
-    border-radius: 1px;
-    border: 1px solid #000;
-    font-size: 12px;
+    color           : #000;
+    border-radius   : 1px;
+    border          : 1px solid #000;
+    font-size       : 12px;
 }
 
 .currencyContainer--searchbar__result,
 .price_installmentContainer--searchbar__result,
-.productBrand--searchbar__result{
+.productBrand--searchbar__result {
     font-family: "Lato-Light";
-    color: #000;
+    color      : #000;
     font-weight: 700;
 }
 
-.currencyContainer--searchbar__result{
+.currencyContainer--searchbar__result {
     font-size: 15px;
 }
-.price_installmentContainer--searchbar__result{
+
+.price_installmentContainer--searchbar__result {
     font-size: 12px;
 }

@@ -1,43 +1,43 @@
-.submenuWrapper--desktop__deparment--one--isOpen{
-    width: 100%;
+.submenuWrapper--desktop__deparment--one--isOpen {
+    width         : 100%;
     padding-bottom: 0;
 }
 
-.submenu--desktop__deparment--one .menuContainerNav{
+.submenu--desktop__deparment--one .menuContainerNav {
     width: 100%;
 }
 
-.submenuContainer--desktop__deparment--one{
+.submenuContainer--desktop__deparment--one {
     position: initial;
 }
 
-.submenuWrapper--desktop__subcategories--one{
+.submenuWrapper--desktop__subcategories--one {
     left: 210px;
-    top: -30px;
+    top : -30px;
 }
 
-.styledLinkContainer{
-    margin-left: 0.5rem;
+.styledLinkContainer {
+    margin-left : 0.5rem;
     margin-right: 0.5rem;
 }
 
-.styledLinkContent--desktop__deparment-header{
+.styledLinkContent--desktop__deparment-header {
     font-family: "Lato-Bold";
-    font-size: 13px;
-    color: #4d4d4d;
+    font-size  : 13px;
+    color      : #4d4d4d;
 }
 
 .styledLinkContent--desktop__categories--one,
-.styledLinkContent--desktop__subcategories--one{
+.styledLinkContent--desktop__subcategories--one {
     font-family: "Lato-Bold";
-    font-size: 14px;
-    color: #4d4d4d;
+    font-size  : 14px;
+    color      : #4d4d4d;
 }
 
-.submenuWrapper--desktop__subcategories--one{
+.submenuWrapper--desktop__subcategories--one {
     border-color: #fff;
 }
 
-.submenuWrapper--desktop__deparment--one--isOpen :global(.vtex-store-header-2-x-headerRowBackground--desktop__header--middle){
+.submenuWrapper--desktop__deparment--one--isOpen :global(.vtex-store-header-2-x-headerRowBackground--desktop__header--middle) {
     background: #fff;
 }

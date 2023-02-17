@@ -1,33 +1,35 @@
-.link--button__pdp--credito{
-    width: 100%;
-    background: #fff;
-    color: #000;
+.link--button__pdp--credito {
+    width        : 100%;
+    background   : #fff;
+    color        : #000;
     border-radius: 1px;
-    border: 1px solid #000;
-    width: 300px;
+    border       : 1px solid #000;
+    width        : 300px;
 }
 
 .link--button__pdp--credito:hover,
-.link--button__pdp--credito:visited{
+.link--button__pdp--credito:visited {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     background: #fff;
-    color: #000;
-    border: 1px solid #000;
+    color     : #000;
+    border    : 1px solid #000;
 }
 
-.buttonLink--button__pdp--disponibilidad{
+.buttonLink--button__pdp--disponibilidad {
     font-size: 12px;
 }
-.buttonLink--button__pdp--disponibilidad:hover{
+
+.buttonLink--button__pdp--disponibilidad:hover {
     background: #fff;
-    color: #000;
+    color     : #000;
 }
-.label--button__pdp--helpme{
+
+.label--button__pdp--helpme {
     font-size: 14px;
 }
 
 @media only screen and (max-width: 1000px) {
-    .link--button__pdp--credito{
+    .link--button__pdp--credito {
         width: 220px;
     }
 }

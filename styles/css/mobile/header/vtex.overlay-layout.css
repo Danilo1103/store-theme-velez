@@ -1,11 +1,18 @@
-.outsideClickHandler--mobile__header--searchbar{
+.outsideClickHandler--mobile__header--searchbar {
     margin-top: 18px;
 }
-.popper--mobile__header--searchbar{
+
+.popper--mobile__header--searchbar {
     display: initial;
-    width: 100%;
+    width  : 100%;
 }
 
-.popper--mobile__header--searchbar :global(.vtex-store-components-3-x-searchIcon){
+.popper--mobile__header--searchbar :global(.vtex-store-components-3-x-searchIcon) {
     fill: #000;
+}
+
+@media only screen and (max-width: 300px) {
+    .trigger--mobile__header--searchbar {
+        width: 5px;
+    }
 }

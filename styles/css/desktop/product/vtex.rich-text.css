@@ -1,15 +1,16 @@
-.paragraph--global__text--guiatallas{
+.paragraph--global__text--guiatallas {
     text-decoration: underline;
-    font-weight: bold;
-    cursor: pointer;
-    color: #000;
+    font-weight    : bold;
+    cursor         : pointer;
+    color          : #000;
 }
-.container--global__text--guiatallas{
+
+.container--global__text--guiatallas {
     margin-top: -20px;
 }
 
-.paragraph--text__disclosure-trigger-products{
+.paragraph--text__disclosure-trigger-products {
     font-family: "Lato-Light";
-    color: #000;
-    margin: 0 0 10px 0;
+    color      : #000;
+    margin     : 0 0 10px 0;
 }

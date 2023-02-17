@@ -1,8 +1,8 @@
-.flexCol--minicart__footer{
+.flexCol--minicart__footer {
     gap: 12px;
 }
 
-.flexColChild--minicart__footer{
-    display: flex;
+.flexColChild--minicart__footer {
+    display        : flex;
     justify-content: center;
 }

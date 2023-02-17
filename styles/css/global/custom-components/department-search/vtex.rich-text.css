@@ -3,9 +3,9 @@
 }
 
 .paragraph--global__text--customSearch {
-    font-family: "Lato-Light";
-    font-weight: 700;
-    font-size: 17px;
+    font-family    : "Lato-Light";
+    font-weight    : 700;
+    font-size      : 17px;
     text-decoration: underline;
-    cursor: pointer;
+    cursor         : pointer;
 }

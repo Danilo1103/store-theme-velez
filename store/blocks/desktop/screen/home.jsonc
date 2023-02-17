@@ -9,7 +9,7 @@
       "rich-text#text__products",
       "rich-text#text__products-two",
       "rich-text#text__home-one",
-      "slider-layout#home__slider-one",
+      "flex-layout.row#layoutRow__bullet--group",
       "modal-trigger#global__custom--search",
       "rich-text#text__home--instagram",
       "slider-layout#home__slider-two",

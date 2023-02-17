@@ -1,19 +1,20 @@
-.paragraph--department__text-one{
-    font-size: 17px;
-    font-family: "Lato-Bold";
-    font-weight: 600;
-    color: #838282;
+.paragraph--department__text-one {
+    font-size     : 17px;
+    font-family   : "Lato-Bold";
+    font-weight   : 600;
+    color         : #838282;
     letter-spacing: 2px;
 }
 
-.paragraph--global__text--notfound-one{
-    font-size: 32px;
-    color: #614537;
-    margin-top: 70px;
+.paragraph--global__text--notfound-one {
+    font-size  : 32px;
+    color      : #614537;
+    margin-top : 70px;
     font-family: "Lato-Bold";
 }
-.paragraph--global__text--notfound-two{
-    font-size: 22px;
-    color: #614537;
+
+.paragraph--global__text--notfound-two {
+    font-size  : 22px;
+    color      : #614537;
     font-family: "Lato-Bold";
 }
