@@ -1,12 +1,12 @@
 .paragraph--desktop__text--descounts,
-.link--desktop__text--descounts{
+.link--desktop__text--descounts {
     text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700;
-    font-family: "Lato-Bold";
+    color          : #fff;
+    font-size      : 18px;
+    font-weight    : 700;
+    font-family    : "Lato-Bold";
 }
 
-.paragraph--desktop__text--descounts{
+.paragraph--desktop__text--descounts {
     cursor: default;
 }

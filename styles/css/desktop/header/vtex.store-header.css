@@ -1,41 +1,46 @@
-.headerRowBackground--header__top--desktop{
+.headerRowBackground--header__top--desktop {
     background-color: #DCDCDC;
-    font-size: 13px;
-    padding: 10px;
+    font-size       : 13px;
+    padding         : 10px;
 }
 
-.headerRowBackground--desktop__header--middle:hover{
+.headerRowBackground--desktop__header--middle:hover {
     background: #fff;
 }
 
-.headerRowBackground--desktop__header--middle:hover :global(.vtex-menu-2-x-styledLinkContent--desktop__deparment-header){
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-menu-2-x-styledLinkContent--desktop__deparment-header) {
     color: #4d4d4d;
 }
 
-.headerRowBackground--desktop__header--middle:hover :global(.vtex-styleguide-9-x-input){
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-styleguide-9-x-input) {
     border-bottom: ridge #000 1px;
+    color        : #000;
 }
-.headerRowBackground--desktop__header--middle:hover :global(.vtex-styleguide-9-x-input)::placeholder{
+
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-styleguide-9-x-input)::placeholder {
     color: #4d4d4d;
 }
-.headerRowBackground--desktop__header--middle:hover :global(.vtex-minicart-2-x-cartIcon){
-    fill: #000;
-}
-.headerRowBackground--desktop__header--middle:hover :global(.vtex-login-2-x-profileIcon){
-    fill: #000;
-}
-.headerRowBackground--desktop__header--middle:hover :global(.vtex-store-components-3-x-searchIcon){
+
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-minicart-2-x-cartIcon) {
     fill: #000;
 }
 
-.headerRowBackground--desktop__header--bottom{
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-login-2-x-profileIcon) {
+    fill: #000;
+}
+
+.headerRowBackground--desktop__header--middle:hover :global(.vtex-store-components-3-x-searchIcon) {
+    fill: #000;
+}
+
+.headerRowBackground--desktop__header--bottom {
     background-color: #c1c1c1;
 }
 
-.headerStickyRow--desktop__header--bottom{
+.headerStickyRow--desktop__header--bottom {
     margin-top: 50px;
 }
 
-.headerRowContainer--desktop__header--bottom{
+.headerRowContainer--desktop__header--bottom {
     padding: 12px;
 }

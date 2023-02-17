@@ -1,29 +1,30 @@
 .quantitySelectorDropdownContainer--productquantity__pdp,
-.quantitySelectorDropdownMobileContainer--productquantity__pdp{
+.quantitySelectorDropdownMobileContainer--productquantity__pdp {
     width: 80px;
 }
 
-.quantitySelectorTitle--productquantity__pdp{
+.quantitySelectorTitle--productquantity__pdp {
     text-transform: uppercase;
-    font-weight: bold;
-    margin-top: 20px;
-    color: #000;
-    font-family: "Lato-Light";
+    font-weight   : bold;
+    margin-top    : 20px;
+    color         : #000;
+    font-family   : "Lato-Light";
 }
 
 .quantitySelectorDropdownContainer--productquantity__pdp :global(.vtex-styleguide-9-x-container),
-.quantitySelectorDropdownMobileContainer--productquantity__pdp :global(.vtex-styleguide-9-x-container){
+.quantitySelectorDropdownMobileContainer--productquantity__pdp :global(.vtex-styleguide-9-x-container) {
     border-radius: 1px;
-    border: 1px solid #000;
+    border       : 1px solid #000;
 }
+
 .quantitySelectorDropdownContainer--productquantity__pdp :global(.vtex-dropdown__button),
-.quantitySelectorDropdownMobileContainer--productquantity__pdp :global(.vtex-dropdown__button){
-    color: black;
+.quantitySelectorDropdownMobileContainer--productquantity__pdp :global(.vtex-dropdown__button) {
+    color      : black;
     font-weight: bold;
     font-family: "Lato-Light";
 }
 
 .quantitySelectorDropdownContainer--productquantity__pdp :global(.vtex-dropdown__arrow),
-.quantitySelectorDropdownMobileContainer--productquantity__pdp :global(.vtex-dropdown__arrow){
+.quantitySelectorDropdownMobileContainer--productquantity__pdp :global(.vtex-dropdown__arrow) {
     color: #000;
 }

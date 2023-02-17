@@ -1,24 +1,24 @@
-.label--minicart__button--moreproducts{
+.label--minicart__button--moreproducts {
     padding: 0 30px;
 }
 
-.link--minicart__button--moreproducts{
-    width: 350px;
+.link--minicart__button--moreproducts {
+    width        : 350px;
     border-radius: 0;
-    border-color: #000;
-    font-size: 14px;
-    background: transparent;
-    color: #000;  
+    border-color : #000;
+    font-size    : 14px;
+    background   : transparent;
+    color        : #000;
 }
 
-.link--minicart__button--moreproducts:hover{
-    background: transparent;
-    color: #000;
+.link--minicart__button--moreproducts:hover {
+    background  : transparent;
+    color       : #000;
     border-color: #000;
 }
 
 @media only screen and (max-width: 450px) {
-    .link--minicart__button--moreproducts{
+    .link--minicart__button--moreproducts {
         width: 200px;
     }
 }

@@ -29,6 +29,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Nuestro compromiso humano y social",
                 "text": "Nuestro compromiso humano y social"
             }

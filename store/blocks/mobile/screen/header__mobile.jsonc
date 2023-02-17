@@ -3,7 +3,7 @@
         "title": "Header mobile",
         "children": [
             "header-row#header__top--mobile",
-            "sticky-layout.stack-container#mobile__header"
+            "header-row#mobile__header--middle"
         ]
     },
     "sticky-layout.stack-container#mobile__header": {

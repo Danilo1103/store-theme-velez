@@ -1,5 +1,8 @@
 {
     "store.custom#legado": {
         "path": "/nuestro-legado"
+    },
+    "store.custom#compromiso": {
+        "path": "/nuestro-compromiso"
     }
 }

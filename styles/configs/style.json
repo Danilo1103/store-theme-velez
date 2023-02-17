@@ -367,7 +367,7 @@
       },
       "body": {
         "fontFamily": "Lato-Thin, -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, ubuntu, roboto, noto, segoe ui, arial, sans-serif",
-        "fontWeight": "normal",
+        "fontWeight": "bold",
         "fontSize": "1rem",
         "textTransform": "initial",
         "letterSpacing": "0"

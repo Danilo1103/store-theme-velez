@@ -1,21 +1,21 @@
-.priceContainer--global__price--productSummary-pdp{
+.priceContainer--global__price--productSummary-pdp {
     align-items: flex-start;
-    text-align: left;
+    text-align : left;
 }
 
 .listPriceContainer--global__price--productSummary-pdp,
 .sellingPriceLabel--global__price--productSummary-pdp,
-.installmentContainer--global__price--productSummary-pdp{
+.installmentContainer--global__price--productSummary-pdp {
     display: none;
 }
 
-.price_className--global__price--productSummary-pdp{
+.price_className--global__price--productSummary-pdp {
     margin-top: -17px;
 }
 
-.sellingPrice--global__price--productSummary-pdp{
-    color: #000;
+.sellingPrice--global__price--productSummary-pdp {
+    color      : #000;
     font-family: "Lato-Light";
     font-weight: bold;
-    font-size: 14px;
+    font-size  : 14px;
 }

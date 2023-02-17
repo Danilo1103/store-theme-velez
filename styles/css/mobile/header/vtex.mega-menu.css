@@ -1,6 +1,29 @@
 .styledLinkText--mobile__megamenu--header,
-.collapsibleHeaderText--mobile__megamenu--header{
-    color: #000;
+.collapsibleHeaderText--mobile__megamenu--header {
+    color      : #000;
     font-family: "Lato-Bold";
-    font-size: 15px;
+    font-size  : 15px;
+}
+
+.submenuContainerTitle--mobile__megamenu--header {
+    position        : absolute;
+    top             : 0;
+    width           : 94%;
+    background-color: #ebebeb;
+    height          : 40px;
+}
+
+.goBackButton {
+    position: absolute;
+    top     : 9px;
+    right   : 25px;
+    cursor  : pointer;
+}
+
+.goBackButtonText {
+    display: none;
+}
+
+.submenuListVertical--mobile__megamenu--header {
+    margin-top: 40px;
 }

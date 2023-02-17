@@ -1,17 +1,22 @@
-.opened{
-    width: 100%;
-    max-width: 610px;
-    min-width: 280px;
-    margin-top: 30px;
+.opened {
+    width     : 100%;
+    max-width : 610px;
+    min-width : 280px;
+    margin-top: 86px;
 }
 
-.overlay--visible{
+.overlay--visible {
     background: transparent;
 }
 
-@media only screen and (max-width: 270px) {
-    .menuIcon--mobile__header--menu{
-        width: 15px;
-        height: 30px;
-    }
+.drawerHeader--mobile__drawer--header {
+    position        : absolute;
+    top             : -50px;
+    height          : 50px;
+    background-color: #fff;
+}
+
+.childrenContainer--mobile__header--menu {
+    display       : flex;
+    flex-direction: column;
 }

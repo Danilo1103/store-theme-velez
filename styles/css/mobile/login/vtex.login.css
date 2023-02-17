@@ -1,0 +1,3 @@
+.buttonLink :global(.vtex-button):hover {
+    background: transparent;
+}

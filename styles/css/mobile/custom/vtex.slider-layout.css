@@ -1,35 +1,22 @@
-.sliderLayoutContainer--legadomobile__slider--artesanos-one{
-    width: 78%;
+.sliderLayoutContainer--legadomobile__slider--artesanos-one {
+    width : 78%;
     margin: auto;
 }
 
-.sliderRightArrow--legadomobile__slider--artesanos-one{
+.sliderRightArrow--legadomobile__slider--artesanos-one {
     margin-right: -30px;
 }
-.sliderLeftArrow--legadomobile__slider--artesanos-one{
+
+.sliderLeftArrow--legadomobile__slider--artesanos-one {
     margin-left: -30px;
 }
 
-.sliderLayoutContainer--legadomobile__slider--artesanos-two{
-    width: 80%;
-    margin: auto;
+.sliderLayoutContainer--legadomobile__slider--artesanos-two {
+    width  : 80%;
+    margin : auto;
     padding: 30px 0;
 }
-.sliderTrack--legadomobile__slider--artesanos-two{
-    gap: 10px;
-}
 
-@media only screen and (max-width: 300px) {
-    .sliderRightArrow--legadomobile__slider--artesanos-one{
-        margin-right: -20px;
-    }
-    .sliderLeftArrow--legadomobile__slider--artesanos-one{
-        margin-left: -20px;
-    }
-    .sliderLeftArrow--legado__slider--desarrollo{
-        margin-left: -30px;
-    }
-    .sliderRightArrow--legado__slider--desarrollo{
-        margin-right: -30px;
-    }
+.sliderTrack--legadomobile__slider--artesanos-two {
+    gap: 10px;
 }

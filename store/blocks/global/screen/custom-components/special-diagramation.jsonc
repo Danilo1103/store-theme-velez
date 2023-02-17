@@ -1,0 +1,42 @@
+{
+    "custom-grid": {
+        "children": [
+            "video#video__customGrid--1",
+            "image#image__customGrid--2",
+            "image#image__customGrid--3",
+            "image#image__customGrid--4",
+            "image#image__customGrid--5"
+        ]
+    },
+    "image#image__customGrid--2": {
+      "props": {
+        "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/237370-450-675/1031303-00-02-Chaqueta-de-cuero.jpg?v=637933458723770000"
+      }
+    },
+    "image#image__customGrid--3": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/237369-450-675/1031303-00-01-Chaqueta-de-cuero.jpg?v=637933458633570000"
+        }
+    },
+    "image#image__customGrid--4": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/241171-450-675/1031303-28-01-Chaqueta-de-cuero.jpg?v=637995432756430000"
+        }
+    },
+    "image#image__customGrid--5": {
+        "props": {
+            "src": "https://cuerosvelezco.vteximg.com.br/arquivos/ids/241172-450-675/1031303-28-02-Chaqueta-de-cuero.jpg?v=637995432840770000"
+        }
+    },
+    "video#video__customGrid--1": {
+        "props": {
+          "width": "100%",
+          "height": "100%",
+          "loop": true,
+          "autoPlay": true,
+          "muted": false,
+          "src": "https://phosphor.utils.elfsightcdn.com/?url=https%3A%2F%2Finstagram.febb1-1.fna.fbcdn.net%2Fv%2Ft66.30100-16%2F322692772_852762946019787_5233893500828682954_n.mp4%3Fefg%3DeyJ2ZW5jb2RlX3RhZyI6InZ0c192b2RfdXJsZ2VuLjEwODAuY2xpcHMuaGlnaCIsInFlX2dyb3VwcyI6IltcImlnX3dlYl9kZWxpdmVyeV92dHNfb3RmXCJdIn0%26_nc_ht%3Dinstagram.febb1-1.fna.fbcdn.net%26_nc_cat%3D103%26_nc_ohc%3DRqorNwOxQ1YAX-W91Yw%26edm%3DAPU89FABAAAA%26vs%3D558596699652360_3345684718%26_nc_vs%3DHBksFQAYJEdLVG1PeFBMb1hsWWxRY0RBTXFLSHAxb2hxSklicFIxQUFBRhUAAsgBABUAGCRHSGtGTlFPZHlQbjFwLXdFQUpCSHpoLWYtWUlQYnBSMUFBQUYVAgLIAQAoABgAGwAVAAAm9reH2%252B%252Br9T8VAigCQzMsF0Ao3bItDlYEGBJkYXNoX2hpZ2hfMTA4MHBfdjERAHX%252BBwA%253D%26ccb%3D7-5%26oh%3D00_AfCn92KuURsx5HyFfkKCokq-8CwI0-gTY5uX2MeOdRyHYw%26oe%3D63F03756%26_nc_sid%3D86f79a",
+          "blockClass": "videoEl"
+        }
+      }
+}

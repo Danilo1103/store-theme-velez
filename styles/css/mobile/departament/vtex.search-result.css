@@ -1,35 +1,36 @@
-.filtersWrapperMobile--global__filter--search{
+.filtersWrapperMobile--global__filter--search {
     justify-content: flex-start;
 }
 
 .filterButtonsBox,
-.accordionFilterContainer--mobile__filters--result--gama-de-precios{
+.accordionFilterContainer--mobile__filters--result--gama-de-precios {
     display: none;
 }
-.sidebar{
-    width: 300px;
+
+.sidebar {
+    width     : 300px;
     margin-top: 400px;
-    height: fit-content;
+    height    : fit-content;
 }
 
 .accordionFilter,
-.accordionFilterOpen{
+.accordionFilterOpen {
     overflow: auto;
 }
 
-.accordionFilterOpen :global(.vtex-checkbox__label){
+.accordionFilterOpen :global(.vtex-checkbox__label) {
     margin-left: 5px;
-    color: #000;
+    color      : #000;
     font-weight: bold;
     font-family: "Lato-Light";
-    font-size: 18px;
+    font-size  : 18px;
 }
 
-.accordionFilterOpen :global(.vtex-checkbox__inner-container){
+.accordionFilterOpen :global(.vtex-checkbox__inner-container) {
     border-radius: 1px;
-    border: 1px solid #000;
+    border       : 1px solid #000;
 }
 
-.accordionFilterItemTitle--mobile__filters--result{
+.accordionFilterItemTitle--mobile__filters--result {
     font-weight: bold;
 }

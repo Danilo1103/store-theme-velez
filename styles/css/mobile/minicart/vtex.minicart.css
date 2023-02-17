@@ -1,4 +1,3 @@
-/* Example Mobile:
-.minicartTitle {
-    display: none;
-} */
+.openIconContainer :global(.vtex-button):hover {
+    background: transparent;
+}

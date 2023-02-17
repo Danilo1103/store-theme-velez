@@ -1,21 +1,21 @@
-.image--global__imageproduct--search{
+.image--global__imageproduct--search {
     height: 200px;
 }
 
-.productNameContainer--global__nameproduct--search{
-    text-align: left;
-    white-space: nowrap;
-    overflow: hidden;
+.productNameContainer--global__nameproduct--search {
+    text-align   : left;
+    white-space  : nowrap;
+    overflow     : hidden;
     text-overflow: ellipsis;
 }
 
-.nameContainer--global__nameproduct--search{
-    padding: 5px 0 8px 0;
+.nameContainer--global__nameproduct--search {
+    padding        : 5px 0 8px 0;
     justify-content: flex-start;
 }
 
-.brandName--global__nameproduct--search{
+.brandName--global__nameproduct--search {
     text-transform: uppercase;
-    font-weight: bold;
-    font-family: "Lato-Light";
+    font-weight   : bold;
+    font-family   : "Lato-Light";
 }

@@ -1,0 +1,51 @@
+{
+    "store.custom#compromiso": {
+        "title": "Custom Nuestro-Compromiso",
+        "blocks": [
+            "responsive-layout.desktop#desktop__image--custom-compromiso",
+            "rich-text#global__textOne--custom-compromiso",
+            "responsive-layout.desktop#desktop__pdf--custom-compromiso",
+            "responsive-layout.tablet#pdf__tablet",
+            "responsive-layout.phone#pdf__phone",
+            "rich-text#global__textTwo--custom--compromiso",
+            "custom-grid"
+        ]
+    },
+    "responsive-layout.desktop#desktop__image--custom-compromiso": {
+        "title": "Responsive Desktop Image-Banner",
+        "children": [
+            "image#compromiso__image--one"        
+        ]
+    },
+    "image#compromiso__image--one": {
+        "title": "Image One Nuestro-Compromiso",
+        "props": {
+            "src": "assets/img/desktop__img--compromiso.jpg",
+            "blockClass": "legado__image--one-background"
+        }
+    },
+    "rich-text#global__textOne--custom-compromiso": {
+        "title": "Text Nuestro-Compromiso",
+        "props": {
+            "text": "NUESTRO",
+            "blockClass": "global__text--custom-compromiso",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "responsive-layout.desktop#desktop__pdf--custom-compromiso": {
+        "title": "Responsive Desktop PDF",
+        "children": [
+            "pdf-reader#desktop__pdf"
+        ]
+    },
+    "rich-text#global__textTwo--custom--compromiso": {
+        "title": "Text Moda-Responsable",
+        "props": {
+            "text": "MODA",
+            "blockClass": "global__textTwo--custom--compromiso",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}
