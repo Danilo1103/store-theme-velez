@@ -1,0 +1,24 @@
+.paragraph--global__text--custom-compromiso,
+.paragraph--global__textTwo--custom--compromiso {
+    font-family   : "Lato-Light";
+    font-weight   : 700;
+    color         : #3f3630;
+    font-size     : 24px;
+    letter-spacing: 0.2em;
+    margin-top    : 50px;
+}
+
+.paragraph--global__textTwo--custom--compromiso {
+    margin-top: 70px;
+}
+
+.paragraph--global__text--custom-compromiso::after,
+.paragraph--global__textTwo--custom--compromiso::after {
+    content: " COMPROMISO";
+    color      : #000;
+    font-family: "Lato-Bold";
+}
+
+.paragraph--global__textTwo--custom--compromiso::after {
+    content: " RESPONSABLE";
+}

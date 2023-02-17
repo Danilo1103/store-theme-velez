@@ -6,7 +6,8 @@
             "responsive-layout.phone#phone__department--banner-one",
             "rich-text#department__text-one",
             "flex-layout.row#mobile__galleryswitcher--search",
-            "flex-layout.row#mobile__categoryresults"
+            "flex-layout.row#mobile__categoryresults",
+            "quick-order"
         ],
         "props": {
             "preventRouteChange": true

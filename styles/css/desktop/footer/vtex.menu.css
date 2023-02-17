@@ -1,22 +1,23 @@
-.styledLinkContent--desktop__footer-principal{
-    font-family: 'Lato','Lato-Bold'!important;
-    color: #4d4d4d;
-    cursor: text;
+.styledLinkContent--desktop__footer-principal {
+    font-family: 'Lato-Bold';
+    color      : #3d3d3d;
+    cursor     : text;
 }
 
-.styledLinkContent--desktop__footer--four{
+.styledLinkContent--desktop__footer--four {
     font-family: "Lato-Bold";
-    color: #4d4d4d;
+    color      : #4d4d4d;
 }
+
 .styledLinkContent--desktop__footer--four:hover,
-.styledLinkContent--desktop__footer:hover{
+.styledLinkContent--desktop__footer:hover {
     text-decoration: underline #7F7F7F;
 }
 
-.styledLinkContent--desktop__footer{
-    color: #7F7F7F;
+.styledLinkContent--desktop__footer {
+    color      : #7F7F7F;
     font-family: "Lato-Bold";
-    font-size: 14px !important;
-    padding: 5px 0;
+    font-size  : 14px !important;
+    padding    : 5px 0;
     white-space: normal;
 }

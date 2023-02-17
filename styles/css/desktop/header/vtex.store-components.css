@@ -1,10 +1,11 @@
-.imageElement--desktop__image--categories{
+.imageElement--desktop__image--categories {
     height: 20vw;
 }
 
-.autoCompleteOuterContainer :global(.vtex-input-prefix__group){
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     border: none;
 }
-.autoCompleteOuterContainer :global(.vtex-input__suffix){
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
     background: transparent;
 }

@@ -1,29 +1,30 @@
 .link--link__header--one,
-.link--link__header--two{
-    color: black;
+.link--link__header--two {
+    color          : black;
     text-decoration: none;
-    font-weight: bold;
-    font-family: "Lato-Light";
+    font-weight    : bold;
+    font-family    : "Lato-Light";
 }
 
-.link--link__header--line{
+.link--link__header--line {
     padding: 0 30px 0 30px;
-    color: #ffffff;
+    color  : #ffffff;
 }
 
-.label--desktop__linkImage--categories-one{
+.label--desktop__linkImage--categories-one {
     font-weight: bold;
-    color: #000;
+    color      : #000;
 }
-.link--desktop__linkImage--categories-one{
+
+.link--desktop__linkImage--categories-one {
     text-decoration: none;
 }
 
-.label--link__header--bottom{
+.label--link__header--bottom {
     font-family: "Lato-Bold";
-    color: black;
+    color      : black;
 }
 
-.link--link__header--bottom{
+.link--link__header--bottom {
     text-decoration: none;
 }

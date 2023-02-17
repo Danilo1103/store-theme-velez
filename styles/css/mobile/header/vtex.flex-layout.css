@@ -1,0 +1,6 @@
+.flexRowContent--mobile__iconsRedes--drawer {
+    display         : flex;
+    background-color: #ebebeb;
+    padding         : 8px;
+    margin-top      : 30px;
+}

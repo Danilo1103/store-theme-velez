@@ -1,29 +1,38 @@
 {   
-    "modal-trigger#global__pdfReader": {
-        "title": "Trigger Pdf Reader",
+    "responsive-layout.phone#pdf__phone": {
+        "title": "Phone PDF",
         "children": [
-            "rich-text#global__text--pdfReader",
-            "modal-layout#global__pdfReader"
-        ],
-        "props": {
-            "blockClass": "global__pdfReader"
-        }
-    },
-    "rich-text#global__text--pdfReader": {
-        "props": {
-            "text": "VER PDF"
-        }
-    },
-    "modal-layout#global__pdfReader": {
-        "children": [
-            "pdf-reader"
+            "pdf-reader#phone__pdf"
         ]
     },
-    "pdf-reader": {
+    "responsive-layout.tablet#pdf__tablet": {
+        "title": "Tablet PDF",
+        "children": [
+            "pdf-reader#tablet__pdf"
+        ]
+    },
+    "pdf-reader#desktop__pdf": {
+        "title": "PDF Reader Desktop",
         "props": {
-           "pdfUrl": "assets/docs/sample__pdf.pdf", 
-           "width": 500, 
-           "height": 500
+           "pdfUrl": "assets/docs/sample__pdf.pdf",
+           "width": 800,
+           "height": 900
         }
-    } 
+    },
+    "pdf-reader#tablet__pdf": {
+        "title": "PDF Reader Tablet",
+        "props": {
+           "pdfUrl": "assets/docs/sample__pdf.pdf",
+           "width": 400,
+           "height": 600
+        }
+    },
+    "pdf-reader#phone__pdf": {
+        "title": "PDF Reader Phone",
+        "props": {
+            "pdfUrl": "assets/docs/sample__pdf.pdf",
+            "width": 220,
+            "height": 500
+         }
+    }
 }

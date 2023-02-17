@@ -1,11 +1,11 @@
-.triggerContainer--global__custom--search{
-    display: flex;
+.triggerContainer--global__custom--search {
+    display    : flex;
     align-items: center;
 }
 
-.paper--global__custom--search{
-    width: 350px;
-    height: 600px;
+.paper--global__custom--search {
+    width : 350px;
+    height: 400px;
 }
 
 @media only screen and (max-width: 470px) {

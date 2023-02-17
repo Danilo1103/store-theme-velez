@@ -1,5 +1,5 @@
-.bullet__item--title{
+.bullet__item--title {
     font-family: "Lato-Light";
-    color: var(--main-text-color);
+    color      : var(--main-text-color);
     font-weight: var(--main-weight-text);
 }

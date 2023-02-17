@@ -3,17 +3,23 @@
 .link--text__header--mobileTwo,
 .link--text__header--mobileOne {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color          : black;
+    font-weight    : bold;
+}
+
+.childrenContainer--link__facebook--icon {
+    display        : flex;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 400px) {
+
     .label--text__header--mobileTwo,
     .label--text__header--mobileOne,
     .link--text__header--mobileTwo,
     .link--text__header--mobileOne {
-        font-size: 14px;
+        font-size : 14px;
         text-align: center;
-        margin: auto;
+        margin    : auto;
     }
 }

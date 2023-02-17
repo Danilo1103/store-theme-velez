@@ -1,10 +1,10 @@
-.trigger--global__disclosure--product{
-    width: 100%;
-    margin: auto;
-    display: flex;
+.trigger--global__disclosure--product {
+    width          : 100%;
+    margin         : auto;
+    display        : flex;
     justify-content: space-between;
-    align-items: center;
-    border: none;
-    background: transparent;
-    cursor: pointer;
+    align-items    : center;
+    border         : none;
+    background     : transparent;
+    cursor         : pointer;
 }

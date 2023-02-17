@@ -1,0 +1,13 @@
+.sliderRightArrow--home__slider-one-instagram,
+.sliderLeftArrow--home__slider-one-instagram {
+    position               : absolute;
+    width                  : 42px;
+    height                 : 42px;
+    background             : #000 !important;
+    border-radius          : 50%;
+}
+
+.sliderRightArrow--home__slider-one-instagram :global(.vtex-slider-layout-0-x-caretIcon--home__slider-one-instagram),
+.sliderLeftArrow--home__slider-one-instagram :global(.vtex-slider-layout-0-x-caretIcon--home__slider-one-instagram)  {
+    width   : 20px;
+}

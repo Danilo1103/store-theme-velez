@@ -1,53 +1,44 @@
-.home__section--global{
+.home__section--global {
     font-family: "Lato-Light";
 }
 
-.wrapper--text__home-one{
+.wrapper--text__home-one {
     margin: auto;
 }
-.wrapper--text__home--instagram{
-    margin: auto;
+
+.wrapper--text__home--instagram {
+    margin : auto;
     padding: 60px 0 0 0;
 }
 
-.paragraph--text__home-one{
+.paragraph--text__home-one {
     font-family: "Lato-Bold";
-    font-size: 14px;
+    font-size  : 14px;
 }
 
-.paragraph--text__slider-home-one{
-    font-family: "Lato-Light";
+.paragraph--text__products {
+    font-size  : 21px;
+    margin-top : 6rem;
     font-weight: bold;
-    color: #000;
+    font-family: "Lato-Light";
+    color      : #000;
 }
 
-.paragraph--text__products{
-    font-size: 21px;
-    margin-top: 6rem;
-    font-weight: bold;
-    font-family: "Lato-Light";
-    color: #000;
-}
-.wrapper--text__products-two{
-    margin-top: -20px;
+.wrapper--text__products-two {
+    margin-top   : -20px;
     margin-bottom: 10px;
 }
-.paragraph--text__products-two{
+
+.paragraph--text__products-two {
     font-family: "Lato-Light";
 }
 
-.paragraph--text__home--instagram{
-    font-size: 19px;
+.paragraph--text__home--instagram {
+    font-size  : 19px;
     font-family: "Lato-Bold";
 }
 
-.paragraph--footer__text--superintendencia{
-    font-size: 12x;
+.paragraph--footer__text--superintendencia {
+    font-size  : 12x;
     font-family: "Lato-Light";
-}
-
-@media only screen and (max-width: 500px) {
-    .paragraph--text__slider-home-one{
-        font-size: 12px;
-    }
 }

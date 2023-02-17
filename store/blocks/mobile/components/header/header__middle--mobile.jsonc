@@ -27,7 +27,9 @@
     "drawer#mobile__header--menu": {
         "title": "Drawer Mobile",
         "children": [
-            "mega-menu#mobile"
+            "mega-menu#mobile",
+            "flex-layout.row#go-back-button",
+            "flex-layout.row#mobile__iconsRedes--drawer"
         ],
         "blocks": [
             "drawer-header#my-drawer"
@@ -58,7 +60,6 @@
     "flex-layout.row#drawer-header": {
         "title": "Layout Row Drawer Header",
         "children": [
-            "flex-layout.col#mega-menu-go-back-btn",
             "flex-layout.col#drawer-close-button"
         ],
         "props": {
@@ -67,6 +68,14 @@
             "preventVerticalStretch": true,
             "preserveLayoutOnMobile": true,
             "fullWidth": true
+        }
+    },
+    "flex-layout.row#go-back-button": {
+        "children": [
+            "flex-layout.col#mega-menu-go-back-btn"
+        ],
+        "props": {
+            "blockClass": "go-back-button"
         }
     },
     "flex-layout.col#drawer-close-button": {

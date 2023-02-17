@@ -1,25 +1,28 @@
-.sliderLayoutContainer--legado__slider--artesanos{
-    width: 55%;
-    margin: auto;
+.sliderLayoutContainer--legado__slider--artesanos {
+    width  : 55%;
+    margin : auto;
     padding: 20px 0 70px 0;
 }
-.sliderLayoutContainer--legado__slider--desarrollo{
-    width: 60%;
+
+.sliderLayoutContainer--legado__slider--desarrollo {
+    width : 60%;
     margin: auto;
 }
 
-.sliderTrack--legado__slider--artesanos{
+.sliderTrack--legado__slider--artesanos {
     gap: 10px;
 }
 
 .sliderLeftArrow--legado__slider--artesanos,
-.sliderLeftArrow--legado__slider--desarrollo{
+.sliderLeftArrow--legado__slider--desarrollo {
     margin-left: -50px;
 }
+
 .sliderRightArrow--legado__slider--artesanos,
-.sliderRightArrow--legado__slider--desarrollo{
+.sliderRightArrow--legado__slider--desarrollo {
     margin-right: -50px;
 }
-.sliderArrows{
+
+.sliderArrows {
     color: gray;
 }

@@ -1,16 +1,16 @@
-.container--global__text--minicartEmpty-two{
+.container--global__text--minicartEmpty-two {
     border: 1px solid;
 }
 
 .paragraph--global__text--minicartEmpty-one,
 .paragraph--global__text--minicartEmpty-two,
-.paragraph--global__text--minicartContent{
-    font-size: 15px;
+.paragraph--global__text--minicartContent {
+    font-size  : 15px;
     font-family: "Lato-Bold";
-    color: #333;
+    color      : #333;
 }
 
-.paragraph--global__text--minicartContent{
-    padding: 15px;
+.paragraph--global__text--minicartContent {
+    padding      : 15px;
     border-bottom: 1px solid #000;
 }
