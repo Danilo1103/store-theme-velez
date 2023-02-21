@@ -1,6 +1,6 @@
 {
   "responsive-layout.desktop#home__section-1": {
-    "title": "Home Section 1 Desktop",
+    "title": "Responsive Desktop Home",
     "children": [
       "flex-layout.row#desktop__home--section-1",
       "flex-layout.row#desktop__layout--descounts",

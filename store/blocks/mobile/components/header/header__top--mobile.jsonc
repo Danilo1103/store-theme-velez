@@ -35,7 +35,7 @@
     "link#text__header--mobileOne": {
         "title": "Link One Mobile",
         "props": {
-            "href": "/outlet",
+            "href": "/mujer",
             "label": "Exclusivo online. Desde 40% DCTO en TODO Outlet",
             "blockClass": "text__header--mobileOne"
         }

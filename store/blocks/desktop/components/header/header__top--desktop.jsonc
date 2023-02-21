@@ -17,7 +17,7 @@
     "link#HeaderTop__text--one": {
         "title": "Link One Desktop",
         "props": {
-            "href": "/outlet",
+            "href": "/mujer",
             "label": "Exclusivo online. Desde 40% DCTO en TODO Outlet",
             "blockClass": "link__header--one"
         }

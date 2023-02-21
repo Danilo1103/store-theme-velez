@@ -19,7 +19,7 @@
             "blockClass": "desktop__footer--four",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "PROGRAMA DE FIDELIZACIÓN",
                 "text": "PROGRAMA DE FIDELIZACIÓN"
             }
@@ -32,7 +32,7 @@
             "blockClass": "desktop__footer--four",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "CRÉDITO LEATHER LOVERS",
                 "text": "CRÉDITO LEATHER LOVERS"
             }
@@ -45,7 +45,7 @@
             "blockClass": "desktop__footer--four",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "CRECE CON NOSOTROS",
                 "text": "CRECE CON NOSOTROS"
             }
@@ -58,7 +58,7 @@
             "blockClass": "desktop__footer--four",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "VENTAS CORPORATIVAS",
                 "text": "VENTAS CORPORATIVAS"
             }
@@ -71,7 +71,7 @@
             "blockClass": "desktop__footer--four",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "DISTRIBUIDORES",
                 "text": "DISTRIBUIDORES"
             }
@@ -84,7 +84,7 @@
             "blockClass": "desktop__footer--four",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "TIENDA VIRTUAL",
                 "text": "TIENDA VIRTUAL"
             }
