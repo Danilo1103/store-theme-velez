@@ -19,7 +19,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "Contacto / PQRs",
                 "text": "Contacto / PQRs"
             }
@@ -32,7 +32,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Política de devoluciones",
                 "text": "Política de devoluciones"
             }
@@ -45,7 +45,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "¿Cómo comprar?",
                 "text": "¿Cómo comprar?"
             }
@@ -58,7 +58,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Preguntas frecuentes",
                 "text": "Preguntas frecuentes"
             }
@@ -71,7 +71,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "Términos y condiciones",
                 "text": "Términos y condiciones"
             }
@@ -84,7 +84,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Nuestras políticas",
                 "text": "Nuestras políticas"
             }

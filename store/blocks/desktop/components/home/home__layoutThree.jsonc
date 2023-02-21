@@ -1,6 +1,6 @@
 {
     "flex-layout.row#desktop__home--section-3": {
-        "title": "Home Flex Layout Three Desktop",
+        "title": "Home Flex-Row Three Desktop",
         "children": [
             "flex-layout.col#desktop__home--section-1",
             "flex-layout.col#desktop__home--section-2"
@@ -23,6 +23,7 @@
         "props": {
             "label": "VER REFERENCIAS",
             "displayMode": "button",
+            "href": "/electrodomesticos",
             "blockClass": "button__section--1-1"
         }
     },

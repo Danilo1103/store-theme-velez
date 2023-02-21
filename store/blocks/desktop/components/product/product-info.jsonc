@@ -154,7 +154,7 @@
         "props": {
             "displayMode": "button",
             "label": "VER DISPONIBILIDAD EN TIENDAS",
-            "href": "#",
+            "href": "/electrodomesticos",
             "blockClass": [
                 "button__pdp--credito",
                 "button__pdp--disponibilidad"
@@ -166,7 +166,7 @@
         "props": {
             "displayMode": "button",
             "label": "¿NECESITAS AYUDA? CONTÁCTANOS",
-            "href": "#",
+            "href": "https://api.whatsapp.com/send/?phone=12345678&text=Bienvenido+a+Velez%21&type=phone_number&app_absent=0",
             "blockClass": [
                 "button__pdp--credito",
                 "button__pdp--disponibilidad"

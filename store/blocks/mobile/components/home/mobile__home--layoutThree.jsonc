@@ -23,6 +23,7 @@
         "props": {
             "label": "VER REFERENCIAS",
             "displayMode": "button",
+            "href": "/mujer",
             "blockClass": [
               "mobile__button--section--1",
               "button__section--1-1"

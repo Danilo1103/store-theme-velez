@@ -1,6 +1,6 @@
 {
     "slider-layout#mobile__home--silder-1": {
-        "title": "Slider Layout One Home mobile",
+        "title": "Slider Layout Descounts One Home mobile",
         "props": {
             "itemsPerPage": {
                 "desktop": 1,
@@ -27,35 +27,35 @@
         ]
     },
     "rich-text#mobile__text--slider-one": {
-        "title": "Mobile Text Slider One-One",
+        "title": "Mobile Text Slider Descounts One",
         "props": {
             "text": "20%",
             "blockClass": "mobile__text--slider-one"
         }
     },
     "rich-text#mobile__text--slider-two": {
-        "title": "Mobile Text Slider One-Two",
+        "title": "Mobile Text Slider Descounts Two",
         "props": {
             "text": "30%",
             "blockClass": "mobile__text--slider-one"
         }
     },
     "rich-text#mobile__text--slider-three": {
-        "title": "Mobile Text Slider One-Three",
+        "title": "Mobile Text Slider Descounts Three",
         "props": {
             "text": "40%",
             "blockClass": "mobile__text--slider-one"
         }
     },
     "rich-text#mobile__text--slider-four": {
-        "title": "Mobile Text Slider One-Four",
+        "title": "Mobile Text Slider Descounts Four",
         "props": {
             "text": "50%",
             "blockClass": "mobile__text--slider-one"
         }
     },
     "rich-text#mobile__text--slider-line": {
-        "title": "Mobile Text Slider One-Line",
+        "title": "Mobile Text Slider Descounts Line",
         "props": {
             "text": "|",
             "blockClass": "mobile__text--slider-one"

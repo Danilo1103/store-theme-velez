@@ -24,6 +24,7 @@
     "props": {
       "label": "COMPRAR MUJER",
       "displayMode": "button",
+      "href": "/mujer",
       "blockClass": [
         "mobile__button--section--1",
         "button__section--1-1"
@@ -34,6 +35,7 @@
     "props": {
       "label": "COMPRAR HOMBRE",
       "displayMode": "button",
+      "href": "/hombre",
       "blockClass": [
         "mobile__button--section--1",
         "button__section--1-1"
