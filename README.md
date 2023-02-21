@@ -7,9 +7,16 @@
 Vélez Store Theme is basic store front model based on the VTEX IO Store Framework.
 
 
-## Preview
+## Home
 ![image Home One](https://user-images.githubusercontent.com/94373834/219786632-320532d0-df1b-4bad-9334-f053147cefdf.png)
 ![image Home Two](https://user-images.githubusercontent.com/94373834/219796138-15fc4ff3-7add-4aa3-8a04-74728ae17b9c.png)
+
+## Search Result
+![image](https://user-images.githubusercontent.com/94373834/220421262-0cf12d38-e940-490b-9b80-a0d2708c3fb3.png)
+![image](https://user-images.githubusercontent.com/94373834/220421537-3c20cc7e-9836-4dd2-b2bc-faa99962bd14.png)
+
+## Detail Product
+![image](https://user-images.githubusercontent.com/94373834/220422940-4cfba806-2a91-447a-93d5-fcfe0c3453d8.png)
 
 
 ### Step 1 -  Basic setup
