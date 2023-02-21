@@ -19,6 +19,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-legado",
                 "tagTitle": "Colombia",
                 "text": "Colombia"
             }
@@ -31,6 +32,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Costa Rica",
                 "text": "Costa Rica"
             }
@@ -43,6 +45,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-legado",
                 "tagTitle": "El Salvador",
                 "text": "El Salvador"
             }
@@ -55,6 +58,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Guatemala",
                 "text": "Guatemala"
             }
@@ -67,6 +71,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-legado",
                 "tagTitle": "Panamá",
                 "text": "Panamá"
             }
@@ -79,6 +84,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Perú",
                 "text": "Perú"
             }

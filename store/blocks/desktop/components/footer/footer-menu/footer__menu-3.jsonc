@@ -32,7 +32,7 @@
             "blockClass": "desktop__footer",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "Colombia",
                 "text": "Colombia"
             }
@@ -45,7 +45,7 @@
             "blockClass": "desktop__footer",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Costa Rica",
                 "text": "Costa Rica"
             }
@@ -58,7 +58,7 @@
             "blockClass": "desktop__footer",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "El Salvador",
                 "text": "El Salvador"
             }
@@ -71,7 +71,7 @@
             "blockClass": "desktop__footer",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Guatemala",
                 "text": "Guatemala"
             }
@@ -84,7 +84,7 @@
             "blockClass": "desktop__footer",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-legado",
                 "tagTitle": "Panamá",
                 "text": "Panamá"
             }
@@ -97,7 +97,7 @@
             "blockClass": "desktop__footer",
             "itemProps": {
                 "type": "internal",
-                "href": "/",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Perú",
                 "text": "Perú"
             }

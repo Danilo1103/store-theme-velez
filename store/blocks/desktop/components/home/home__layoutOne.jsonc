@@ -1,6 +1,6 @@
 {
   "flex-layout.row#desktop__home--section-1": {
-    "title": "Home Flex Layout One Desktop",
+    "title": "Home Flex-Row One Desktop",
     "children": [
       "flex-layout.col#desktop__home--button-1-1",
       "flex-layout.col#desktop__home--button-1-2"
@@ -32,6 +32,7 @@
     "props": {
       "label": "COMPRAR MUJER",
       "displayMode": "button",
+      "href": "/mujer",
       "blockClass": "button__section--1-1"
     }
   },
@@ -39,6 +40,7 @@
     "props": {
       "label": "COMPRAR HOMBRE",
       "displayMode": "button",
+      "href": "/electrodomesticos",
       "blockClass": "button__section--1-1"
     }
   }

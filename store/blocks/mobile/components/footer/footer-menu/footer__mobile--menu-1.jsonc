@@ -42,6 +42,7 @@
             "blockClass": "mobile__footer-principal",
             "itemProps": {
                 "type": "internal",
+                "href": "/nuestro-compromiso",
                 "tagTitle": "Moda responsable",
                 "text": "Moda responsable"
             }

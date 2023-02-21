@@ -1,20 +1,24 @@
 {
     "responsive-layout.desktop#desktop__banner--notfound": {
+        "title": "Responsive Desktop Image Banner PLP",
         "children": [
             "image#desktop__image--banner-plp"
         ]
     },
     "responsive-layout.tablet#tablet__department--banner-one": {
+        "title": "Responsive Tablet Image Banner PLP",
         "children": [
             "image#tablet__image--banner-plp"
         ]
     },
     "responsive-layout.phone#phone__department--banner-one": {
+        "title": "Responsive Phone Image Banner PLP",
         "children": [
             "image#phone__image--banner-plp"
         ]
     },
     "rich-text#department__text-one": {
+        "title": "Text One PLP",
         "props": {
             "text": "Productos en cuero \n Zapatos, bolsos, ropa, accesorios y más productos en cuero para él",
             "textAlignment": "CENTER",

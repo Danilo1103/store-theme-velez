@@ -1,6 +1,6 @@
 {
   "responsive-layout.tablet#home__section-1": {
-    "title": "Section 1 Tablet Home",
+    "title": "Responsive Tablet Home",
     "children": [
       "flex-layout.row#desktop__home--section-1",
       "slider-layout#mobile__home--silder-1",

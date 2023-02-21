@@ -7,13 +7,13 @@
 
 .flexRow--desktop__home--section-1,
 .flexRow--desktop__home--section-2 {
-    height: 650px;
+    height: 100vh;
 }
 
 .flexRowContent--desktop__home--section-1,
 .flexRowContent--desktop__home--section-2 {
     position: relative;
-    top     : 450px;
+    top     : 70%;
     gap     : 30px;
 }
 
